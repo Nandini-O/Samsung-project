@@ -1,0 +1,256 @@
+name,ingredients,diet,prep_time,cook_time,flavor_profile,course,state,region,recipe_name_clean,total_time_mins,source_file
+Balu shahi,"Maida flour, yogurt, oil, sugar",vegetarian,45.0,25.0,sweet,dessert,West Bengal,East,balu shahi,70.0,indian_food.csv
+Boondi,"Gram flour, ghee, sugar",vegetarian,80.0,30.0,sweet,dessert,Rajasthan,West,boondi,110.0,indian_food.csv
+Gajar ka halwa,"Carrots, milk, sugar, ghee, cashews, raisins",vegetarian,15.0,60.0,sweet,dessert,Punjab,North,gajar ka halwa,75.0,indian_food.csv
+Ghevar,"Flour, ghee, kewra, milk, clarified butter, sugar, almonds, pistachio, saffron, green cardamom",vegetarian,15.0,30.0,sweet,dessert,Rajasthan,West,ghevar,45.0,indian_food.csv
+Gulab jamun,"Milk powder, plain flour, baking powder, ghee, milk, sugar, water, rose water",vegetarian,15.0,40.0,sweet,dessert,West Bengal,East,gulab jamun,55.0,indian_food.csv
+Imarti,"Sugar syrup, lentil flour",vegetarian,10.0,50.0,sweet,dessert,West Bengal,East,imarti,60.0,indian_food.csv
+Jalebi,"Maida, corn flour, baking soda, vinegar, curd, water, turmeric, saffron, cardamom",vegetarian,10.0,50.0,sweet,dessert,Uttar Pradesh,North,jalebi,60.0,indian_food.csv
+Kaju katli,"Cashews, ghee, cardamom, sugar",vegetarian,10.0,20.0,sweet,dessert,-1,-1,kaju katli,30.0,indian_food.csv
+Kalakand,"Milk, cottage cheese, sugar",vegetarian,20.0,30.0,sweet,dessert,West Bengal,East,kalakand,50.0,indian_food.csv
+Kheer,"Milk, rice, sugar, dried fruits",vegetarian,10.0,40.0,sweet,dessert,-1,-1,kheer,50.0,indian_food.csv
+Laddu,"Gram flour, ghee, sugar",vegetarian,10.0,40.0,sweet,dessert,-1,-1,laddu,50.0,indian_food.csv
+Lassi,"Yogurt, milk, nuts, sugar",vegetarian,5.0,5.0,sweet,dessert,Punjab,North,lassi,10.0,indian_food.csv
+Nankhatai,"Refined flour, besan, ghee, powdered sugar, yoghurt, green cardamom",vegetarian,20.0,30.0,sweet,dessert,-1,-1,nankhatai,50.0,indian_food.csv
+Petha,"Firm white pumpkin, sugar, kitchen lime, alum powder",vegetarian,10.0,30.0,sweet,dessert,Uttar Pradesh,North,petha,40.0,indian_food.csv
+Phirni,"Rice, sugar, nuts",vegetarian,30.0,20.0,sweet,dessert,Odisha,East,phirni,50.0,indian_food.csv
+Rabri,"Condensed milk, sugar, spices, nuts",vegetarian,10.0,45.0,sweet,dessert,Uttar Pradesh,North,rabri,55.0,indian_food.csv
+Sheera,"Semolina, ghee, nuts, milk",vegetarian,10.0,25.0,sweet,dessert,Maharashtra,West,sheera,35.0,indian_food.csv
+Singori,"Khoa, coconut, molu leaf",vegetarian,10.0,20.0,sweet,dessert,Uttarakhand,North,singori,30.0,indian_food.csv
+Sohan halwa,"Corn flour, ghee, dry fruits",vegetarian,10.0,60.0,sweet,dessert,Uttar Pradesh,North,sohan halwa,70.0,indian_food.csv
+Sohan papdi,"Gram flour, ghee, sugar, milk, cardamom",vegetarian,,60.0,sweet,dessert,Maharashtra,West,sohan papdi,60.0,indian_food.csv
+Chhena jalebi,"Chhena, sugar, ghee",vegetarian,10.0,50.0,sweet,dessert,Odisha,East,chhena jalebi,60.0,indian_food.csv
+Chhena kheeri,"Chhena, sugar, milk",vegetarian,,60.0,sweet,dessert,Odisha,East,chhena kheeri,60.0,indian_food.csv
+Chhena poda,"Sugar, chenna cheese",vegetarian,10.0,45.0,sweet,dessert,Odisha,East,chhena poda,55.0,indian_food.csv
+Cham cham,"Flour, cream, sugar, saffron, lemon juice, coconut flakes",vegetarian,40.0,60.0,sweet,dessert,West Bengal,East,cham cham,100.0,indian_food.csv
+Kheer sagar,"Chenna, condensed milk, sugar, saffron, cardamom",vegetarian,25.0,60.0,sweet,dessert,Odisha,East,kheer sagar,85.0,indian_food.csv
+Ledikeni,"Chhena, sugar, ghee",vegetarian,45.0,45.0,sweet,dessert,West Bengal,East,ledikeni,90.0,indian_food.csv
+Lyangcha,"Flour, fried milk power, sugar syrup",vegetarian,20.0,30.0,sweet,dessert,Assam,North East,lyangcha,50.0,indian_food.csv
+Malapua,"Yoghurt, refined flour, ghee, fennel seeds",vegetarian,10.0,120.0,sweet,dessert,Bihar,North,malapua,130.0,indian_food.csv
+Mihidana,"Besan flour, sugar, ghee",vegetarian,15.0,30.0,sweet,dessert,West Bengal,East,mihidana,45.0,indian_food.csv
+Misti doi,"Milk, jaggery",vegetarian,480.0,30.0,sweet,dessert,West Bengal,East,misti doi,510.0,indian_food.csv
+Pantua,"Chhena, sugar, ghee, flour",vegetarian,45.0,45.0,sweet,dessert,West Bengal,East,pantua,90.0,indian_food.csv
+Pithe,"Rice flour, wheat flour",vegetarian,15.0,35.0,sweet,dessert,Assam,North East,pithe,50.0,indian_food.csv
+Rasabali,"Chenna, sweetened milk",vegetarian,15.0,30.0,sweet,dessert,Odisha,East,rasabali,45.0,indian_food.csv
+Ras malai,"Chhena, reduced milk, pistachio",vegetarian,180.0,60.0,sweet,dessert,West Bengal,East,ras malai,240.0,indian_food.csv
+Rasgulla,"Chhena, sugar, cardamom",vegetarian,10.0,90.0,sweet,dessert,West Bengal,East,rasgulla,100.0,indian_food.csv
+Sandesh,"Milk, sugar, saffron, cardamom",vegetarian,30.0,20.0,sweet,dessert,West Bengal,East,sandesh,50.0,indian_food.csv
+Adhirasam,"Rice flour, jaggery, ghee, vegetable oil, elachi",vegetarian,10.0,50.0,sweet,dessert,West Bengal,East,adhirasam,60.0,indian_food.csv
+Ariselu,"Rice flour, jaggery, ghee",vegetarian,15.0,75.0,sweet,dessert,Andhra Pradesh,South,ariselu,90.0,indian_food.csv
+Bandar laddu,"Besan, jaggery, cardamom powder, ghee, cashews and raisins, jaggery syrup, sugar",vegetarian,5.0,35.0,sweet,dessert,Andhra Pradesh,South,bandar laddu,40.0,indian_food.csv
+Chikki,"Peanuts, jaggery",vegetarian,10.0,20.0,sweet,dessert,Maharashtra,West,chikki,30.0,indian_food.csv
+Dharwad pedha,"Milk, Sugar, Dharwadi buffalo milk",vegetarian,20.0,60.0,sweet,dessert,Karnataka,South,dharwad pedha,80.0,indian_food.csv
+Double ka meetha,"Loaf bread, milk",vegetarian,20.0,30.0,sweet,dessert,Telangana,South,double ka meetha,50.0,indian_food.csv
+Gavvalu,"Rice flour, sugar, salt, ghee, semolina",vegetarian,10.0,30.0,sweet,dessert,Andhra Pradesh,South,gavvalu,40.0,indian_food.csv
+Kakinada khaja,"Wheat flour, sugar",vegetarian,10.0,30.0,sweet,dessert,Andhra Pradesh,South,kakinada khaja,40.0,indian_food.csv
+Kuzhi paniyaram,"Black lentils, rice",vegetarian,10.0,20.0,sweet,dessert,Kerala,South,kuzhi paniyaram,30.0,indian_food.csv
+Mysore pak,"Besan flour, semolina, mung bean, jaggery, coconut, skimmed milk powder, sugar, ghee",vegetarian,5.0,20.0,sweet,dessert,Karnataka,South,mysore pak,25.0,indian_food.csv
+Obbattu holige,"Maida flour, turmeric, coconut, chickpeas, jaggery, ghee, cardamom",vegetarian,180.0,60.0,sweet,main course,Karnataka,South,obbattu holige,240.0,indian_food.csv
+Palathalikalu,"Rice flour, milk",vegetarian,10.0,25.0,sweet,dessert,Andhra Pradesh,South,palathalikalu,35.0,indian_food.csv
+Poornalu,"Chana dal, jaggery",vegetarian,240.0,60.0,sweet,dessert,Andhra Pradesh,South,poornalu,300.0,indian_food.csv
+Pongal,"Rice, jaggery, cashews, ghee",vegetarian,5.0,20.0,sweet,dessert,Tamil Nadu,South,pongal,25.0,indian_food.csv
+Pootharekulu,"Rice flour, powdered sugar, ghee",vegetarian,10.0,60.0,sweet,dessert,Andhra Pradesh,South,pootharekulu,70.0,indian_food.csv
+Qubani ka meetha,"Apricots, sugar syrup",vegetarian,10.0,20.0,sweet,dessert,Telangana,South,qubani ka meetha,30.0,indian_food.csv
+Sheer korma,"Vermicelli pudding, milk",vegetarian,10.0,20.0,sweet,dessert,Telangana,South,sheer korma,30.0,indian_food.csv
+Unni Appam,"Rice flour, banana, jaggery, coconut",vegetarian,10.0,20.0,sweet,dessert,Tamil Nadu,South,unni appam,30.0,indian_food.csv
+Kajjikaya,"Rice flour, jaggery, coconut",vegetarian,40.0,15.0,sweet,dessert,Andhra Pradesh,South,kajjikaya,55.0,indian_food.csv
+Anarsa,"Rice flour, jaggery, khus-khus seeds",vegetarian,10.0,50.0,sweet,dessert,Maharashtra,West,anarsa,60.0,indian_food.csv
+Basundi,"Sugar, milk, nuts",vegetarian,10.0,35.0,sweet,dessert,Gujarat,West,basundi,45.0,indian_food.csv
+Dhondas,"Cucumber, rava",vegetarian,10.0,50.0,sweet,dessert,Maharashtra,West,dhondas,60.0,indian_food.csv
+Doodhpak,"Milk, rice, sugar, dry fruits",vegetarian,10.0,60.0,sweet,dessert,Gujarat,West,doodhpak,70.0,indian_food.csv
+Mahim halwa,"Semolina, sugar",vegetarian,10.0,25.0,sweet,dessert,Maharashtra,West,mahim halwa,35.0,indian_food.csv
+Modak,"Rice flour, coconut, jaggery ",vegetarian,10.0,15.0,sweet,dessert,Maharashtra,West,modak,25.0,indian_food.csv
+Shankarpali,"Sugar, ghee, maida flour, semolina",vegetarian,10.0,35.0,sweet,dessert,Maharashtra,West,shankarpali,45.0,indian_food.csv
+Shrikhand,"Curd, sugar, saffron, cardamom",vegetarian,10.0,720.0,sweet,dessert,Maharashtra,West,shrikhand,730.0,indian_food.csv
+Sutar feni,"Maida, sugar, ghee",vegetarian,15.0,55.0,sweet,dessert,Maharashtra,West,sutar feni,70.0,indian_food.csv
+Maach Jhol,"Fish, potol, tomato, chillies, ginger, garlic",non vegetarian,10.0,40.0,spicy,main course,Assam,North East,maach jhol,50.0,indian_food.csv
+Pork Bharta,"Boiled pork, onions, chillies, ginger and garlic",non vegetarian,,,spicy,main course,Tripura,North East,pork bharta,,indian_food.csv
+Chak Hao Kheer,"Rice, milk, sugar, cardamom",vegetarian,240.0,45.0,sweet,dessert,Manipur,North East,chak hao kheer,285.0,indian_food.csv
+Galho,"Rice, axone, salt, water, chillies, pork",non vegetarian,5.0,15.0,spicy,main course,Nagaland,North East,galho,20.0,indian_food.csv
+Aloo gobi,"Cauliflower, potato, garam masala, turmeric, curry leaves",vegetarian,10.0,20.0,spicy,main course,Punjab,North,aloo gobi,30.0,indian_food.csv
+Aloo tikki,"Rice flour, potato, bread crumbs, garam masala, salt",vegetarian,5.0,20.0,spicy,main course,Punjab,North,aloo tikki,25.0,indian_food.csv
+Aloo matar,"Potato, peas, chillies, ginger, garam masala, garlic",vegetarian,5.0,40.0,spicy,main course,Punjab,North,aloo matar,45.0,indian_food.csv
+Aloo methi,"Potato, fenugreek leaves, chillies, salt, oil",vegetarian,10.0,40.0,bitter,main course,Punjab,North,aloo methi,50.0,indian_food.csv
+Aloo shimla mirch,"Potato, shimla mirch, garam masala, amchur powder, salt",vegetarian,10.0,40.0,spicy,main course,Punjab,North,aloo shimla mirch,50.0,indian_food.csv
+Bhatura,"Chole, rava, yogurt, plain flour, baking soda",vegetarian,20.0,20.0,spicy,main course,Punjab,North,bhatura,40.0,indian_food.csv
+Bhindi masala,"Ladies finger, garam masala, kasuri methi, tomatoes, chili powder",vegetarian,20.0,30.0,spicy,main course,Punjab,North,bhindi masala,50.0,indian_food.csv
+Biryani,"Chicken thighs, basmati rice, star anise, sweet, green chillies",non vegetarian,30.0,120.0,spicy,main course,Telangana,South,biryani,150.0,indian_food.csv
+Butter chicken,"Chicken, greek yogurt, cream, garam masala powder, cashew nuts, butter",non vegetarian,10.0,35.0,spicy,main course,NCT of Delhi,North,butter chicken,45.0,indian_food.csv
+Chana masala,"Chickpeas, tomato paste, garam masala, ginger, red onion, avocado oil",vegetarian,20.0,30.0,spicy,main course,Punjab,North,chana masala,50.0,indian_food.csv
+Chapati,"Whole wheat flour, olive oil, hot water, all purpose flour",vegetarian,10.0,10.0,-1,main course,Maharashtra,West,chapati,20.0,indian_food.csv
+Chicken razala,"Chicken, dahi, sesame seeds, garam masala powder, cashew nuts, saffron",non vegetarian,10.0,35.0,spicy,main course,West Bengal,East,chicken razala,45.0,indian_food.csv
+Chicken Tikka masala,"Naan bread, tomato sauce, skinless chicken breasts, heavy cream, garam masala",non vegetarian,10.0,50.0,spicy,main course,Punjab,North,chicken tikka masala,60.0,indian_food.csv
+Chicken Tikka,"Chicken, whole wheat bread, rice flour, garam masala powder, whole egg",non vegetarian,120.0,45.0,spicy,starter,Punjab,North,chicken tikka,165.0,indian_food.csv
+Chole bhature,"Chole, bhatura, garam masala, bay leaf, cinnamon stick",vegetarian,20.0,30.0,spicy,main course,Punjab,North,chole bhature,50.0,indian_food.csv
+Daal baati churma,"Moong dal, masoor dal, chana dal, wheat flour, almond",vegetarian,10.0,90.0,spicy,main course,Rajasthan,West,daal baati churma,100.0,indian_food.csv
+Daal puri,"Moong dal, garam masala powder, garlic, green chilli, all purpose flour",vegetarian,30.0,30.0,spicy,main course,West Bengal,East,daal puri,60.0,indian_food.csv
+Dal makhani ,"Red kidney beans, urad dal, cream, garam masala, chili powder",vegetarian,10.0,60.0,sweet,main course,Punjab,North,dal makhani,70.0,indian_food.csv
+Dal tadka,"Pigeon peas, garam masala, ginger, red onion, kasuri methi",vegetarian,10.0,30.0,spicy,main course,Punjab,North,dal tadka,40.0,indian_food.csv
+Dum aloo,"Baby potatoes, garam masala, cashew nuts, kasuri methi, tomatoes",vegetarian,20.0,50.0,spicy,main course,Jammu & Kashmir,North,dum aloo,70.0,indian_food.csv
+Poha,"Beaten rice flakes, potato, curry leaves, green chilies, lemon juice",vegetarian,20.0,30.0,spicy,snack,Maharashtra,West,poha,50.0,indian_food.csv
+Fara,"Chana dal, whole wheat flour, arhar dal, white urad dal, garam masala powder",vegetarian,10.0,60.0,spicy,snack,Chhattisgarh,Central,fara,70.0,indian_food.csv
+Kachori,"Moong dal, rava, garam masala, dough, fennel seeds",vegetarian,30.0,60.0,spicy,snack,Uttar Pradesh,North,kachori,90.0,indian_food.csv
+Kadai paneer,"Cottage cheese, bell peppers, gravy, garam masala, cashew nuts",vegetarian,20.0,30.0,spicy,main course,Punjab,North,kadai paneer,50.0,indian_food.csv
+Kadhi pakoda,"Besan, garam masala powder, gram flour, ginger, curry leaves",vegetarian,10.0,60.0,spicy,main course,Haryana,North,kadhi pakoda,70.0,indian_food.csv
+Karela bharta,"Bitter gourd, fennel, garam masala powder, chili powder, amchur powder",vegetarian,20.0,50.0,bitter,main course,Punjab,North,karela bharta,70.0,indian_food.csv
+Khichdi,"Moong dal, green peas, ginger, tomato, green chili",vegetarian,40.0,20.0,spicy,main course,-1,-1,khichdi,60.0,indian_food.csv
+Kofta,"Paneer, potato, cream, corn flour, garam masala",vegetarian,20.0,40.0,spicy,main course,Uttar Pradesh,North,kofta,60.0,indian_food.csv
+Kulfi falooda,"Rose syrup, falooda sev, mixed nuts, saffron, sugar",vegetarian,45.0,25.0,sweet,dessert,-1,-1,kulfi falooda,70.0,indian_food.csv
+Lauki ke kofte,"Bottle gourd, garam masala powder, gram flour, ginger, chillies",vegetarian,20.0,40.0,spicy,main course,Uttar Pradesh,North,lauki ke kofte,60.0,indian_food.csv
+Lauki ki subji,"Bottle gourd, coconut oil, garam masala, ginger, green chillies",vegetarian,10.0,20.0,spicy,main course,-1,-1,lauki ki subji,30.0,indian_food.csv
+Litti chokha,"Wheat flour, roasted gram flour, tomato, nigella seeds, chilli",vegetarian,45.0,60.0,spicy,main course,Bihar,North,litti chokha,105.0,indian_food.csv
+Makki di roti sarson da saag,"Palak, makki atta, mustard green, garam masala, ginger",vegetarian,25.0,30.0,spicy,main course,Punjab,North,makki di roti sarson da saag,55.0,indian_food.csv
+Misi roti,"Whole wheat flour, chickpea flour, green chilies",vegetarian,30.0,30.0,spicy,main course,Punjab,North,misi roti,60.0,indian_food.csv
+Mushroom do pyaza,"Mushroom, malai, garam masala, ginger, capsicum",vegetarian,10.0,30.0,spicy,main course,Punjab,North,mushroom do pyaza,40.0,indian_food.csv
+Mushroom matar,"Canned coconut milk, frozen green peas, wild mushrooms, garam masala, tomatoes",vegetarian,10.0,30.0,spicy,main course,Punjab,North,mushroom matar,40.0,indian_food.csv
+Naan,"Whole wheat flour, honey, butter, garlic",vegetarian,60.0,30.0,-1,main course,Punjab,North,naan,90.0,indian_food.csv
+Navrattan korma,"Green beans, potatoes, khus khus, low fat, garam masala powder",vegetarian,25.0,40.0,spicy,main course,Uttar Pradesh,North,navrattan korma,65.0,indian_food.csv
+Palak paneer,"Cottage cheese, palak, cream, garam masala, butter",vegetarian,20.0,40.0,spicy,main course,Punjab,North,palak paneer,60.0,indian_food.csv
+Paneer butter masala,"Paneer, whipping cream, garam masala, cashew nuts, butter",vegetarian,20.0,40.0,spicy,main course,Punjab,North,paneer butter masala,60.0,indian_food.csv
+Paneer tikka masala,"Paneer, greek yogurt, tandoori masala, cream, bell pepper",vegetarian,20.0,40.0,spicy,main course,Punjab,North,paneer tikka masala,60.0,indian_food.csv
+Pani puri,"Kala chana, mashed potato, boondi, sev, lemon",vegetarian,15.0,2.0,spicy,snack,-1,-1,pani puri,17.0,indian_food.csv
+Panjeeri,"Whole wheat flour, musk melon seeds, poppy seeds, edible gum, semolina",vegetarian,10.0,25.0,sweet,dessert,Uttar Pradesh,,panjeeri,35.0,indian_food.csv
+Papad,"Urad dal, sev, lemon juice, chopped tomatoes",vegetarian,5.0,5.0,spicy,snack,-1,-1,papad,10.0,indian_food.csv
+Paratha,"Wheat flour, butter, potato, coriander",vegetarian,15.0,45.0,spicy,main course,Punjab,North,paratha,60.0,indian_food.csv
+Pattor,"Arbi ke patte, sesame seeds, gur, bengal gram flour, imli",vegetarian,10.0,30.0,spicy,main course,Rajasthan,West,pattor,40.0,indian_food.csv
+Pindi chana,"Fennel, tea bags, tomato, kasuri methi, cinnamon",vegetarian,500.0,120.0,spicy,main course,Punjab,North,pindi chana,620.0,indian_food.csv
+Rajma chaval,"Red kidney beans, garam masala powder, ginger, tomato, mustard oil",vegetarian,15.0,90.0,spicy,main course,-1,North,rajma chaval,105.0,indian_food.csv
+Rongi,"Garam masala powder, tomato, kasuri methi, cinnamon, mustard oil",vegetarian,10.0,30.0,-1,main course,Punjab,North,rongi,40.0,indian_food.csv
+Samosa,"Potatoes, green peas, garam masala, ginger, dough",vegetarian,30.0,30.0,spicy,snack,-1,-1,samosa,60.0,indian_food.csv
+Sattu ki roti,"Sattu, atta, dough, filling, mustard oil",vegetarian,10.0,20.0,spicy,main course,Bihar,North,sattu ki roti,30.0,indian_food.csv
+Shahi paneer,"Cottage cheese, malai, garam masala, ginger, tomato",vegetarian,20.0,40.0,spicy,main course,Punjab,North,shahi paneer,60.0,indian_food.csv
+Shahi tukra,"Rose water, milk, white bread slices, saffron, almonds",vegetarian,10.0,30.0,sweet,dessert,Telangana,South,shahi tukra,40.0,indian_food.csv
+Vegetable jalfrezi,"Baby corn, french beans, garam masala, ginger, carrot",vegetarian,10.0,30.0,spicy,main course,Punjab,North,vegetable jalfrezi,40.0,indian_food.csv
+Tandoori Chicken,"Greek yogurt, garam masala, kasuri methi, marinade, mustard oil",non vegetarian,240.0,30.0,spicy,main course,Punjab,North,tandoori chicken,270.0,indian_food.csv
+Tandoori Fish Tikka,"Chickpea flour, biryani masala powder, yogurt, fish fillets, green bell pepper",non vegetarian,240.0,30.0,spicy,starter,Punjab,North,tandoori fish tikka,270.0,indian_food.csv
+Attu,"Whole wheat flour, arhar dal, ginger, kala jeera, green chilli",vegetarian,150.0,25.0,spicy,snack,Andhra Pradesh,South,attu,175.0,indian_food.csv
+Avial,"Raw banana, elephant foot yam, long beans, tindora, urad dal",vegetarian,30.0,45.0,spicy,main course,Kerala,South,avial,75.0,indian_food.csv
+Bisi bele bath,"Split pigeon peas, chana dal, urad dal, green peas, french beans",vegetarian,30.0,45.0,spicy,main course,Karnataka,South,bisi bele bath,75.0,indian_food.csv
+Currivepillai sadam ,"Chana dal, urad dal, fresh coconut, sesame seeds, curry leaves",vegetarian,10.0,20.0,spicy,main course,Tamil Nadu,South,currivepillai sadam,30.0,indian_food.csv
+Dosa,"Chana dal, urad dal, whole urad dal, blend rice, rock salt",vegetarian,360.0,90.0,spicy,snack,-1,South,dosa,450.0,indian_food.csv
+Idiappam,"Rice flour, hot water, grated coconut",vegetarian,120.0,30.0,spicy,snack,Tamil Nadu,South,idiappam,150.0,indian_food.csv
+Idli,"Split urad dal, urad dal, idli rice, thick poha, rock salt",vegetarian,360.0,90.0,spicy,snack,-1,South,idli,450.0,indian_food.csv
+Kanji,"Carrot, yellow mustard, red chilli, black salt",vegetarian,10.0,45.0,-1,snack,Kerala,South,kanji,55.0,indian_food.csv
+Kaara kozhambu,"Sesame oil, drumstick, tamarind paste, sambar powder, tomato",vegetarian,,,spicy,main course,Tamil Nadu,South,kaara kozhambu,,indian_food.csv
+Keerai kootu,"Moong dal, chana dal, spinach, urad dal, coconut oil",vegetarian,20.0,30.0,spicy,main course,Tamil Nadu,South,keerai kootu,50.0,indian_food.csv
+Keerai masiyal,"Urad dal, curry leaves, sugar, mustard seeds, spinach",vegetarian,,,spicy,main course,Tamil Nadu,South,keerai masiyal,,indian_food.csv
+Keerai sadam,"Greens, tomato, mustard seeds, fenugreek seeds",vegetarian,10.0,20.0,spicy,main course,Tamil Nadu,South,keerai sadam,30.0,indian_food.csv
+Keerai poriyal,"Amaranth leaves, split urad dal, mustard seeds, grated coconut, red chili",vegetarian,20.0,30.0,spicy,main course,Tamil Nadu,South,keerai poriyal,50.0,indian_food.csv
+Beef Fry,"Beef, coconut, garam masala, curry leaves, green chilies, chili powder",non vegetarian,10.0,60.0,spicy,main course,Kerala,South,beef fry,70.0,indian_food.csv
+Kootu,"Chana dal, urad dal, potato, beans, peas",vegetarian,10.0,15.0,spicy,main course,Tamil Nadu,South,kootu,25.0,indian_food.csv
+Kos kootu,"Moong dal, chana dal, cabbage, tamarind, curry leaves",vegetarian,10.0,20.0,spicy,main course,Tamil Nadu,South,kos kootu,30.0,indian_food.csv
+Koshambri,"Moong dal, cucumber, curry leaves, green chili, lemon juice",vegetarian,10.0,20.0,spicy,main course,Karnataka,South,koshambri,30.0,indian_food.csv
+Kothamali sadam,"Chana dal, urad dal, gooseberry, raw rice, curry leaves",vegetarian,10.0,20.0,spicy,main course,Tamil Nadu,South,kothamali sadam,30.0,indian_food.csv
+Kuzhakkattai,"Sesame oil, raw rice, jaggery, grated coconut",vegetarian,10.0,90.0,spicy,main course,Tamil Nadu,South,kuzhakkattai,100.0,indian_food.csv
+Kuzhambu,"Pearl onions, urad dal, drumsticks, tomato, curry leaves",vegetarian,5.0,30.0,spicy,main course,Tamil Nadu,South,kuzhambu,35.0,indian_food.csv
+Masala Dosa,"Chana dal, urad dal, potatoes, idli rice, thick poha",vegetarian,360.0,90.0,spicy,snack,-1,South,masala dosa,450.0,indian_food.csv
+Pachadi,"Coconut oil, cucumber, curd, curry leaves, mustard seeds",vegetarian,10.0,25.0,-1,main course,-1,South,pachadi,35.0,indian_food.csv
+Paniyaram,"Yogurt, ginger, curry leaves, baking soda, green chilli",vegetarian,10.0,20.0,-1,main course,Tamil Nadu,South,paniyaram,30.0,indian_food.csv
+Papadum,"Lentils, black pepper, vegetable oil",vegetarian,5.0,5.0,spicy,snack,Kerala,South,papadum,10.0,indian_food.csv
+Paravannam,"Raw rice,  jaggery, milk",vegetarian,,,spicy,main course,Kerala,South,paravannam,,indian_food.csv
+Payasam,"Rice, cashew nuts, milk, raisins, sugar",vegetarian,15.0,30.0,sweet,dessert,-1,South,payasam,45.0,indian_food.csv
+Paruppu sadam,"Arhar dal, sambar powder, tomato, curry leaves, fennel seeds",vegetarian,10.0,20.0,-1,main course,Tamil Nadu,South,paruppu sadam,30.0,indian_food.csv
+Pesarattu,"Green moong beans, rice flour",vegetarian,120.0,20.0,spicy,snack,Andhra Pradesh,South,pesarattu,140.0,indian_food.csv
+Poriyal,"Chana dal, urad dal, beans, coconut, mustard",vegetarian,,,spicy,main course,Tamil Nadu,South,poriyal,,indian_food.csv
+Puli sadam,"Urad dal, lemon, tamarind, cooked rice, curry leaves",vegetarian,10.0,20.0,-1,main course,Tamil Nadu,South,puli sadam,30.0,indian_food.csv
+Rasam,"Tomato, curry leaves, garlic, mustard seeds, hot water",vegetarian,10.0,35.0,spicy,main course,-1,South,rasam,45.0,indian_food.csv
+Puttu,"Brown rice flour, sugar, grated coconut",vegetarian,495.0,40.0,-1,main course,Kerala,South,puttu,535.0,indian_food.csv
+Sambar,"Pigeon peas, eggplant, drumsticks, sambar powder, tamarind",vegetarian,20.0,45.0,spicy,main course,-1,South,sambar,65.0,indian_food.csv
+Sandige,"Thin rice flakes, black sesame seeds, curry leaves",vegetarian,120.0,60.0,-1,main course,Karnataka,South,sandige,180.0,indian_food.csv
+Sevai,"Sevai, parboiled rice, steamer",vegetarian,120.0,30.0,-1,main course,-1,South,sevai,150.0,indian_food.csv
+Thayir sadam,"Urad dal, curd, sesame oil, ginger, curry leaves, mustard seeds",vegetarian,10.0,20.0,-1,main course,Tamil Nadu,South,thayir sadam,30.0,indian_food.csv
+Theeyal,"Coconut, whole red beans, masala, sesame oil, tamarind",vegetarian,15.0,20.0,-1,main course,Kerala,South,theeyal,35.0,indian_food.csv
+Uttapam,"Chana dal, urad dal, thick poha, tomato, butter",vegetarian,10.0,20.0,spicy,snack,-1,South,uttapam,30.0,indian_food.csv
+Vada,"Urad dal, ginger, curry leaves, green chilies, black pepper",vegetarian,15.0,20.0,spicy,snack,-1,South,vada,35.0,indian_food.csv
+Chicken Varuval,"Meat curry powder, chicken chunks, ginger, tomato, cinnamon",non vegetarian,10.0,35.0,spicy,main course,Tamil Nadu,South,chicken varuval,45.0,indian_food.csv
+Upma,"Chana dal, urad dal, ginger, curry leaves, sugar",vegetarian,10.0,20.0,spicy,snack,-1,-1,upma,30.0,indian_food.csv
+Amti,"Kala masala, arhar dal, curry leaves, mustard seeds, hot water",vegetarian,10.0,45.0,spicy,main course,Maharashtra,West,amti,55.0,indian_food.csv
+Zunka,"Gram flour, mustard, garlic, turmeric, red chilli",vegetarian,10.0,25.0,spicy,main course,Maharashtra,West,zunka,35.0,indian_food.csv
+Kolim Jawla,"Baingan, fish, coconut oil, fresh coconut, ginger",non vegetarian,,,spicy,main course,Maharashtra,West,kolim jawla,,indian_food.csv
+Saath,"Urad dal, potatoes, wheat flour, sooji",vegetarian,20.0,40.0,spicy,main course,Gujarat,West,saath,60.0,indian_food.csv
+Bajri no rotlo,"Wheat flour, pearl millet flour, hot water",vegetarian,10.0,10.0,spicy,main course,Gujarat,West,bajri no rotlo,20.0,indian_food.csv
+Coconut vadi,"Condensed milk, mawa, desiccated coconut, almonds, cashews",vegetarian,20.0,30.0,sweet,dessert,Maharashtra,West,coconut vadi,50.0,indian_food.csv
+Bhakri,"Jowar flour, sesame seeds",vegetarian,20.0,25.0,-1,main course,Maharashtra,West,bhakri,45.0,indian_food.csv
+Bombil fry,"Bombay duck, malvani masala, rice flour, bombay rava, green chilies",non vegetarian,,,spicy,main course,Maharashtra,West,bombil fry,,indian_food.csv
+Chakali,"Rice flour, sesame, plain flour, turmeric, red chilli",vegetarian,10.0,40.0,spicy,snack,Maharashtra,West,chakali,50.0,indian_food.csv
+Chevdo,"Citric acid, fry, raisins, sugar, chana daal",vegetarian,20.0,30.0,spicy,snack,Gujarat,West,chevdo,50.0,indian_food.csv
+Chorafali,"Urad dal, bengal gram flour, dried mango, baking soda, black salt",vegetarian,5.0,15.0,spicy,snack,Gujarat,West,chorafali,20.0,indian_food.csv
+Copra paak,"Condensed milk, nestle cream, coconut ice, red food coloring, desiccated coconut",vegetarian,20.0,30.0,-1,main course,Gujarat,West,copra paak,50.0,indian_food.csv
+Daal Dhokli,"Whole wheat flour, dal, kokum, gur, bengal gram flour",vegetarian,20.0,30.0,spicy,main course,Gujarat,West,daal dhokli,50.0,indian_food.csv
+Kutchi dabeli,"Pav, aloo, peanut, pomegranate, star anise",vegetarian,30.0,10.0,spicy,snack,Gujarat,West,kutchi dabeli,40.0,indian_food.csv
+Dahi vada,"Urad dal, bhuna chana, garam masala, dates, tamarind",vegetarian,30.0,30.0,-1,snack,Maharashtra,West,dahi vada,60.0,indian_food.csv
+Dalithoy,"Arhar dal, coconut oil, curry leaves, mustard seeds, red chilli",vegetarian,5.0,20.0,-1,main course,Maharashtra,West,dalithoy,25.0,indian_food.csv
+Dhokla,"Rava, coconut, gram flour, mustard, sesame",vegetarian,10.0,20.0,spicy,snack,Gujarat,West,dhokla,30.0,indian_food.csv
+Dudhi halwa,"Bottle gourd, green, raisins, sugar, clarified butter",vegetarian,15.0,30.0,sweet,dessert,Gujarat,West,dudhi halwa,45.0,indian_food.csv
+Gatta curry,"Yogurt, besan, sauce, garam masala powder, gram flour",vegetarian,10.0,20.0,spicy,main course,Rajasthan,West,gatta curry,30.0,indian_food.csv
+Gud papdi,"Wheat flour, jaggery, clarified butter, sliced almonds",vegetarian,10.0,20.0,sweet,dessert,Gujarat,West,gud papdi,30.0,indian_food.csv
+Ghooghra,"Dry fruits, semolina, all purpose flour",vegetarian,,,spicy,snack,Gujarat,West,ghooghra,,indian_food.csv
+Handwo,"Bottle gourd, chana dal, cabbage, urad dal, toor dal",vegetarian,20.0,30.0,spicy,snack,Gujarat,West,handwo,50.0,indian_food.csv
+Halvasan,"Whole wheat rava, chia seed, lemon, edible gum, litre milk",vegetarian,,,sweet,dessert,Gujarat,West,halvasan,,indian_food.csv
+Jeera Aloo,"Green chilies, lemon juice, chili powder, boiled potatoes",vegetarian,10.0,30.0,spicy,main course,Gujarat,West,jeera aloo,40.0,indian_food.csv
+Kansar,"Wheat flour, cashews, rapeseed oil",vegetarian,10.0,40.0,-1,main course,Gujarat,West,kansar,50.0,indian_food.csv
+Keri no ras,"Mango, sugar",vegetarian,10.0,10.0,sour,main course,Gujarat,West,keri no ras,20.0,indian_food.csv
+Khakhra,"Whole wheat flour, low fat, bengal gram flour",vegetarian,20.0,40.0,spicy,snack,Gujarat,West,khakhra,60.0,indian_food.csv
+Khandvi,"Green chili paste, white sesame seeds, gram flour, curry leaves, green chili",vegetarian,20.0,45.0,spicy,snack,Gujarat,West,khandvi,65.0,indian_food.csv
+Kombdi vade,"Rice flour, urad dal, wheat flour, gram flour, turmeric",vegetarian,10.0,25.0,spicy,snack,Maharashtra,West,kombdi vade,35.0,indian_food.csv
+Laapsi,"Cinnamon, jaggery, clarified butter, dry roasted",vegetarian,10.0,40.0,spicy,main course,Madhya Pradesh,Central,laapsi,50.0,indian_food.csv
+Koshimbir,"Cucumber, carrot, tomatoes, cilantro",vegetarian,10.0,10.0,spicy,main course,Maharashtra,West,koshimbir,20.0,indian_food.csv
+Methi na Gota,"Rava, gram flour, lemon juice, turmeric, fenugreek leaves",vegetarian,15.0,30.0,bitter,main course,Gujarat,West,methi na gota,45.0,indian_food.csv
+Mohanthal,"Rose water, pistachio, badam, bengal gram flour, saffron",vegetarian,5.0,45.0,sweet,dessert,Gujarat,West,mohanthal,50.0,indian_food.csv
+Muthiya,"Bottle gourd, whole wheat flour, rava, sesame seeds, bengal gram flour",vegetarian,15.0,30.0,bitter,snack,Gujarat,West,muthiya,45.0,indian_food.csv
+Patra,"Arbi ke patte, sesame seeds, gur, bengal gram flour, imli",vegetarian,10.0,40.0,spicy,snack,Gujarat,West,patra,50.0,indian_food.csv
+Pav Bhaji,"Pav bhaji masala, gobi, potatoes, green peas, dinner rolls",vegetarian,20.0,40.0,spicy,main course,Maharashtra,West,pav bhaji,60.0,indian_food.csv
+Puri Bhaji,"Aloo, urad dal, mustard, ginger, curry leaves",vegetarian,10.0,30.0,spicy,main course,Maharashtra,West,puri bhaji,40.0,indian_food.csv
+Sabudana Khichadi,"Raw peanuts, sabudana, lemon, avocado oil, curry leaves, green chili",vegetarian,70.0,30.0,spicy,snack,Maharashtra,West,sabudana khichadi,100.0,indian_food.csv
+Sev khamani,"Khaman, pomegranate, sev, powdered sugar, garlic",vegetarian,20.0,30.0,spicy,main course,Gujarat,West,sev khamani,50.0,indian_food.csv
+Sev tameta,"Sev, ginger, tomato, sugar",vegetarian,20.0,30.0,spicy,main course,Gujarat,West,sev tameta,50.0,indian_food.csv
+Namakpara,"Wheat flour, baking soda, all purpose flour, black pepper, sunflower oil",vegetarian,10.0,35.0,spicy,snack,Gujarat,West,namakpara,45.0,indian_food.csv
+Sukhdi,"Whole wheat flour, gur, clarified butter",vegetarian,10.0,20.0,sweet,dessert,Maharashtra,West,sukhdi,30.0,indian_food.csv
+Surnoli,"Rice flakes, yogurt, raw rice, jaggery, grated coconut",vegetarian,60.0,10.0,spicy,snack,Maharashtra,West,surnoli,70.0,indian_food.csv
+Thalipeeth,"Whole wheat flour, rice flour, pearl millet flour, sorghum flour, sesame seeds",vegetarian,25.0,30.0,spicy,main course,Maharashtra,West,thalipeeth,55.0,indian_food.csv
+Undhiyu,"Sweet potato, surti papdi, baby potatoes, valor papdi, green peas",vegetarian,25.0,60.0,spicy,main course,Gujarat,West,undhiyu,85.0,indian_food.csv
+Veg Kolhapuri,"Gobi, potato, beans, khus khus, coconut",vegetarian,20.0,30.0,spicy,main course,Maharashtra,West,veg kolhapuri,50.0,indian_food.csv
+Vindaloo,"Chicken, coconut oil, wine vinegar, ginger, green, cinnamon",non vegetarian,10.0,40.0,spicy,main course,Goa,West,vindaloo,50.0,indian_food.csv
+Lilva Kachori,"Green garlic chutney, fresh green peas, ginger, lemon juice, plain flour",vegetarian,30.0,6.0,spicy,snack,Gujarat,West,lilva kachori,36.0,indian_food.csv
+Mag Dhokli,"Moong beans, jaggery, red chillies, oil, salt",vegetarian,,,spicy,snack,Gujarat,West,mag dhokli,,indian_food.csv
+Khichu,"Rice flour, sesame seeds, baking soda, peanut oil",vegetarian,5.0,10.0,spicy,snack,Gujarat,West,khichu,15.0,indian_food.csv
+Thepla,"Chickpea flour, methi leaves, jowar flour, wheat flour",vegetarian,15.0,30.0,spicy,snack,Gujarat,West,thepla,45.0,indian_food.csv
+Farsi Puri,"Semolina, clarified butter, oil, white flour, black pepper",vegetarian,,,-1,snack,Gujarat,West,farsi puri,,indian_food.csv
+Khaman,"Yogurt, fresh coconut, sesame seeds, semolina, gram flour",vegetarian,10.0,20.0,spicy,snack,Gujarat,West,khaman,30.0,indian_food.csv
+Turiya Patra Vatana sabji,"Ridge gourd, baking soda, sugar, grated coconut, peas",vegetarian,35.0,40.0,spicy,main course,Gujarat,West,turiya patra vatana sabji,75.0,indian_food.csv
+Churma Ladoo,"Whole wheat flour, khus khus, sesame seeds, dry coconut, gur",vegetarian,12.0,40.0,sweet,dessert,Rajasthan,West,churma ladoo,52.0,indian_food.csv
+Cheera Doi,"Rice, mango, curd",vegetarian,,,sweet,dessert,West Bengal,East,cheera doi,,indian_food.csv
+Gheela Pitha,"Sticky rice, rice flour, jaggery, orange rind",vegetarian,10.0,30.0,sweet,dessert,Assam,North East,gheela pitha,40.0,indian_food.csv
+Khar,"Raw papaya, panch phoran masala, nigella seeds, mustard oil, fennel seeds",vegetarian,10.0,20.0,-1,main course,Assam,North East,khar,30.0,indian_food.csv
+Kumol Sawul,"Rice, eggs, carrot, beetroot",non vegetarian,,,spicy,main course,Assam,North East,kumol sawul,,indian_food.csv
+Luchi,"Maida, vegetable oil",vegetarian,20.0,30.0,-1,main course,West Bengal,East,luchi,50.0,indian_food.csv
+Alu Pitika,"Potatoes, mustard oil, fish, green chillies",non vegetarian,5.0,20.0,spicy,main course,Assam,North East,alu pitika,25.0,indian_food.csv
+Masor tenga,"Ridge gourd, fish, lemon, tomatoes, mustard oil",non vegetarian,15.0,25.0,spicy,main course,Assam,North East,masor tenga,40.0,indian_food.csv
+Bengena Pitika,"Brinjal, onions, salt, sesame seeds, coriander",vegetarian,,,-1,main course,Assam,North East,bengena pitika,,indian_food.csv
+Bilahi Maas,"Potatoes, garam masala, tomatoes, mustard oil, bay leaf",non vegetarian,10.0,20.0,-1,main course,Assam,North East,bilahi maas,30.0,indian_food.csv
+Black rice,"Forbidden black rice, chicken, olive oil, slivered almonds, garlic powder",non vegetarian,,,-1,main course,Manipur,North East,black rice,,indian_food.csv
+Bora Sawul,"Biryani masala, mixed vegetables, yellow moong daal, whole red, mustard seeds",vegetarian,,,spicy,main course,Assam,North East,bora sawul,,indian_food.csv
+Brown Rice,"Brown rice, soy sauce, olive oil",vegetarian,15.0,25.0,-1,main course,-1,-1,brown rice,40.0,indian_food.csv
+Chingri malai curry,"Coconut milk, lobster, fresh green chilli, ginger, red onion",non vegetarian,10.0,40.0,spicy,main course,West Bengal,East,chingri malai curry,50.0,indian_food.csv
+Goja,"Baking soda, clarified butter, oil, all purpose flour",vegetarian,20.0,60.0,sweet,dessert,West Bengal,East,goja,80.0,indian_food.csv
+Hando Guri,"Jaggery, raisins",vegetarian,,,sweet,dessert,Assam,North East,hando guri,,indian_food.csv
+Haq Maas,"Lamb, garam masala powder, curd, turmeric, bay leaf",non vegetarian,20.0,40.0,spicy,main course,Assam,North East,haq maas,60.0,indian_food.csv
+Chingri Bhape,"Coconut, prawns, curd, mustard seed, green chili",non vegetarian,15.0,30.0,-1,main course,West Bengal,East,chingri bhape,45.0,indian_food.csv
+Kabiraji,"Fish fillet, besan, lemon, mint, ginger",non vegetarian,,,spicy,main course,West Bengal,East,kabiraji,,indian_food.csv
+Khorisa,"Fermented bamboo shoot, potato, ginger, green, mustard oil",vegetarian,,,spicy,main course,Assam,North East,khorisa,,indian_food.csv
+Koldil Chicken,"Banana flower, chicken, green chili, mustard oil, lemon juice",non vegetarian,,,spicy,main course,Assam,North East,koldil chicken,,indian_food.csv
+Konir Dom,"Aloo, tomatoes, mustard oil, bay leaf, cinnamon stick",non vegetarian,,,spicy,main course,Assam,North East,konir dom,,indian_food.csv
+Koldil Duck,"Rice flour, mutton, banana, gram flour, olive oil, baking powder",non vegetarian,,,spicy,main course,Assam,North East,koldil duck,,indian_food.csv
+Masor Koni,"Fish roe, pumpkin flowers, mustard oil, turmeric, tomato",non vegetarian,,,spicy,main course,Assam,North East,masor koni,,indian_food.csv
+Mishti Chholar Dal,"Chana dal, fresh coconut, ginger, cinnamon, raisins",vegetarian,10.0,30.0,sweet,main course,West Bengal,East,mishti chholar dal,40.0,indian_food.csv
+Pakhala,"Curd, cooked rice, curry leaves, dry chilli",vegetarian,,,-1,main course,Odisha,East,pakhala,,indian_food.csv
+Pani Pitha,"Tea leaves, white sesame seeds, dry coconut, soaked rice",vegetarian,10.0,20.0,-1,main course,Assam,North East,pani pitha,30.0,indian_food.csv
+Payokh,"Basmati rice, rose water, sugar, clarified butter, cardamom pods",vegetarian,,,sweet,dessert,Assam,North East,payokh,,indian_food.csv
+Prawn malai curry,"Coconut milk, prawns, garlic, turmeric, sugar",non vegetarian,15.0,50.0,spicy,main course,West Bengal,East,prawn malai curry,65.0,indian_food.csv
+Red Rice,"Red pepper, red onion, butter, watercress, olive oil",vegetarian,,,-1,main course,-1,-1,red rice,,indian_food.csv
+Shukto,"Green beans, bitter gourd, ridge gourd, banana, brinjal",vegetarian,10.0,20.0,spicy,main course,West Bengal,East,shukto,30.0,indian_food.csv
+Til Pitha,"Glutinous rice, black sesame seeds, gur",vegetarian,5.0,30.0,sweet,dessert,Assam,North East,til pitha,35.0,indian_food.csv
+Bebinca,"Coconut milk, egg yolks, clarified butter, all purpose flour",vegetarian,20.0,60.0,sweet,dessert,Goa,West,bebinca,80.0,indian_food.csv
+Shufta,"Cottage cheese, dry dates, dried rose petals, pistachio, badam",vegetarian,,,sweet,dessert,Jammu & Kashmir,North,shufta,,indian_food.csv
+Mawa Bati,"Milk powder, dry fruits, arrowroot powder, all purpose flour",vegetarian,20.0,45.0,sweet,dessert,Madhya Pradesh,Central,mawa bati,65.0,indian_food.csv
+Pinaca,"Brown rice, fennel seeds, grated coconut, black pepper, ginger powder",vegetarian,,,sweet,dessert,Goa,West,pinaca,,indian_food.csv

@@ -1,0 +1,14 @@
+# Large datasets and image stores (exceed GitHub 100MB / 2GB limit)
+data/raw/
+data/processed/images/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Logs & temp files
+*.log
+logs/
+.system_generated/

@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriSense AI — Intelligent Indian Food Recognition & Clinical Nutrition System</title>
+  <meta name="description" content="NutriSense AI leverages MobileNetV2 deep learning and ICMR-NIN 2020 RDA benchmarks to deliver accurate Indian food classification, portion-adjusted nutrition, ambiguous subtype disambiguation, and personalized health recommendations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="navbar" id="mainNavbar">
+    <div class="nav-container">
+      <div class="brand" id="brandLogo">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">NutriSense<span class="accent-text">AI</span></span>
+          <span class="brand-subtitle">Clinical Nutrition & Vision Platform</span>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" id="navigationTabs">
+        <button class="nav-tab active" id="tabScanner" data-view="scannerView">Food Scanner</button>
+        <button class="nav-tab" id="tabLabelScanner" data-view="labelScannerView">Label Scanner</button>
+        <button class="nav-tab" id="tabSamples" data-view="samplesView">Demo Gallery</button>
+        <button class="nav-tab" id="tabCatalog" data-view="catalogView">Food Catalog (43)</button>
+        <button class="nav-tab" id="tabBenchmarks" data-view="benchmarksView">Model Benchmark</button>
+        <button class="nav-tab" id="tabProfile" data-view="profileView">👤 My Profile</button>
+        <button class="nav-tab" id="tabRecommendations" data-view="recommendationsView">🍽️ Recommendations</button>
+      </nav>
+
+      <!-- User Profile Selector -->
+      <div class="profile-selector-container">
+        <label for="healthProfileSelect" class="profile-label">Profile:</label>
+        <select id="healthProfileSelect" class="profile-select">
+          <option value="adult_male_sedentary">Adult Male (Sedentary)</option>
+          <option value="adult_female_sedentary">Adult Female (Sedentary)</option>
+          <option value="diabetic_adult">Type-2 Diabetes</option>
+          <option value="hypertensive_adult">Hypertension (DASH)</option>
+          <option value="weight_management">Weight Management</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- Educational & Medical Disclaimer Banner -->
+  <aside class="disclaimer-banner" id="disclaimerBanner">
+    <div class="disclaimer-content">
+      <span class="disclaimer-badge">Medical Disclaimer</span>
+      <p class="disclaimer-text">
+        NutriSense AI estimates macronutrients and clinical suitability based on ICMR-NIN (2020) reference RDA benchmarks. All calculations, quality warnings, and suitability scores are provided for educational and lifestyle awareness, not professional clinical medical advice.
+      </p>
+    </div>
+  </aside>
+
+  <!-- Main Application Container -->
+  <main class="main-content" id="mainContent">
+    <!-- View 1: Food Scanner View -->
+    <section class="view-section active" id="scannerView">
+      <div class="hero-header">
+        <h1 class="hero-title">Visual Food Recognition & <span class="gradient-text">Precision Nutrition</span></h1>
+        <p class="hero-subtitle">Upload or select an Indian dish. NutriSense AI predicts food categories with MobileNetV2, resolves culinary subtypes, and calculates personalized RDA suitability.</p>
+      </div>
+
+      <div class="scanner-grid">
+        <!-- Left Column: Upload & Image Preview -->
+        <div class="scanner-card upload-panel" id="uploadPanel">
+          <div class="panel-header">
+            <h2 class="panel-title">1. Capture or Select Food Image</h2>
+            <span class="badge badge-success">MobileNetV2 Active</span>
+          </div>
+
+          <!-- Drag and Drop Area -->
+          <div class="dropzone" id="imageDropzone">
+            <input type="file" id="fileInput" accept="image/jpeg,image/png,image/webp" class="file-input-hidden">
+            <div class="dropzone-content" id="dropzonePrompt">
+              <div class="dropzone-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="17 8 12 3 7 8"/>
+                  <line x1="12" y1="3" x2="12" y2="15"/>
+                </svg>
+              </div>
+              <h3 class="dropzone-title">Drag & drop meal photo here</h3>
+              <p class="dropzone-text">Supports JPG, PNG, WEBP (Max 16 MB)</p>
+              <button type="button" class="btn btn-primary" id="btnBrowseFiles">Browse Files</button>
+            </div>
+
+            <!-- Preview Container -->
+            <div class="preview-container hidden" id="previewContainer">
+              <img id="imagePreview" alt="Food preview" class="preview-img">
+              <div class="preview-overlay">
+                <button type="button" class="btn btn-sm btn-secondary" id="btnChangeImage">Change Photo</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Test Samples Strip -->
+          <div class="quick-samples-section">
+            <span class="quick-label">Or test sample dish:</span>
+            <div class="quick-chips" id="quickSampleChips">
+              <button type="button" class="chip" data-sample="samosa">Samosa</button>
+              <button type="button" class="chip" data-sample="biryani">Biryani</button>
+              <button type="button" class="chip" data-sample="palak_paneer">Palak Paneer</button>
+              <button type="button" class="chip" data-sample="jalebi">Jalebi</button>
+              <button type="button" class="chip" data-sample="idli">Idli</button>
+              <button type="button" class="chip" data-sample="aloo_gobi">Aloo Gobi</button>
+            </div>
+          </div>
+
+          <!-- Manual Food Search Fallback (Phase 7) -->
+          <div class="manual-search-section" id="manualSearchSection">
+            <span class="quick-label">Or search database manually (Fallback):</span>
+            <div class="manual-search-bar">
+              <input type="text" id="manualFoodSearchInput" class="manual-search-input" placeholder="Search 1,556+ foods (e.g. roti, dal, chai)..." autocomplete="off">
+              <button type="button" class="btn btn-sm btn-secondary hidden" id="btnManualSearchClear">&times;</button>
+            </div>
+            <div class="search-results-dropdown hidden" id="manualSearchResultsDropdown"></div>
+          </div>
+
+          <!-- Active Profile Indicator Card -->
+          <div class="profile-card" id="profileSummaryCard">
+            <div class="profile-card-header">
+              <span class="profile-card-title" id="profileTitleDisplay">Adult Male (Sedentary)</span>
+              <span class="badge badge-outline" id="profileRdaBadge">2,110 kcal / day</span>
+            </div>
+            <p class="profile-card-desc" id="profileDescDisplay">Standard Indian Male RDA baseline based on ICMR-NIN 2020 standards.</p>
+          </div>
+        </div>
+
+        <!-- Right Column: Recognition & Nutrition Dashboard -->
+        <div class="scanner-card results-panel" id="resultsPanel">
+          <!-- Default Placeholder State -->
+          <div class="empty-state" id="emptyStatePlaceholder">
+            <div class="empty-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                <line x1="15" y1="9" x2="15.01" y2="9"/>
+              </svg>
+            </div>
+            <h3 class="empty-title">Awaiting Food Image</h3>
+            <p class="empty-text">Upload or choose a dish on the left to analyze macronutrients, allergens, and personalized suitability scores.</p>
+          </div>
+
+          <!-- Loading State -->
+          <div class="loading-state hidden" id="loadingState">
+            <div class="spinner"></div>
+            <h3 class="loading-title">Analyzing Image with MobileNetV2...</h3>
+            <p class="loading-text">Extracting visual features, matching knowledge base, and evaluating ICMR RDA suitability.</p>
+          </div>
+
+          <!-- Active Analysis Results Container -->
+          <div class="results-content hidden" id="resultsContent">
+            <!-- 1. Top Predictions Header -->
+            <div class="prediction-header">
+              <div class="primary-prediction">
+                <span class="label-mini">Recognized Dish</span>
+                <div class="title-with-badge">
+                  <h2 class="prediction-title" id="primaryFoodName">Samosa</h2>
+                  <span class="badge badge-confidence" id="primaryConfidenceBadge">94.8% Conf.</span>
+                </div>
+              </div>
+              <div class="match-meta" id="matchMetaContainer">
+                <span class="badge badge-info" id="matchTypeBadge">VALID_DIRECT</span>
+              </div>
+            </div>
+
+            <!-- Top-3 Alternatives Bar -->
+            <div class="top-candidates-section">
+              <span class="candidates-label">Top Candidates:</span>
+              <div class="candidates-list" id="candidatesList">
+                <!-- Dynamically populated candidate cards -->
+              </div>
+            </div>
+
+            <!-- 2. Ambiguous Subtype Disambiguation Alert / Selection -->
+            <div class="subtype-alert-card hidden" id="subtypeAlertCard">
+              <div class="alert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+                </svg>
+              </div>
+              <div class="alert-body">
+                <h4 class="alert-title" id="subtypePromptText">Please confirm your specific food filling:</h4>
+                <p class="alert-subtext">Different fillings alter calories and protein significantly.</p>
+                <div class="subtype-selector-chips" id="subtypeButtonsContainer">
+                  <!-- Dynamically populated subtype options -->
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Portion Size Adjustment Control (Phase 7 Enhanced) -->
+            <div class="portion-control-card" id="portionControlCard">
+              <div class="portion-header">
+                <div>
+                  <span class="portion-title">Portion &amp; Serving Size</span>
+                  <span class="portion-val-display" id="portionValDisplay">100g (Standard)</span>
+                </div>
+                <div class="serving-dropdown-group">
+                  <label for="definedServingSelect" class="label-mini">Defined Serving:</label>
+                  <select id="definedServingSelect" class="defined-serving-select">
+                    <option value="g">Custom Grams (Slider)</option>
+                    <option value="100g">100g Standard Reference</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="portion-slider-row">
+                <input type="range" id="portionSlider" min="10" max="500" step="5" value="100" class="range-slider">
+                <div class="portion-direct-input-wrap">
+                  <input type="number" id="portionDirectInput" min="1" max="2000" step="1" value="100" class="portion-direct-input" title="Enter grams directly">
+                  <span class="portion-unit-label">g</span>
+                </div>
+                <div class="portion-presets">
+                  <button type="button" class="preset-btn" data-portion="50">50g</button>
+                  <button type="button" class="preset-btn active" data-portion="100">100g</button>
+                  <button type="button" class="preset-btn" data-portion="150">150g</button>
+                  <button type="button" class="preset-btn" data-portion="200">200g</button>
+                </div>
+              </div>
+
+              <!-- Phase 7 Basis & Non-Claim Disclaimer -->
+              <div class="portion-formula-strip">
+                <span class="formula-badge">Formula: (Portion / 100) &times; Nutrient per 100g</span>
+                <span class="portion-basis-tag" id="portionBasisTag">Reference: 100g Baseline</span>
+              </div>
+              <div class="portion-nonclaim-note">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                Image recognition identifies dish category only; portion weight must be confirmed by user.
+              </div>
+            </div>
+
+            <!-- 4. Nutrition Key Metrics (Macronutrients) -->
+            <div class="macros-grid">
+              <div class="macro-card calories-card">
+                <span class="macro-label">Energy</span>
+                <span class="macro-val" id="valCalories">256</span>
+                <span class="macro-unit">kcal</span>
+              </div>
+              <div class="macro-card">
+                <span class="macro-label">Protein</span>
+                <span class="macro-val" id="valProtein">3.5</span>
+                <span class="macro-unit">g</span>
+              </div>
+              <div class="macro-card">
+                <span class="macro-label">Net Carbs</span>
+                <span class="macro-val" id="valCarbs">28.0</span>
+                <span class="macro-unit">g</span>
+              </div>
+              <div class="macro-card">
+                <span class="macro-label">Total Fat</span>
+                <span class="macro-val" id="valFat">14.5</span>
+                <span class="macro-unit">g</span>
+              </div>
+              <div class="macro-card">
+                <span class="macro-label">Dietary Fiber</span>
+                <span class="macro-val" id="valFiber">2.2</span>
+                <span class="macro-unit">g</span>
+              </div>
+            </div>
+
+            <!-- 5. Micronutrients Details Table -->
+            <div class="micros-panel">
+              <div class="micros-header">
+                <h4 class="subpanel-title">Micronutrients &amp; Electrolytes (Per Selected Portion)</h4>
+                <span class="label-mini" id="nutritionSourceTag" style="color: var(--accent-cyan)">Source: IFCT 2017</span>
+              </div>
+              <div class="micros-grid">
+                <div class="micro-item">
+                  <span class="micro-name">Sodium:</span>
+                  <span class="micro-val" id="valSodium">280 mg</span>
+                </div>
+                <div class="micro-item">
+                  <span class="micro-name">Calcium:</span>
+                  <span class="micro-val" id="valCalcium">18 mg</span>
+                </div>
+                <div class="micro-item">
+                  <span class="micro-name">Iron:</span>
+                  <span class="micro-val" id="valIron">1.2 mg</span>
+                </div>
+                <div class="micro-item">
+                  <span class="micro-name">Vitamin C:</span>
+                  <span class="micro-val" id="valVitC">4.5 mg</span>
+                </div>
+                <div class="micro-item">
+                  <span class="micro-name">Folate:</span>
+                  <span class="micro-val" id="valFolate">15 &micro;g</span>
+                </div>
+              </div>
+
+              <!-- Missing Nutrients Transparency Banner -->
+              <div class="missing-nutrients-banner hidden" id="missingNutrientsBanner">
+                <div class="missing-icon">&#8505;</div>
+                <div class="missing-text" id="missingNutrientsText"></div>
+              </div>
+            </div>
+
+            <!-- 6. Composite Recipe Ingredients Card (if applicable) -->
+            <div class="composite-card hidden" id="compositeCard">
+              <h4 class="subpanel-title">Composite Recipe Formulation</h4>
+              <p class="composite-meta" id="compositeSourceType">Recipe-derived nutrition profile</p>
+              <div class="ingredients-tags" id="ingredientsTagsContainer">
+                <!-- Dynamically populated ingredients -->
+              </div>
+            </div>
+
+            <!-- 7. Data Quality & Safety Warning Box (if flagged) -->
+            <div class="quality-warning-card hidden" id="qualityWarningCard">
+              <div class="warning-icon">&#9888;</div>
+              <div class="warning-text" id="qualityWarningText">
+                Data Notice: Value flagged in source literature.
+              </div>
+            </div>
+
+            <!-- 8. Health Suitability Score & Verdict Card -->
+            <div class="suitability-card" id="suitabilityCard">
+              <div class="suitability-score-box">
+                <div class="score-circle" id="scoreCircle">
+                  <span class="score-number" id="suitabilityScoreNum">7.5</span>
+                  <span class="score-max">/10</span>
+                </div>
+                <div class="score-details">
+                  <span class="label-mini">Personalized Suitability Score</span>
+                  <h3 class="verdict-title" id="verdictText">HEALTHY CHOICE</h3>
+                  <span class="score-subtext" id="scoreProfileName">Evaluated against Adult Male RDA</span>
+                </div>
+              </div>
+
+              <!-- Clinical Alerts List -->
+              <div class="alerts-container" id="alertsContainer">
+                <!-- Dynamic clinical alerts -->
+              </div>
+
+              <!-- Allergens List -->
+              <div class="allergens-container" id="allergensContainer">
+                <span class="allergens-label">Identified Allergens:</span>
+                <div class="allergen-badges" id="allergenBadges">
+                  <!-- Dynamic allergen badges -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- View 2: Sample Gallery View -->
+    <section class="view-section" id="samplesView">
+      <div class="hero-header">
+        <h2 class="hero-title">Test Image Demo Gallery</h2>
+        <p class="hero-subtitle">Select any held-out benchmark test image below to evaluate recognition, subtype disambiguation, and clinical health scoring in real time.</p>
+      </div>
+      <div class="samples-grid" id="fullSamplesGrid">
+        <!-- Dynamically loaded sample cards -->
+      </div>
+    </section>
+
+    <!-- View 3: Food Catalog View -->
+    <section class="view-section" id="catalogView">
+      <div class="hero-header">
+        <h2 class="hero-title">Indian Food Knowledge Catalog (43 Classes)</h2>
+        <p class="hero-subtitle">Comprehensive master repository of all recognized dishes, standard portions, macronutrients, and allergen mappings.</p>
+      </div>
+      <div class="catalog-filter-bar">
+        <input type="text" id="catalogSearchInput" placeholder="Search dish by name, allergen, or match type..." class="search-input">
+      </div>
+      <div class="catalog-table-container">
+        <table class="catalog-table" id="catalogTable">
+          <thead>
+            <tr>
+              <th>Dish Name</th>
+              <th>Match Type</th>
+              <th>Standard Portion</th>
+              <th>Calories</th>
+              <th>Protein</th>
+              <th>Carbs</th>
+              <th>Fat</th>
+              <th>Sodium</th>
+              <th>Allergens</th>
+            </tr>
+          </thead>
+          <tbody id="catalogTableBody">
+            <!-- Dynamically populated table rows -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- View 4: Model Benchmarks View -->
+    <section class="view-section" id="benchmarksView">
+      <div class="hero-header">
+        <h2 class="hero-title">MobileNetV2 Model Benchmarks & Metrics</h2>
+        <p class="hero-subtitle">Rigorous test-set evaluation across 2,312 held-out images and auxiliary FoodLens generalization benchmarks.</p>
+      </div>
+
+      <div class="metrics-kpi-grid" id="metricsKpiGrid">
+        <div class="kpi-card">
+          <span class="kpi-label">Test Top-1 Accuracy</span>
+          <span class="kpi-value" id="kpiTop1">81.83%</span>
+          <span class="kpi-sub">Held-out test split (2,312 images)</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Test Top-5 Accuracy</span>
+          <span class="kpi-value" id="kpiTop5">95.59%</span>
+          <span class="kpi-sub">Captures visual curry ambiguities</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Macro F1-Score</span>
+          <span class="kpi-value" id="kpiMacroF1">79.96%</span>
+          <span class="kpi-sub">Balanced across all 43 categories</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">FoodLens Cross-Domain</span>
+          <span class="kpi-value" id="kpiFoodLens">65.66%</span>
+          <span class="kpi-sub">Zero-shot transfer generalization</span>
+        </div>
+      </div>
+
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h3 class="chart-title">Training & Validation Dynamics (Loss & Accuracy)</h3>
+          <img src="/reports/figures/12_training_dynamics.png" alt="Training dynamics" class="chart-img">
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Normalized Confusion Matrix (43x43 Classes)</h3>
+          <img src="/reports/figures/13_confusion_matrix.png" alt="Confusion matrix" class="chart-img">
+        </div>
+        <div class="chart-card full-width">
+          <h3 class="chart-title">Per-Class F1-Score Distribution</h3>
+          <img src="/reports/figures/14_per_class_f1_distribution.png" alt="Per class F1 distribution" class="chart-img">
+        </div>
+      </div>
+    </section>
+    <!-- View 5: Packaged Food Label Scanner -->
+    <section class="view-section" id="labelScannerView">
+      <div class="hero-header">
+        <h2 class="hero-title">Packaged Food <span class="gradient-text">Label Scanner</span></h2>
+        <p class="hero-subtitle">Upload a single photo of a packaged food product. OCR reads the visible nutrition facts, ingredients and allergen information directly from the label. Missing or unreadable fields are always shown as unavailable &mdash; never invented.</p>
+      </div>
+
+      <div class="label-scanner-grid">
+        <!-- Left: Upload Panel -->
+        <div class="scanner-card label-upload-panel" id="labelUploadPanel">
+          <div class="panel-header">
+            <h3 class="panel-title">1. Upload Product Photo</h3>
+            <span class="badge" style="background: rgba(139,92,246,0.15); color: var(--accent-purple); border: 1px solid rgba(139,92,246,0.3)">EasyOCR Active</span>
+          </div>
+          <div class="dropzone label-dropzone" id="labelDropzone">
+            <input type="file" id="labelFileInput" accept="image/jpeg,image/png,image/webp" class="file-input-hidden">
+            <div class="dropzone-content" id="labelDropzonePrompt">
+              <div class="dropzone-icon" style="color: var(--accent-purple)">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <line x1="9" y1="3" x2="9" y2="21"/>
+                  <path d="M13 8h5M13 12h5M13 16h5M5 8h2M5 12h2M5 16h2"/>
+                </svg>
+              </div>
+              <h3 class="dropzone-title">Drop product photo here</h3>
+              <p class="dropzone-text">One photo &mdash; front, back, or nutrition panel (JPG, PNG, WEBP, max 16 MB)</p>
+              <button type="button" class="btn btn-primary" id="btnLabelBrowse" style="border-color: var(--accent-purple); background: rgba(139,92,246,0.15); color: var(--accent-purple)">Browse Files</button>
+            </div>
+            <div class="preview-container hidden" id="labelPreviewContainer">
+              <img id="labelImagePreview" alt="Product photo preview" class="preview-img">
+              <div class="preview-overlay">
+                <button type="button" class="btn btn-sm btn-secondary" id="btnChangeLabelImage">Change Photo</button>
+              </div>
+            </div>
+          </div>
+          <div class="label-ocr-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Separate from the fresh-food MobileNetV2 scanner. No model retraining performed.
+          </div>
+        </div>
+
+        <!-- Right: OCR Results Panel -->
+        <div class="scanner-card label-results-panel" id="labelResultsPanel">
+          <div class="empty-state" id="labelEmptyState">
+            <div class="empty-icon" style="color: var(--accent-purple)">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <line x1="9" y1="3" x2="9" y2="21"/>
+                <path d="M13 8h5M13 12h5M13 16h5"/>
+              </svg>
+            </div>
+            <h3 class="empty-title">Awaiting Product Image</h3>
+            <p class="empty-text">Upload a product packaging photo to extract nutrition facts, ingredients, and allergen information via OCR.</p>
+          </div>
+
+          <div class="loading-state hidden" id="labelLoadingState">
+            <div class="spinner" style="border-top-color: var(--accent-purple)"></div>
+            <h3 class="loading-title">Running OCR on product label...</h3>
+            <p class="loading-text">Extracting text, parsing nutrition facts, ingredients and allergens. This may take a few seconds.</p>
+          </div>
+
+          <div class="hidden" id="labelResultsContent">
+            <!-- Product Header -->
+            <div class="label-product-header" id="labelProductHeader">
+              <div>
+                <span class="label-mini">Identified Product</span>
+                <h3 class="prediction-title" id="labelProductName">Unknown Product</h3>
+                <span class="label-mini" id="labelBrand" style="color: var(--text-secondary)"></span>
+              </div>
+              <div id="labelReadabilityBadge"></div>
+            </div>
+
+            <!-- Extraction Note / Warning -->
+            <div id="labelExtractionNote" class="quality-warning-card hidden">
+              <div class="warning-icon">&#9888;</div>
+              <div class="warning-text" id="labelExtractionNoteText"></div>
+            </div>
+
+            <!-- Serving Info -->
+            <div class="label-serving-row" id="labelServingRow">
+              <span class="label-mini">Serving / Basis</span>
+              <span class="label-serving-val" id="labelServingVal">Not available</span>
+            </div>
+
+            <!-- Nutrition Table -->
+            <div class="label-nutrition-section">
+              <div class="label-section-header">
+                <h4 class="subpanel-title">Nutrition Information</h4>
+                <span class="label-mini" id="labelNutritionBasis" style="color: var(--accent-cyan)"></span>
+              </div>
+              <table class="label-nutrition-table" id="labelNutritionTable">
+                <thead>
+                  <tr>
+                    <th>Nutrient</th>
+                    <th>Value (as declared)</th>
+                    <th>Unit</th>
+                    <th>Source</th>
+                  </tr>
+                </thead>
+                <tbody id="labelNutritionBody">
+                </tbody>
+              </table>
+            </div>
+
+            <!-- User Corrections Note -->
+            <div class="label-correction-note">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              Review the extracted values above. Click any value to correct it before confirming.
+            </div>
+
+            <!-- Ingredients -->
+            <div class="label-sub-section" id="labelIngredientsSection">
+              <h4 class="subpanel-title">Ingredients</h4>
+              <div class="label-ingredients-text" id="labelIngredientsTxt"></div>
+            </div>
+
+            <!-- Allergens -->
+            <div class="label-sub-section" id="labelAllergenSection">
+              <h4 class="subpanel-title">Allergen Information</h4>
+              <div id="labelAllergenContent"></div>
+            </div>
+
+            <!-- Missing Fields -->
+            <div class="label-sub-section" id="labelMissingSection">
+              <h4 class="subpanel-title" style="color: var(--accent-amber)">Fields Not Extracted</h4>
+              <div id="labelMissingList"></div>
+            </div>
+
+            <!-- Confirm & Score Button -->
+            <div class="label-confirm-row">
+              <button type="button" class="btn btn-primary" id="btnConfirmLabel" style="background: linear-gradient(135deg, #8b5cf6, #6d28d9); border: none">
+                Confirm &amp; Evaluate Nutrition Suitability
+              </button>
+            </div>
+
+            <!-- Health Evaluation Result (shown after confirm) -->
+            <div class="suitability-card hidden" id="labelHealthCard">
+              <div class="suitability-score-box">
+                <div class="score-circle" id="labelScoreCircle">
+                  <span class="score-number" id="labelScoreNum">--</span>
+                  <span class="score-max">/10</span>
+                </div>
+                <div class="score-details">
+                  <span class="label-mini">Packaged Product Suitability</span>
+                  <h3 class="verdict-title" id="labelVerdictText">--</h3>
+                  <span class="score-subtext" id="labelScoreProfile"></span>
+                </div>
+              </div>
+              <div class="alerts-container" id="labelAlertsContainer"></div>
+              <p class="label-health-disclaimer" id="labelHealthDisclaimer"></p>
+            </div>
+
+            <!-- OCR Disclaimer -->
+            <div class="label-ocr-disclaimer" id="labelOcrDisclaimer"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- =====================================================================
+       Phase 8: My Profile View
+       ===================================================================== -->
+  <section class="view-section" id="profileView">
+    <div class="hero-header">
+      <h2 class="hero-title">My <span class="gradient-text">Nutrition Profile</span></h2>
+      <p class="hero-subtitle">Create and manage your personal dietary profile. Your information personalises food suggestions, portion guidance, and breakfast recommendations.</p>
+    </div>
+
+    <div class="profile-view-grid">
+
+      <!-- ====== LEFT: Active Profile + Breakfast Suggestions ====== -->
+      <div class="profile-left-col">
+
+        <!-- Active profile summary card -->
+        <div class="scanner-card" id="activeProfileCard">
+          <div class="panel-header">
+            <h2 class="panel-title">Active Profile</h2>
+            <span class="badge badge-success" id="activeProfileBadge">None</span>
+          </div>
+          <div id="activeProfileContent">
+            <p class="empty-text" style="padding:20px 0">No profile active. Create one below to get personalised recommendations.</p>
+          </div>
+        </div>
+
+        <!-- Breakfast suggestion card -->
+        <div class="scanner-card hidden" id="breakfastCard">
+          <div class="panel-header">
+            <h2 class="panel-title">🌅 Morning Breakfast Suggestions</h2>
+            <span class="badge badge-info" id="breakfastRoutineBadge">Regular</span>
+          </div>
+          <div id="breakfastSuggestionsList"></div>
+          <p class="profile-disclaimer-text" style="margin-top:12px">Suggestions are educational lifestyle guidance, not medical advice.</p>
+        </div>
+
+        <!-- BMI card -->
+        <div class="scanner-card hidden" id="bmiCard">
+          <div class="panel-header">
+            <h2 class="panel-title">BMI Information</h2>
+          </div>
+          <div id="bmiContent"></div>
+        </div>
+
+        <!-- Saved profiles list -->
+        <div class="scanner-card" id="savedProfilesList">
+          <div class="panel-header">
+            <h2 class="panel-title">Saved Profiles</h2>
+            <span class="badge badge-outline" id="profileCountBadge">0 profiles</span>
+          </div>
+          <div id="profileListItems">
+            <p class="empty-text" style="padding:12px 0">No profiles saved yet.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ====== RIGHT: Create / Edit Profile Form ====== -->
+      <div class="profile-right-col">
+        <div class="scanner-card" id="profileFormCard">
+
+          <div class="panel-header">
+            <h2 class="panel-title" id="profileFormTitle">Create New Profile</h2>
+            <div style="display:flex;gap:8px">
+              <button type="button" class="btn btn-sm btn-secondary hidden" id="btnCancelEdit">Cancel</button>
+              <button type="button" class="btn btn-sm btn-secondary" id="btnResetForm">Reset</button>
+            </div>
+          </div>
+
+          <form id="userProfileForm" novalidate autocomplete="off">
+
+            <!-- Name -->
+            <div class="profile-form-group">
+              <label class="profile-form-label" for="pfDisplayName">Display Name <span class="required-star">*</span></label>
+              <input type="text" id="pfDisplayName" class="profile-form-input" placeholder="Your name (2–50 characters)" maxlength="50" required>
+            </div>
+
+            <!-- Demographics row -->
+            <div class="profile-form-row">
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfAge">Age</label>
+                <input type="number" id="pfAge" class="profile-form-input" placeholder="Years (1–120)" min="1" max="120">
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfGender">Gender</label>
+                <select id="pfGender" class="profile-form-select">
+                  <option value="">— Select —</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                  <option value="prefer_not_to_say">Prefer not to say</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Height / Weight -->
+            <div class="profile-form-row">
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfHeight">Height (cm)</label>
+                <input type="number" id="pfHeight" class="profile-form-input" placeholder="e.g. 165" min="50" max="250" step="0.1">
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfWeight">Weight (kg)</label>
+                <input type="number" id="pfWeight" class="profile-form-input" placeholder="e.g. 65" min="20" max="300" step="0.1">
+              </div>
+            </div>
+
+            <!-- Dietary Goal -->
+            <div class="profile-form-group">
+              <label class="profile-form-label" for="pfDietaryGoal">Dietary Goal</label>
+              <select id="pfDietaryGoal" class="profile-form-select">
+                <option value="general_wellness">General Wellness</option>
+                <option value="weight_loss">Weight Loss</option>
+                <option value="muscle_gain">Muscle Gain</option>
+                <option value="diabetes_management">Diabetes Management</option>
+                <option value="hypertension_management">Hypertension Management</option>
+                <option value="heart_health">Heart Health</option>
+                <option value="balanced_nutrition">Balanced Nutrition</option>
+              </select>
+            </div>
+
+            <!-- Activity Level -->
+            <div class="profile-form-group">
+              <label class="profile-form-label" for="pfActivity">Activity Level</label>
+              <select id="pfActivity" class="profile-form-select">
+                <option value="sedentary">Sedentary (desk job, minimal exercise)</option>
+                <option value="lightly_active">Lightly Active (light exercise 1–3 days/week)</option>
+                <option value="moderately_active">Moderately Active (exercise 3–5 days/week)</option>
+                <option value="very_active">Very Active (intense exercise 6–7 days/week)</option>
+                <option value="extremely_active">Extremely Active (very hard daily exercise)</option>
+              </select>
+            </div>
+
+            <!-- Dietary Preference -->
+            <div class="profile-form-group">
+              <label class="profile-form-label" for="pfDietPref">Food Preference</label>
+              <select id="pfDietPref" class="profile-form-select">
+                <option value="no_restriction">No Restriction</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="eggetarian">Eggetarian</option>
+                <option value="jain">Jain</option>
+                <option value="satvik">Satvik</option>
+                <option value="non_vegetarian">Non-Vegetarian</option>
+              </select>
+            </div>
+
+            <!-- Health Conditions -->
+            <div class="profile-form-group">
+              <label class="profile-form-label">Health Conditions <span class="profile-form-hint">(self-reported, select all that apply)</span></label>
+              <div class="profile-checkbox-grid" id="healthConditionsGroup">
+                <label class="profile-checkbox-label"><input type="checkbox" value="none" id="hcNone"> None</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="diabetes"> Type-2 Diabetes</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="hypertension"> Hypertension</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="high_cholesterol"> High Cholesterol</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="obesity"> Obesity</label>
+              </div>
+            </div>
+
+            <!-- Allergies -->
+            <div class="profile-form-group">
+              <label class="profile-form-label">Food Allergies / Intolerances</label>
+              <div class="profile-checkbox-grid">
+                <label class="profile-checkbox-label"><input type="checkbox" value="none" id="allergyNone"> None</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="gluten"> Gluten</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="dairy"> Dairy</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="nuts"> Nuts</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="soy"> Soy</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="seafood"> Seafood</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="eggs"> Eggs</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="sesame"> Sesame</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="mustard"> Mustard</label>
+              </div>
+            </div>
+
+            <!-- Morning Routine + Breakfast Pref -->
+            <div class="profile-form-row">
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfMorningRoutine">Morning Routine</label>
+                <select id="pfMorningRoutine" class="profile-form-select">
+                  <option value="regular">Regular (7–9 am)</option>
+                  <option value="early_bird">Early Bird (before 7 am)</option>
+                  <option value="late_riser">Late Riser (after 9 am)</option>
+                </select>
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfBudget">Daily Food Budget</label>
+                <select id="pfBudget" class="profile-form-select">
+                  <option value="medium">Medium</option>
+                  <option value="low">Low</option>
+                  <option value="high">High</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Breakfast Preference -->
+            <div class="profile-form-group">
+              <label class="profile-form-label">Breakfast Preference</label>
+              <div class="profile-checkbox-grid">
+                <label class="profile-checkbox-label"><input type="checkbox" value="no_preference" id="bpNoPreference"> No Preference</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="light"> Light</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="protein_rich"> Protein-Rich</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="traditional_indian"> Traditional Indian</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="quick"> Quick</label>
+                <label class="profile-checkbox-label"><input type="checkbox" value="cooked"> Cooked</label>
+              </div>
+            </div>
+
+            <!-- Cooking Time + Notes -->
+            <div class="profile-form-row">
+              <div class="profile-form-group">
+                <label class="profile-form-label" for="pfCookingTime">Max Cooking Time (min)</label>
+                <input type="number" id="pfCookingTime" class="profile-form-input" placeholder="e.g. 30 (5–180)" min="5" max="180">
+              </div>
+            </div>
+
+            <div class="profile-form-group">
+              <label class="profile-form-label" for="pfDietaryNotes">Dietary Notes <span class="profile-form-hint">(max 500 chars)</span></label>
+              <textarea id="pfDietaryNotes" class="profile-form-textarea" rows="3" placeholder="Any additional dietary considerations or preferences..." maxlength="500"></textarea>
+              <span class="profile-form-charcount" id="dietaryNotesCharCount">0 / 500</span>
+            </div>
+
+            <!-- Error display -->
+            <div class="profile-form-errors hidden" id="profileFormErrors"></div>
+
+            <!-- Submit -->
+            <div class="profile-form-actions">
+              <button type="submit" class="btn btn-primary" id="btnSaveProfile">Create Profile</button>
+            </div>
+          </form>
+
+          <!-- Medical Disclaimer -->
+          <div class="profile-disclaimer-box">
+            <span class="disclaimer-badge">Educational Use Only</span>
+            <p class="profile-disclaimer-text">Health conditions are self-reported for personalisation purposes. This information does not constitute medical advice. Consult a registered dietitian or qualified healthcare professional before making significant dietary changes.</p>
+          </div>
+
+        </div>
+      </div><!-- end profile-right-col -->
+
+    </div><!-- end profile-view-grid -->
+  </section>
+  <!-- end profileView -->
+
+  <!-- =====================================================================
+       Phase 9: AI Recommendations & Meal Planning View
+       ===================================================================== -->
+  <section class="view-section" id="recommendationsView">
+    <div class="hero-header">
+      <h2 class="hero-title">AI Recommendations & <span class="gradient-text">Precision Meal Planning</span></h2>
+      <p class="hero-subtitle">Evidence-based suitability scoring (0–100), personalized recipes, allergen-safe ingredient swaps, and automated daily/weekly meal schedules tailored to your profile.</p>
+    </div>
+
+    <!-- Sub-navigation Pills -->
+    <div class="recs-subnav-container">
+      <button class="recs-pill active" id="pillRecsRecipes" data-panel="panelRecsRecipes">🎯 Recipes</button>
+      <button class="recs-pill" id="pillRecsDaily" data-panel="panelRecsDaily">📅 Daily Plan</button>
+      <button class="recs-pill" id="pillRecsWeekly" data-panel="panelRecsWeekly">🗓️ Weekly Plan</button>
+      <button class="recs-pill" id="pillRecsAlts" data-panel="panelRecsAlts">🔄 Alternatives</button>
+      <button class="recs-pill" id="pillRecsSubs" data-panel="panelRecsSubs">🧂 Substitutions</button>
+      <button class="recs-pill" id="pillRecsFormula" data-panel="panelRecsFormula">ℹ️ Scoring Formula</button>
+    </div>
+
+    <!-- Active Profile Banner for Recommendations -->
+    <div class="recs-profile-banner" id="recsProfileBanner">
+      <div class="recs-profile-banner-left">
+        <span class="recs-profile-avatar">👤</span>
+        <div>
+          <strong id="recsActiveProfileName">Guest Profile</strong>
+          <span class="recs-profile-meta" id="recsActiveProfileMeta">Vegetarian · General Wellness · 2,000 kcal target</span>
+        </div>
+      </div>
+      <div class="recs-profile-banner-right">
+        <button class="btn btn-sm btn-secondary" id="btnSwitchProfileFromRecs">Change in Profile Tab</button>
+      </div>
+    </div>
+
+    <!-- 1. Recipes Panel -->
+    <div class="recs-panel active" id="panelRecsRecipes">
+      <div class="recs-filter-bar">
+        <div class="recs-filter-group">
+          <label for="recsFilterCourse">Course:</label>
+          <select id="recsFilterCourse" class="recs-select">
+            <option value="">All Courses</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="snack">Snack</option>
+          </select>
+        </div>
+        <div class="recs-filter-group">
+          <label for="recsFilterTime">Max Cooking Time:</label>
+          <select id="recsFilterTime" class="recs-select">
+            <option value="">Any Time</option>
+            <option value="20">Under 20 mins</option>
+            <option value="35">Under 35 mins</option>
+            <option value="50">Under 50 mins</option>
+          </select>
+        </div>
+        <button class="btn btn-primary btn-sm" id="btnApplyRecsFilters">Apply Filters</button>
+      </div>
+
+      <div class="recs-grid" id="recsRecipesGrid">
+        <p class="empty-text">Loading personalized recipe recommendations...</p>
+      </div>
+    </div>
+
+    <!-- 2. Daily Plan Panel -->
+    <div class="recs-panel" id="panelRecsDaily">
+      <div class="recs-plan-header">
+        <div>
+          <h3 class="panel-title">Today's Personalized Meal Schedule</h3>
+          <p class="recs-meta-text" id="dailyPlanMeta">Target: ~2,000 kcal across 4 balanced meals</p>
+        </div>
+        <button class="btn btn-secondary btn-sm" id="btnRefreshDailyPlan">Regenerate Plan</button>
+      </div>
+      <div class="recs-daily-grid" id="dailyPlanMealsGrid">
+        <p class="empty-text">Loading daily meal schedule...</p>
+      </div>
+    </div>
+
+    <!-- 3. Weekly Plan Panel -->
+    <div class="recs-panel" id="panelRecsWeekly">
+      <div class="recs-plan-header">
+        <div>
+          <h3 class="panel-title">7-Day Weekly Meal Schedule & Grocery Guide</h3>
+          <p class="recs-meta-text">Rotated for daily variety, safety adherence, and balanced nutrition</p>
+        </div>
+        <button class="btn btn-secondary btn-sm" id="btnRefreshWeeklyPlan">Regenerate 7-Day Plan</button>
+      </div>
+
+      <!-- Weekly Schedule Days -->
+      <div class="weekly-days-tabs" id="weeklyDaysTabs"></div>
+      <div class="weekly-day-content" id="weeklyDayContent"></div>
+
+      <!-- Consolidated Grocery Guide -->
+      <div class="scanner-card" style="margin-top:24px;">
+        <div class="panel-header">
+          <h3 class="panel-title">🛒 Consolidated Weekly Grocery List</h3>
+          <span class="badge badge-outline">Auto-aggregated</span>
+        </div>
+        <div class="grocery-grid" id="weeklyGroceryGrid"></div>
+      </div>
+    </div>
+
+    <!-- 4. Food Alternatives Panel -->
+    <div class="recs-panel" id="panelRecsAlts">
+      <div class="recs-search-row">
+        <input type="text" id="altFoodInput" class="recs-search-input" placeholder="Search dish e.g. samosa, jalebi, mutton curry, pakora, biryani..." value="samosa">
+        <button class="btn btn-primary btn-sm" id="btnSearchAlts">Find Healthy Swaps</button>
+      </div>
+      <div id="altsResultsContainer"></div>
+    </div>
+
+    <!-- 5. Substitutions Panel -->
+    <div class="recs-panel" id="panelRecsSubs">
+      <div class="recs-search-row">
+        <input type="text" id="subIngredientInput" class="recs-search-input" placeholder="Search ingredient to swap e.g. sugar, maida, heavy cream, paneer, butter, salt...">
+        <button class="btn btn-primary btn-sm" id="btnSearchSubs">Find Substitutions</button>
+      </div>
+      <div class="subs-grid" id="subsGridContainer"></div>
+    </div>
+
+    <!-- 6. Scoring Formula Panel -->
+    <div class="recs-panel" id="panelRecsFormula">
+      <div class="scanner-card">
+        <div class="panel-header">
+          <h3 class="panel-title">Transparent Suitability Scoring (0–100)</h3>
+          <span class="badge badge-info">Algorithm Weights</span>
+        </div>
+        <div class="formula-breakdown-box">
+          <div class="formula-eq">
+            $$\text{Suitability Score} = 0.30 \cdot S_{\text{Goal}} + 0.25 \cdot S_{\text{Balance}} + 0.20 \cdot S_{\text{Taste}} + 0.15 \cdot S_{\text{Time}} + 0.10 \cdot S_{\text{Budget}}$$
+          </div>
+          <div class="weights-list">
+            <div class="weight-row">
+              <span class="weight-pill">30%</span>
+              <strong>Goal Alignment:</strong> Satiety and caloric density for weight loss; amino acid / protein density for muscle gain; low glycemic load and fiber for diabetes; sodium mitigation for hypertension.
+            </div>
+            <div class="weight-row">
+              <span class="weight-pill">25%</span>
+              <strong>Macro & Micro Balance:</strong> Protein, complex fiber, and presence of micronutrients (calcium, iron, vitamin C, folate) with penalties for high saturated fat.
+            </div>
+            <div class="weight-row">
+              <span class="weight-pill">20%</span>
+              <strong>Content & Flavor Preference:</strong> TF-IDF vectorization and cosine similarity over 5,381 Indian and regional recipe ingredient tokens.
+            </div>
+            <div class="weight-row">
+              <span class="weight-pill">15%</span>
+              <strong>Time & Practical Feasibility:</strong> Prep and cooking time scored against user's available time constraints.
+            </div>
+            <div class="weight-row">
+              <span class="weight-pill">10%</span>
+              <strong>Economic Budget Fit:</strong> Everyday household staples versus luxury or specialty ingredients matching user budget level.
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-disclaimer-box" style="margin-top:20px;">
+          <span class="disclaimer-badge">Mandatory Safety Override Policy</span>
+          <p class="profile-disclaimer-text"><strong>Safety Filters Take Precedence:</strong> Any recipe with confirmed allergens (gluten, dairy, nuts, soy, seafood, eggs, sesame, mustard) or dietary violations (meat in vegetarian, animal products in vegan, root vegetables in Jain) is <strong>strictly disqualified (Score = 0)</strong> before any ranking occurs. A high nutritional score can never override an allergy or dietary filter.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mandatory Bottom Medical Disclaimer -->
+    <div class="profile-disclaimer-box" style="margin-top:28px;">
+      <span class="disclaimer-badge">Educational Lifestyle Guidance</span>
+      <p class="profile-disclaimer-text">All suitability scores, recipe suggestions, meal plans, and substitutions are algorithmic lifestyle suggestions for educational purposes only. They are not clinical diets or medical prescriptions. Consult a licensed physician or registered dietitian before making significant nutritional changes.</p>
+    </div>
+
+  </section>
+  <!-- end recommendationsView -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span class="footer-title">NutriSense AI</span> &mdash; Samsung Project Research Platform
+      </div>
+      <div class="footer-right">
+        <span>Powered by PyTorch MobileNetV2 & ICMR-NIN 2020 RDA Knowledge Base</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

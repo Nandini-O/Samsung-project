@@ -1,0 +1,290 @@
+{
+  "best_epoch": 4,
+  "architecture": "MobileNetV2",
+  "parameters": 2278955,
+  "test_metrics": {
+    "loss": 0.7221644846625807,
+    "top1_accuracy": 81.83391003460207,
+    "top5_accuracy": 95.58823529411765,
+    "macro_precision": 0.7954961981341225,
+    "macro_recall": 0.813901355195506,
+    "macro_f1": 0.7995573991505909,
+    "weighted_precision": 0.8267642557542986,
+    "weighted_recall": 0.8183391003460208,
+    "weighted_f1": 0.8185905849939492
+  },
+  "auxiliary_foodlens_accuracy": 65.66265060240963,
+  "per_class_metrics": {
+    "aloo_gobi": {
+      "precision": 0.6923076923076923,
+      "recall": 0.6,
+      "f1-score": 0.6428571428571429,
+      "support": 30.0
+    },
+    "aloo_masala": {
+      "precision": 0.5102040816326531,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.6329113924050633,
+      "support": 30.0
+    },
+    "bhindi_masala": {
+      "precision": 0.8309859154929577,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9007633587786259,
+      "support": 60.0
+    },
+    "biryani": {
+      "precision": 0.8181818181818182,
+      "recall": 0.9,
+      "f1-score": 0.8571428571428571,
+      "support": 60.0
+    },
+    "burger": {
+      "precision": 0.9387755102040817,
+      "recall": 1.0,
+      "f1-score": 0.968421052631579,
+      "support": 46.0
+    },
+    "butter_naan": {
+      "precision": 0.8780487804878049,
+      "recall": 0.7346938775510204,
+      "f1-score": 0.8,
+      "support": 49.0
+    },
+    "chai": {
+      "precision": 0.8777777777777778,
+      "recall": 0.9080459770114943,
+      "f1-score": 0.8926553672316384,
+      "support": 87.0
+    },
+    "chapati": {
+      "precision": 0.7837837837837838,
+      "recall": 0.6373626373626373,
+      "f1-score": 0.703030303030303,
+      "support": 91.0
+    },
+    "chicken_curry": {
+      "precision": 0.41935483870967744,
+      "recall": 0.43333333333333335,
+      "f1-score": 0.4262295081967213,
+      "support": 30.0
+    },
+    "chole": {
+      "precision": 0.7962962962962963,
+      "recall": 0.7166666666666667,
+      "f1-score": 0.7543859649122807,
+      "support": 60.0
+    },
+    "chole_bhature": {
+      "precision": 0.9619047619047619,
+      "recall": 0.8278688524590164,
+      "f1-score": 0.8898678414096917,
+      "support": 122.0
+    },
+    "coconut_chutney": {
+      "precision": 0.8064516129032258,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.819672131147541,
+      "support": 30.0
+    },
+    "dal_makhani": {
+      "precision": 0.803921568627451,
+      "recall": 0.7522935779816514,
+      "f1-score": 0.7772511848341233,
+      "support": 109.0
+    },
+    "dhokla": {
+      "precision": 0.9242424242424242,
+      "recall": 0.8356164383561644,
+      "f1-score": 0.8776978417266187,
+      "support": 73.0
+    },
+    "dum_aloo": {
+      "precision": 0.5652173913043478,
+      "recall": 0.43333333333333335,
+      "f1-score": 0.49056603773584906,
+      "support": 30.0
+    },
+    "fish_curry": {
+      "precision": 0.4878048780487805,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5633802816901409,
+      "support": 30.0
+    },
+    "fried_rice": {
+      "precision": 0.8771929824561403,
+      "recall": 0.9433962264150944,
+      "f1-score": 0.9090909090909091,
+      "support": 53.0
+    },
+    "ghevar": {
+      "precision": 0.7714285714285715,
+      "recall": 0.9,
+      "f1-score": 0.8307692307692308,
+      "support": 30.0
+    },
+    "green_chutney": {
+      "precision": 0.8484848484848485,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.8888888888888888,
+      "support": 30.0
+    },
+    "gulab_jamun": {
+      "precision": 0.9333333333333333,
+      "recall": 0.9767441860465116,
+      "f1-score": 0.9545454545454546,
+      "support": 43.0
+    },
+    "idli": {
+      "precision": 0.9191919191919192,
+      "recall": 0.8921568627450981,
+      "f1-score": 0.9054726368159204,
+      "support": 102.0
+    },
+    "jalebi": {
+      "precision": 0.9805825242718447,
+      "recall": 0.9711538461538461,
+      "f1-score": 0.9758454106280193,
+      "support": 104.0
+    },
+    "kaathi_rolls": {
+      "precision": 0.78,
+      "recall": 0.8863636363636364,
+      "f1-score": 0.8297872340425532,
+      "support": 44.0
+    },
+    "kadai_paneer": {
+      "precision": 0.5942028985507246,
+      "recall": 0.6507936507936508,
+      "f1-score": 0.6212121212121212,
+      "support": 63.0
+    },
+    "kebab": {
+      "precision": 0.8928571428571429,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8620689655172413,
+      "support": 30.0
+    },
+    "kheer": {
+      "precision": 0.8064516129032258,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.819672131147541,
+      "support": 30.0
+    },
+    "kulfi": {
+      "precision": 0.8703703703703703,
+      "recall": 0.7230769230769231,
+      "f1-score": 0.7899159663865546,
+      "support": 65.0
+    },
+    "lassi": {
+      "precision": 0.7368421052631579,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.8235294117647058,
+      "support": 30.0
+    },
+    "masala_dosa": {
+      "precision": 0.8076923076923077,
+      "recall": 0.8289473684210527,
+      "f1-score": 0.8181818181818182,
+      "support": 76.0
+    },
+    "modak": {
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1-score": 0.9629629629629629,
+      "support": 26.0
+    },
+    "momos": {
+      "precision": 0.94,
+      "recall": 0.94,
+      "f1-score": 0.94,
+      "support": 50.0
+    },
+    "mutton_curry": {
+      "precision": 0.6111111111111112,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.6666666666666666,
+      "support": 30.0
+    },
+    "paani_puri": {
+      "precision": 0.6071428571428571,
+      "recall": 0.8947368421052632,
+      "f1-score": 0.723404255319149,
+      "support": 19.0
+    },
+    "pakode": {
+      "precision": 0.8363636363636363,
+      "recall": 0.647887323943662,
+      "f1-score": 0.7301587301587301,
+      "support": 71.0
+    },
+    "palak_paneer": {
+      "precision": 0.9344262295081968,
+      "recall": 0.95,
+      "f1-score": 0.9421487603305785,
+      "support": 60.0
+    },
+    "pav_bhaji": {
+      "precision": 0.8636363636363636,
+      "recall": 0.7307692307692307,
+      "f1-score": 0.7916666666666666,
+      "support": 52.0
+    },
+    "pizza": {
+      "precision": 0.8461538461538461,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.8461538461538461,
+      "support": 39.0
+    },
+    "poha": {
+      "precision": 0.8888888888888888,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9105691056910569,
+      "support": 60.0
+    },
+    "rajma_curry": {
+      "precision": 0.5555555555555556,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.6666666666666666,
+      "support": 30.0
+    },
+    "ras_malai": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 30.0
+    },
+    "samosa": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8863636363636364,
+      "f1-score": 0.8715083798882681,
+      "support": 88.0
+    },
+    "shahi_paneer": {
+      "precision": 0.6862745098039216,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.6306306306306306,
+      "support": 60.0
+    },
+    "white_rice": {
+      "precision": 0.9038461538461539,
+      "recall": 0.7833333333333333,
+      "f1-score": 0.8392857142857143,
+      "support": 60.0
+    },
+    "accuracy": 0.8183391003460208,
+    "macro avg": {
+      "precision": 0.7954961981341225,
+      "recall": 0.813901355195506,
+      "f1-score": 0.7995573991505909,
+      "support": 2312.0
+    },
+    "weighted avg": {
+      "precision": 0.8267642557542986,
+      "recall": 0.8183391003460208,
+      "f1-score": 0.8185905849939492,
+      "support": 2312.0
+    }
+  }
+}

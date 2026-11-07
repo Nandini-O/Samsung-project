@@ -1,0 +1,588 @@
+food_name,category,calories_kcal,protein_g,carbs_g,fat_g,fibre_g,sugars_g,sodium_mg,cholesterol_mg,meal_type,water_ml,food_name_raw,source_file,serving_reference
+scrambled eggs (2 large),Protein/Dairy,180,12.0,2.0,14.0,0.0,1.0,180,370,Breakfast,250,Scrambled Eggs (2 large),daily_food_nutrition_dataset.csv,per_serving
+whole wheat toast (1 slice),Grain,80,4.0,14.0,1.0,2.0,2.0,140,0,Breakfast,0,Whole Wheat Toast (1 slice),daily_food_nutrition_dataset.csv,per_serving
+coffee (black),Beverage,5,0.3,0.0,0.1,0.0,0.0,5,0,Breakfast,0,Coffee (black),daily_food_nutrition_dataset.csv,per_serving
+banana,Fruit,105,1.3,27.0,0.4,3.1,14.0,1,0,Breakfast,0,Banana,daily_food_nutrition_dataset.csv,per_serving
+grilled chicken salad,Meal/Protein,350,30.0,10.0,20.0,5.0,4.0,400,80,Lunch,500,Grilled Chicken Salad,daily_food_nutrition_dataset.csv,per_serving
+apple,Fruit,95,0.5,25.0,0.3,4.4,19.0,2,0,Snack,0,Apple,daily_food_nutrition_dataset.csv,per_serving
+salmon (4oz grilled),Protein/Fish,230,25.0,0.0,14.0,0.0,0.0,60,60,Dinner,250,Salmon (4oz grilled),daily_food_nutrition_dataset.csv,per_serving
+quinoa (1 cup cooked),Grain,222,8.0,39.0,3.6,5.0,1.0,13,0,Dinner,0,Quinoa (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+steamed broccoli (1 cup),Vegetable,55,3.7,11.2,0.6,5.1,2.0,40,0,Dinner,0,Steamed Broccoli (1 cup),daily_food_nutrition_dataset.csv,per_serving
+greek yogurt (plain 1 cup),Dairy,150,25.0,8.0,3.0,0.0,7.0,85,10,Snack,250,Greek Yogurt (plain 1 cup),daily_food_nutrition_dataset.csv,per_serving
+oatmeal (1 cup cooked),Grain,160,6.0,28.0,3.0,4.0,1.0,2,0,Breakfast,250,Oatmeal (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+blueberries (1/2 cup),Fruit,42,0.5,11.0,0.2,1.8,7.0,1,0,Breakfast,0,Blueberries (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+almonds (1 oz),Nut,164,6.0,6.0,14.0,3.5,1.0,1,0,Snack,0,Almonds (1 oz),daily_food_nutrition_dataset.csv,per_serving
+turkey sandwich (on wheat),Meal/Processed,340,22.0,34.0,12.0,5.0,6.0,850,50,Lunch,500,Turkey Sandwich (on wheat),daily_food_nutrition_dataset.csv,per_serving
+carrot sticks (1 cup),Vegetable,52,1.2,12.3,0.3,3.6,6.0,88,0,Snack,0,Carrot Sticks (1 cup),daily_food_nutrition_dataset.csv,per_serving
+spaghetti bolognese,Meal/Pasta,460,20.0,55.0,18.0,6.0,10.0,700,50,Dinner,250,Spaghetti Bolognese,daily_food_nutrition_dataset.csv,per_serving
+side salad (light dressing),Vegetable,70,2.0,8.0,4.0,3.0,3.0,150,0,Dinner,0,Side Salad (light dressing),daily_food_nutrition_dataset.csv,per_serving
+protein shake (whey),Supplement,120,24.0,3.0,1.0,1.0,2.0,160,5,Snack,500,Protein Shake (Whey),daily_food_nutrition_dataset.csv,per_serving
+cereal (frosted flakes 1 cup),Grain/Processed,130,2.0,31.0,0.0,1.0,11.0,190,0,Breakfast,0,Cereal (Frosted Flakes 1 cup),daily_food_nutrition_dataset.csv,per_serving
+lentil soup (1 can),Meal/Legume,230,15.0,35.0,3.0,12.0,6.0,650,0,Lunch,250,Lentil Soup (1 can),daily_food_nutrition_dataset.csv,per_serving
+white rice (1 cup cooked),Grain,204,4.2,44.5,0.4,0.6,0.1,2,0,Dinner,0,White Rice (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+tofu stir-fry,Meal/Vegetarian,400,18.0,30.0,22.0,7.0,9.0,500,0,Dinner,250,Tofu Stir-fry,daily_food_nutrition_dataset.csv,per_serving
+orange,Fruit,62,1.2,15.4,0.2,3.1,12.0,0,0,Snack,0,Orange,daily_food_nutrition_dataset.csv,per_serving
+bagel (plain),Grain,270,11.0,55.0,1.5,2.0,5.0,430,0,Breakfast,250,Bagel (plain),daily_food_nutrition_dataset.csv,per_serving
+cream cheese (2 tbsp),Dairy,100,2.0,2.0,10.0,0.0,1.0,90,30,Breakfast,0,Cream Cheese (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+tuna salad (1/2 cup),Meal/Fish,190,19.0,2.0,12.0,1.0,1.0,400,30,Lunch,500,Tuna Salad (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+crackers (5 whole wheat),Grain/Processed,90,2.0,14.0,3.0,2.0,0.0,180,0,Lunch,0,Crackers (5 whole wheat),daily_food_nutrition_dataset.csv,per_serving
+beef steak (6oz sirloin),Protein/Meat,270,42.0,0.0,10.0,0.0,0.0,90,115,Dinner,250,Beef Steak (6oz sirloin),daily_food_nutrition_dataset.csv,per_serving
+baked potato (medium),Vegetable,160,4.3,36.0,0.2,3.8,1.0,17,0,Dinner,0,Baked Potato (medium),daily_food_nutrition_dataset.csv,per_serving
+ice cream (1/2 cup vanilla),Dairy/Dessert,145,2.5,17.0,7.5,0.5,16.0,55,30,Snack,0,Ice Cream (1/2 cup vanilla),daily_food_nutrition_dataset.csv,per_serving
+pizza (1 slice pepperoni),Meal/Processed,290,12.0,34.0,12.0,2.0,4.0,720,35,Dinner,250,Pizza (1 slice pepperoni),daily_food_nutrition_dataset.csv,per_serving
+avocado toast (1 slice),Meal/Vegetarian,260,7.0,28.0,15.0,10.0,1.0,350,0,Breakfast,500,Avocado Toast (1 slice),daily_food_nutrition_dataset.csv,per_serving
+hard-boiled egg (1 large),Protein,78,6.3,0.6,5.3,0.0,0.5,62,187,Snack,0,Hard-Boiled Egg (1 large),daily_food_nutrition_dataset.csv,per_serving
+chicken wrap (with tortilla),Meal/Processed,410,25.0,38.0,17.0,5.0,3.0,780,60,Lunch,250,Chicken Wrap (with tortilla),daily_food_nutrition_dataset.csv,per_serving
+grapes (1 cup),Fruit,104,1.1,27.0,0.2,1.4,23.0,3,0,Snack,0,Grapes (1 cup),daily_food_nutrition_dataset.csv,per_serving
+cottage cheese (1/2 cup),Dairy,90,12.0,5.0,3.0,0.0,4.0,400,10,Snack,0,Cottage Cheese (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+burger (cheeseburger),Meal/Processed,550,30.0,40.0,30.0,3.0,7.0,1100,90,Dinner,500,Burger (cheeseburger),daily_food_nutrition_dataset.csv,per_serving
+french fries (medium),Vegetable/Processed,340,4.0,44.0,17.0,4.0,0.3,230,0,Dinner,0,French Fries (medium),daily_food_nutrition_dataset.csv,per_serving
+protein bar,Supplement/Processed,210,20.0,22.0,7.0,6.0,1.0,180,5,Snack,500,Protein Bar,daily_food_nutrition_dataset.csv,per_serving
+black beans (1/2 cup),Legume,114,7.6,20.4,0.5,7.5,0.3,1,0,Lunch,0,Black Beans (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+salsa (1/4 cup),Vegetable,20,0.8,4.5,0.1,1.0,3.0,250,0,Lunch,0,Salsa (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+chicken noodle soup (1 can),Meal/Processed,150,7.0,18.0,5.0,2.0,2.0,890,15,Lunch,250,Chicken Noodle Soup (1 can),daily_food_nutrition_dataset.csv,per_serving
+peanut butter (2 tbsp),Nut,190,7.0,8.0,16.0,2.0,3.0,140,0,Snack,0,Peanut Butter (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+celery sticks (1 cup),Vegetable,14,0.6,3.0,0.2,1.4,1.2,77,0,Snack,0,Celery Sticks (1 cup),daily_food_nutrition_dataset.csv,per_serving
+cod (4oz baked),Protein/Fish,95,20.0,0.0,0.8,0.0,0.0,95,55,Dinner,250,Cod (4oz baked),daily_food_nutrition_dataset.csv,per_serving
+green beans (1 cup),Vegetable,31,1.8,7.0,0.2,2.7,3.3,6,0,Dinner,0,Green Beans (1 cup),daily_food_nutrition_dataset.csv,per_serving
+chocolate chip cookie (1 large),Dessert,220,2.5,30.0,11.0,1.5,19.0,160,20,Snack,0,Chocolate Chip Cookie (1 large),daily_food_nutrition_dataset.csv,per_serving
+shrimp (3oz steamed),Protein/Fish,84,20.0,0.2,0.2,0.0,0.0,100,161,Dinner,250,Shrimp (3oz steamed),daily_food_nutrition_dataset.csv,per_serving
+pancakes (2 medium),Grain,180,5.0,30.0,5.0,1.0,6.0,450,25,Breakfast,0,Pancakes (2 medium),daily_food_nutrition_dataset.csv,per_serving
+maple syrup (2 tbsp),Condiment,104,0.0,27.0,0.0,0.0,24.0,2,0,Breakfast,0,Maple Syrup (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+sausage link (1 cooked),Protein/Meat,85,5.0,1.0,7.0,0.0,0.5,300,20,Breakfast,0,Sausage Link (1 cooked),daily_food_nutrition_dataset.csv,per_serving
+smoothie (fruit  yogurt),Beverage/Meal,280,12.0,55.0,3.0,7.0,40.0,70,5,Breakfast,250,Smoothie (Fruit & Yogurt),daily_food_nutrition_dataset.csv,per_serving
+tofu (4oz firm),Protein/Vegetarian,90,10.0,3.0,5.0,2.0,1.0,10,0,Lunch,0,Tofu (4oz firm),daily_food_nutrition_dataset.csv,per_serving
+brown rice (1 cup cooked),Grain,215,5.0,45.0,1.8,3.5,0.4,10,0,Lunch,0,Brown Rice (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+bell pepper (1 medium red),Vegetable,31,1.2,6.0,0.3,2.1,4.2,4,0,Lunch,0,Bell Pepper (1 medium red),daily_food_nutrition_dataset.csv,per_serving
+hummus (2 tbsp),Legume,70,2.0,4.0,5.0,2.0,0.0,130,0,Snack,0,Hummus (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+pita bread (1 whole wheat),Grain,170,6.0,35.0,1.5,5.0,2.0,320,0,Snack,0,Pita Bread (1 whole wheat),daily_food_nutrition_dataset.csv,per_serving
+pork chop (4oz grilled),Protein/Meat,220,30.0,0.0,10.0,0.0,0.0,70,85,Dinner,250,Pork Chop (4oz grilled),daily_food_nutrition_dataset.csv,per_serving
+mashed potatoes (1 cup),Vegetable,230,4.0,35.0,8.0,3.0,2.0,350,15,Dinner,0,Mashed Potatoes (1 cup),daily_food_nutrition_dataset.csv,per_serving
+corn (1 cup),Vegetable,132,4.7,30.0,1.8,3.6,8.9,2,0,Dinner,0,Corn (1 cup),daily_food_nutrition_dataset.csv,per_serving
+soda (1 can coke),Beverage,140,0.0,39.0,0.0,0.0,39.0,45,0,Snack,355,Soda (1 can Coke),daily_food_nutrition_dataset.csv,per_serving
+pretzels (1 oz),Grain/Processed,110,3.0,23.0,1.0,1.0,1.0,450,0,Snack,0,Pretzels (1 oz),daily_food_nutrition_dataset.csv,per_serving
+cheddar cheese (1 oz),Dairy,115,7.0,1.0,9.5,0.0,0.5,180,30,Snack,0,Cheddar Cheese (1 oz),daily_food_nutrition_dataset.csv,per_serving
+caesar salad (with chicken),Meal/Protein,470,30.0,15.0,30.0,3.0,3.0,890,75,Lunch,250,Caesar Salad (with chicken),daily_food_nutrition_dataset.csv,per_serving
+orange juice (1 cup),Beverage,112,1.7,25.8,0.5,0.7,20.8,2,0,Breakfast,240,Orange Juice (1 cup),daily_food_nutrition_dataset.csv,per_serving
+bacon (2 slices cooked),Protein/Meat,86,6.0,0.2,6.8,0.0,0.1,330,18,Breakfast,0,Bacon (2 slices cooked),daily_food_nutrition_dataset.csv,per_serving
+waffles (2 homemade),Grain,220,6.0,28.0,9.0,1.5,3.0,420,45,Breakfast,0,Waffles (2 homemade),daily_food_nutrition_dataset.csv,per_serving
+pear,Fruit,101,0.6,27.0,0.2,5.5,16.0,2,0,Snack,0,Pear,daily_food_nutrition_dataset.csv,per_serving
+chicken breast (4oz roasted),Protein/Meat,185,35.0,0.0,4.0,0.0,0.0,80,95,Lunch,500,Chicken Breast (4oz roasted),daily_food_nutrition_dataset.csv,per_serving
+mixed nuts (1/4 cup),Nut,200,6.0,8.0,18.0,3.0,2.0,1,0,Snack,0,Mixed Nuts (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+tilapia (4oz baked),Protein/Fish,110,22.0,0.0,2.5,0.0,0.0,50,50,Dinner,0,Tilapia (4oz baked),daily_food_nutrition_dataset.csv,per_serving
+asparagus (1 cup steamed),Vegetable,40,4.3,7.4,0.4,3.6,3.5,4,0,Dinner,0,Asparagus (1 cup steamed),daily_food_nutrition_dataset.csv,per_serving
+sweet potato (1 medium baked),Vegetable,103,2.3,23.6,0.2,3.8,7.4,41,0,Dinner,0,Sweet Potato (1 medium baked),daily_food_nutrition_dataset.csv,per_serving
+popcorn (3 cups air-popped),Grain,93,3.0,18.6,1.1,3.6,0.1,2,0,Snack,250,Popcorn (3 cups air-popped),daily_food_nutrition_dataset.csv,per_serving
+raisins (1/4 cup),Fruit,130,1.3,34.0,0.2,1.6,25.0,5,0,Snack,0,Raisins (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+macaroni  cheese (1 cup),Meal/Pasta,350,10.0,40.0,17.0,2.0,5.0,750,40,Lunch,250,Macaroni & Cheese (1 cup),daily_food_nutrition_dataset.csv,per_serving
+tomato soup (1 can),Meal/Vegetable,170,4.0,25.0,6.0,4.0,15.0,900,10,Lunch,0,Tomato Soup (1 can),daily_food_nutrition_dataset.csv,per_serving
+grilled cheese sandwich,Meal/Processed,390,15.0,32.0,22.0,3.0,4.0,800,60,Lunch,0,Grilled Cheese Sandwich,daily_food_nutrition_dataset.csv,per_serving
+beef tacos (2 hard shell),Meal/Meat,380,18.0,28.0,22.0,5.0,3.0,600,50,Dinner,500,Beef Tacos (2 hard shell),daily_food_nutrition_dataset.csv,per_serving
+refried beans (1/2 cup),Legume,115,7.0,19.0,1.0,6.0,1.0,480,0,Dinner,0,Refried Beans (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+guacamole (1/4 cup),Vegetable/Condiment,90,1.0,4.0,8.0,3.0,0.5,120,0,Dinner,0,Guacamole (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+watermelon (1 cup diced),Fruit,46,0.9,11.5,0.2,0.6,9.4,2,0,Snack,0,Watermelon (1 cup diced),daily_food_nutrition_dataset.csv,per_serving
+english muffin (whole wheat),Grain,134,6.0,26.0,1.0,4.4,1.0,210,0,Breakfast,250,English Muffin (whole wheat),daily_food_nutrition_dataset.csv,per_serving
+peanut butter  jelly sandwich,Meal/Processed,390,12.0,50.0,17.0,5.0,20.0,450,0,Lunch,250,Peanut Butter & Jelly Sandwich,daily_food_nutrition_dataset.csv,per_serving
+clam chowder (1 cup),Meal/Seafood,200,10.0,18.0,9.0,1.0,2.0,870,30,Lunch,0,Clam Chowder (1 cup),daily_food_nutrition_dataset.csv,per_serving
+iced tea (sweetened 16oz),Beverage,180,0.0,46.0,0.0,0.0,46.0,15,0,Snack,500,Iced Tea (Sweetened 16oz),daily_food_nutrition_dataset.csv,per_serving
+lasagna (1 serving meat),Meal/Pasta,350,20.0,30.0,17.0,4.0,7.0,850,55,Dinner,250,Lasagna (1 serving meat),daily_food_nutrition_dataset.csv,per_serving
+garlic bread (1 slice),Grain,150,4.0,18.0,7.0,1.0,1.0,310,0,Dinner,0,Garlic Bread (1 slice),daily_food_nutrition_dataset.csv,per_serving
+chocolate milk (1 cup),Beverage/Dairy,200,8.0,26.0,8.0,1.0,24.0,160,30,Snack,0,Chocolate Milk (1 cup),daily_food_nutrition_dataset.csv,per_serving
+white bread (1 slice),Grain,70,2.0,13.0,1.0,0.6,1.2,140,0,Breakfast,0,White Bread (1 slice),daily_food_nutrition_dataset.csv,per_serving
+jelly (1 tbsp grape),Condiment,50,0.0,13.0,0.0,0.1,12.0,5,0,Breakfast,0,Jelly (1 tbsp grape),daily_food_nutrition_dataset.csv,per_serving
+veggie burger (1 patty),Protein/Vegetarian,120,11.0,10.0,4.0,5.0,1.0,350,0,Lunch,250,Veggie Burger (1 patty),daily_food_nutrition_dataset.csv,per_serving
+bun (hamburger),Grain,140,4.0,26.0,2.0,1.0,4.0,260,0,Lunch,0,Bun (hamburger),daily_food_nutrition_dataset.csv,per_serving
+ketchup (1 tbsp),Condiment,20,0.2,5.0,0.1,0.2,4.0,160,0,Lunch,0,Ketchup (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+muffin (blueberry 1 large),Grain/Dessert,380,5.0,55.0,16.0,2.0,30.0,350,50,Breakfast,250,Muffin (Blueberry 1 large),daily_food_nutrition_dataset.csv,per_serving
+coffee (with cream/sugar),Beverage,50,0.5,5.0,3.0,0.0,4.5,10,10,Breakfast,250,Coffee (with cream/sugar),daily_food_nutrition_dataset.csv,per_serving
+potato chips (1 oz),Snack/Processed,160,2.0,15.0,10.0,1.0,0.5,170,0,Snack,0,Potato Chips (1 oz),daily_food_nutrition_dataset.csv,per_serving
+tzatziki sauce (2 tbsp),Condiment/Dairy,30,1.5,2.0,2.0,0.0,1.5,100,5,Dinner,0,Tzatziki Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+scallops (3oz seared),Protein/Seafood,95,17.0,5.0,1.0,0.0,0.0,180,35,Dinner,0,Scallops (3oz seared),daily_food_nutrition_dataset.csv,per_serving
+risotto (mushroom 1 cup),Meal/Grain,250,7.0,35.0,9.0,3.0,3.0,600,20,Dinner,0,Risotto (Mushroom 1 cup),daily_food_nutrition_dataset.csv,per_serving
+caprese salad,Meal/Vegetable,240,10.0,8.0,18.0,2.0,5.0,350,40,Lunch,250,Caprese Salad,daily_food_nutrition_dataset.csv,per_serving
+balsamic vinaigrette (2 tbsp),Condiment,90,0.0,3.0,9.0,0.0,2.5,300,0,Lunch,0,Balsamic Vinaigrette (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+cherries (1 cup),Fruit,77,1.6,19.0,0.5,2.5,15.0,0,0,Snack,0,Cherries (1 cup),daily_food_nutrition_dataset.csv,per_serving
+turkey bacon (2 slices),Protein/Meat,70,6.0,1.0,5.0,0.0,0.5,360,30,Breakfast,0,Turkey Bacon (2 slices),daily_food_nutrition_dataset.csv,per_serving
+grits (1 cup cooked),Grain,150,3.0,32.0,1.0,2.0,0.5,320,0,Breakfast,0,Grits (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+butter (1 tbsp),Condiment/Dairy,100,0.1,0.0,11.0,0.0,0.0,82,30,Breakfast,0,Butter (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+meatball sub (6 inch),Meal/Processed,580,28.0,55.0,27.0,6.0,10.0,1200,70,Lunch,500,Meatball Sub (6 inch),daily_food_nutrition_dataset.csv,per_serving
+kiwifruit (1 medium),Fruit,46,0.9,11.1,0.4,2.3,6.7,2,0,Snack,0,Kiwifruit (1 medium),daily_food_nutrition_dataset.csv,per_serving
+beef jerky (1 oz),Snack/Processed,116,9.4,3.1,7.2,0.5,2.5,590,30,Snack,0,Beef Jerky (1 oz),daily_food_nutrition_dataset.csv,per_serving
+figs (2 medium),Fruit,74,0.6,19.2,0.3,2.9,16.2,2,0,Snack,0,Figs (2 medium),daily_food_nutrition_dataset.csv,per_serving
+lobster (3oz steamed),Protein/Seafood,76,16.0,0.0,0.7,0.0,0.0,250,125,Dinner,250,Lobster (3oz steamed),daily_food_nutrition_dataset.csv,per_serving
+melted butter (for lobster),Condiment,200,0.2,0.0,22.0,0.0,0.0,164,60,Dinner,0,Melted Butter (for lobster),daily_food_nutrition_dataset.csv,per_serving
+corn on the cob (1 large),Vegetable,125,5.0,29.0,1.5,3.0,5.0,2,0,Dinner,0,Corn on the Cob (1 large),daily_food_nutrition_dataset.csv,per_serving
+vegetable soup (1 can),Meal/Vegetable,140,4.0,22.0,4.0,6.0,8.0,780,5,Lunch,250,Vegetable Soup (1 can),daily_food_nutrition_dataset.csv,per_serving
+saltine crackers (5 crackers),Grain/Processed,60,1.0,10.0,1.5,0.5,0.0,140,0,Lunch,0,Saltine Crackers (5 crackers),daily_food_nutrition_dataset.csv,per_serving
+mango (1 cup slices),Fruit,99,1.4,24.7,0.6,2.6,22.5,2,0,Snack,0,Mango (1 cup slices),daily_food_nutrition_dataset.csv,per_serving
+cheesecake (1 slice),Dessert,320,5.0,28.0,21.0,1.0,20.0,280,65,Snack,250,Cheesecake (1 slice),daily_food_nutrition_dataset.csv,per_serving
+pad thai (chicken 15 cups),Meal/Pasta,550,25.0,60.0,22.0,5.0,10.0,950,70,Dinner,500,Pad Thai (Chicken 1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+spring roll (veg 2 rolls),Snack/Processed,180,4.0,25.0,7.0,3.0,3.0,450,0,Dinner,0,Spring Roll (Veg 2 rolls),daily_food_nutrition_dataset.csv,per_serving
+coconut water (1 cup),Beverage,46,1.7,8.9,0.5,2.6,6.3,252,0,Snack,240,Coconut Water (1 cup),daily_food_nutrition_dataset.csv,per_serving
+kimchi (1/2 cup),Vegetable,22,1.7,4.0,0.4,2.4,1.5,750,0,Side,0,Kimchi (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+sashimi (salmon 3 pcs),Protein/Fish,120,18.0,0.0,5.0,0.0,0.0,45,40,Lunch,0,Sashimi (Salmon 3 pcs),daily_food_nutrition_dataset.csv,per_serving
+wasabi (1 tsp),Condiment,10,0.1,2.2,0.1,0.3,1.0,40,0,Lunch,0,Wasabi (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+seaweed salad (1/2 cup),Vegetable,60,2.0,8.0,3.0,2.0,4.0,350,0,Lunch,0,Seaweed Salad (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+french onion soup (1 cup),Meal,150,6.0,15.0,7.0,2.0,5.0,800,20,Lunch,250,French Onion Soup (1 cup),daily_food_nutrition_dataset.csv,per_serving
+croutons (1/4 cup),Grain,50,1.5,7.0,2.0,0.5,0.5,140,0,Lunch,0,Croutons (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+shepherds pie (1 serving),Meal/Meat,400,20.0,35.0,20.0,6.0,7.0,850,55,Dinner,250,Shepherd's Pie (1 serving),daily_food_nutrition_dataset.csv,per_serving
+green peas (1/2 cup),Legume,62,4.1,11.1,0.2,4.4,4.2,2,0,Dinner,0,Green Peas (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+apple pie (1 slice),Dessert,410,3.0,58.0,19.0,3.0,25.0,320,0,Snack,0,Apple Pie (1 slice),daily_food_nutrition_dataset.csv,per_serving
+gin  tonic (1 drink),Beverage,170,0.0,13.0,0.0,0.0,13.0,2,0,Snack,180,Gin & Tonic (1 drink),daily_food_nutrition_dataset.csv,per_serving
+red wine (5 oz glass),Beverage,125,0.1,3.8,0.0,0.0,0.9,6,0,Dinner,0,Red Wine (5 oz glass),daily_food_nutrition_dataset.csv,per_serving
+halibut (4oz baked),Protein/Fish,125,24.0,0.0,2.5,0.0,0.0,60,40,Dinner,250,Halibut (4oz baked),daily_food_nutrition_dataset.csv,per_serving
+quinoa salad (1 cup),Meal/Vegetarian,260,9.0,32.0,12.0,6.0,4.0,300,0,Lunch,250,Quinoa Salad (1 cup),daily_food_nutrition_dataset.csv,per_serving
+lemonade (1 cup),Beverage,99,0.1,26.0,0.0,0.1,25.0,30,0,Snack,240,Lemonade (1 cup),daily_food_nutrition_dataset.csv,per_serving
+pistachios (1 oz shelled),Nut,159,5.7,7.7,12.8,3.0,2.2,2,0,Snack,0,Pistachios (1 oz shelled),daily_food_nutrition_dataset.csv,per_serving
+oat milk (1 cup),Beverage/Dairy-Alt,120,3.0,16.0,5.0,2.0,7.0,100,0,Breakfast,0,Oat Milk (1 cup),daily_food_nutrition_dataset.csv,per_serving
+biscuits and gravy (1 serving),Meal/Processed,480,10.0,45.0,28.0,2.0,3.0,1100,35,Breakfast,250,Biscuits and Gravy (1 serving),daily_food_nutrition_dataset.csv,per_serving
+avocado (1/2 fruit),Fruit,160,2.0,8.5,14.7,6.7,0.7,7,0,Breakfast,0,Avocado (1/2 fruit),daily_food_nutrition_dataset.csv,per_serving
+corn flakes (1 cup),Grain,100,2.0,24.0,0.0,1.0,3.0,200,0,Breakfast,0,Corn Flakes (1 cup),daily_food_nutrition_dataset.csv,per_serving
+t-bone steak (6oz),Protein/Meat,460,38.0,0.0,33.0,0.0,0.0,110,105,Dinner,0,T-Bone Steak (6oz),daily_food_nutrition_dataset.csv,per_serving
+creamed spinach (1/2 cup),Vegetable,190,5.0,8.0,16.0,3.0,2.0,450,50,Dinner,0,Creamed Spinach (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+pecans (1 oz),Nut,196,2.6,3.9,20.4,2.7,1.1,0,0,Snack,0,Pecans (1 oz),daily_food_nutrition_dataset.csv,per_serving
+fruit cocktail (canned 1 cup),Fruit,110,1.0,28.0,0.0,2.0,26.0,10,0,Snack,0,Fruit Cocktail (canned 1 cup),daily_food_nutrition_dataset.csv,per_serving
+ramen (instant 1 pack),Meal/Processed,380,9.0,53.0,14.0,2.0,2.0,1580,0,Lunch,500,Ramen (Instant 1 pack),daily_food_nutrition_dataset.csv,per_serving
+mocha latte (16oz),Beverage,360,12.0,48.0,15.0,2.0,42.0,150,45,Snack,473,Mocha Latte (16oz),daily_food_nutrition_dataset.csv,per_serving
+cucumber slices (1 cup),Vegetable,16,0.7,3.6,0.1,0.5,1.7,2,0,Snack,0,Cucumber Slices (1 cup),daily_food_nutrition_dataset.csv,per_serving
+feta cheese (1 oz),Dairy,75,4.0,1.2,6.1,0.0,0.7,316,25,Lunch,0,Feta Cheese (1 oz),daily_food_nutrition_dataset.csv,per_serving
+olives (kalamata 5 large),Fruit,35,0.2,1.0,3.5,0.5,0.0,210,0,Lunch,0,Olives (Kalamata 5 large),daily_food_nutrition_dataset.csv,per_serving
+chicken alfredo (15 cups),Meal/Pasta,680,35.0,45.0,38.0,4.0,5.0,980,120,Dinner,250,Chicken Alfredo (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+breadstick (1 large),Grain,160,4.0,28.0,3.0,1.0,2.0,350,0,Dinner,0,Breadstick (1 large),daily_food_nutrition_dataset.csv,per_serving
+cobb salad,Meal/Protein,510,30.0,12.0,38.0,7.0,6.0,800,210,Lunch,500,Cobb Salad,daily_food_nutrition_dataset.csv,per_serving
+blue cheese dressing (2 tbsp),Condiment,150,1.0,2.0,16.0,0.0,1.0,320,10,Lunch,0,Blue Cheese Dressing (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+mandarin orange (1 medium),Fruit,37,0.6,9.3,0.2,1.3,7.3,1,0,Snack,0,Mandarin Orange (1 medium),daily_food_nutrition_dataset.csv,per_serving
+cashews (1 oz roasted),Nut,163,4.3,9.2,13.1,0.9,1.4,140,0,Snack,0,Cashews (1 oz roasted),daily_food_nutrition_dataset.csv,per_serving
+eggo waffle (2 waffles),Grain/Processed,180,4.0,30.0,5.0,1.0,4.0,400,0,Breakfast,0,Eggo Waffle (2 waffles),daily_food_nutrition_dataset.csv,per_serving
+diet soda (1 can),Beverage,0,0.0,0.0,0.0,0.0,0.0,40,0,Lunch,355,Diet Soda (1 can),daily_food_nutrition_dataset.csv,per_serving
+pulled pork sandwich,Meal/Meat,480,25.0,48.0,20.0,3.0,15.0,900,75,Lunch,250,Pulled Pork Sandwich,daily_food_nutrition_dataset.csv,per_serving
+macadamia nuts (1 oz),Nut,204,2.2,3.9,21.5,2.4,1.3,1,0,Snack,0,Macadamia Nuts (1 oz),daily_food_nutrition_dataset.csv,per_serving
+crab cakes (2 medium),Meal/Seafood,340,20.0,18.0,20.0,1.0,2.0,700,120,Dinner,250,Crab Cakes (2 medium),daily_food_nutrition_dataset.csv,per_serving
+tartar sauce (2 tbsp),Condiment,60,0.2,2.0,5.5,0.1,1.5,180,5,Dinner,0,Tartar Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+lemon bar (1 square),Dessert,150,1.5,22.0,6.0,0.5,15.0,80,30,Snack,0,Lemon Bar (1 square),daily_food_nutrition_dataset.csv,per_serving
+almond milk (unsweetened 1 cup),Beverage/Dairy-Alt,30,1.0,1.0,2.5,1.0,0.0,160,0,Breakfast,240,Almond Milk (Unsweetened 1 cup),daily_food_nutrition_dataset.csv,per_serving
+rice krispies (15 cups),Grain,160,3.0,37.0,0.5,0.5,4.0,290,0,Breakfast,0,Rice Krispies (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+sugar (1 tsp for cereal),Condiment,16,0.0,4.0,0.0,0.0,4.0,0,0,Breakfast,0,Sugar (1 tsp for cereal),daily_food_nutrition_dataset.csv,per_serving
+tuna (canned 3oz in water),Protein/Fish,90,20.0,0.0,1.0,0.0,0.0,250,35,Lunch,0,Tuna (Canned 3oz in water),daily_food_nutrition_dataset.csv,per_serving
+mayonnaise (1 tbsp),Condiment,90,0.1,0.1,10.0,0.0,0.1,70,5,Lunch,0,Mayonnaise (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+pickle (1 spear dill),Vegetable,5,0.2,1.0,0.1,0.3,0.5,300,0,Lunch,0,Pickle (1 spear dill),daily_food_nutrition_dataset.csv,per_serving
+lobster bisque (1 cup),Meal/Seafood,250,8.0,12.0,18.0,1.0,3.0,850,50,Lunch,250,Lobster Bisque (1 cup),daily_food_nutrition_dataset.csv,per_serving
+reuben sandwich,Meal/Processed,650,28.0,35.0,40.0,5.0,6.0,1500,100,Lunch,500,Reuben Sandwich,daily_food_nutrition_dataset.csv,per_serving
+sauerkraut (1/4 cup side),Vegetable,7,0.3,1.5,0.0,1.0,0.6,234,0,Lunch,0,Sauerkraut (1/4 cup side),daily_food_nutrition_dataset.csv,per_serving
+mushroom (white 1 cup sliced),Vegetable,15,2.2,2.3,0.2,0.7,1.4,4,0,Dinner,0,Mushroom (White 1 cup sliced),daily_food_nutrition_dataset.csv,per_serving
+soy milk (original 1 cup),Beverage/Dairy-Alt,110,8.0,9.0,4.5,2.0,6.0,125,0,Breakfast,240,Soy Milk (Original 1 cup),daily_food_nutrition_dataset.csv,per_serving
+chicken tikka masala (15 cups),Meal/Meat,480,30.0,20.0,30.0,5.0,8.0,900,95,Dinner,250,Chicken Tikka Masala (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+naan bread (1 piece),Grain,260,8.0,45.0,5.0,2.0,3.0,450,10,Dinner,0,Naan Bread (1 piece),daily_food_nutrition_dataset.csv,per_serving
+cucumber salad (1/2 cup),Vegetable,40,1.0,5.0,2.0,1.0,4.0,200,0,Dinner,0,Cucumber Salad (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+vodka soda (1 drink),Beverage,100,0.0,0.0,0.0,0.0,0.0,5,0,Snack,180,Vodka Soda (1 drink),daily_food_nutrition_dataset.csv,per_serving
+chocolate croissant,Dessert,350,6.0,40.0,19.0,3.0,15.0,300,40,Breakfast,250,Chocolate Croissant,daily_food_nutrition_dataset.csv,per_serving
+sweet  sour chicken (1 cup),Meal/Processed,380,18.0,45.0,15.0,3.0,25.0,750,50,Dinner,0,Sweet & Sour Chicken (1 cup),daily_food_nutrition_dataset.csv,per_serving
+egg drop soup (1 cup),Meal/Vegetable,65,5.0,6.0,2.0,0.5,1.0,780,50,Dinner,0,Egg Drop Soup (1 cup),daily_food_nutrition_dataset.csv,per_serving
+string cheese (1 stick),Dairy,80,6.0,1.0,6.0,0.0,0.0,210,20,Snack,0,String Cheese (1 stick),daily_food_nutrition_dataset.csv,per_serving
+turkey burger (1 patty),Protein/Meat,160,22.0,2.0,8.0,0.0,1.0,400,70,Lunch,250,Turkey Burger (1 patty),daily_food_nutrition_dataset.csv,per_serving
+potato salad (1/2 cup),Meal/Vegetable,180,2.0,19.0,11.0,2.0,3.0,500,10,Lunch,0,Potato Salad (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+cranberry juice (1 cup),Beverage,130,0.0,33.0,0.0,0.0,30.0,10,0,Breakfast,240,Cranberry Juice (1 cup),daily_food_nutrition_dataset.csv,per_serving
+chicken piccata (1 serving),Meal/Meat,350,30.0,10.0,20.0,1.0,2.0,600,90,Dinner,250,Chicken Piccata (1 serving),daily_food_nutrition_dataset.csv,per_serving
+angel hair pasta (1 cup),Grain,200,7.0,42.0,1.0,2.0,1.0,1,0,Dinner,0,Angel Hair Pasta (1 cup),daily_food_nutrition_dataset.csv,per_serving
+olive oil (1 tbsp),Condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,Dinner,0,Olive Oil (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+garlic (1 clove),Vegetable,4,0.2,0.9,0.0,0.1,0.0,1,0,Dinner,0,Garlic (1 clove),daily_food_nutrition_dataset.csv,per_serving
+salami (3 slices),Protein/Processed,110,6.0,1.0,9.0,0.0,0.5,500,30,Snack,0,Salami (3 slices),daily_food_nutrition_dataset.csv,per_serving
+provolone cheese (1 slice),Dairy,100,7.0,1.0,8.0,0.0,0.5,250,20,Snack,0,Provolone Cheese (1 slice),daily_food_nutrition_dataset.csv,per_serving
+ginger ale (1 can),Beverage,124,0.0,32.0,0.0,0.0,31.0,40,0,Snack,355,Ginger Ale (1 can),daily_food_nutrition_dataset.csv,per_serving
+shrimp scampi (1 cup),Meal/Seafood,380,22.0,40.0,15.0,3.0,3.0,750,140,Dinner,0,Shrimp Scampi (1 cup),daily_food_nutrition_dataset.csv,per_serving
+tiramisu (1 slice),Dessert,450,7.0,42.0,28.0,2.0,25.0,150,180,Snack,250,Tiramisu (1 slice),daily_food_nutrition_dataset.csv,per_serving
+cereal bar (fruit),Snack/Processed,140,2.0,30.0,3.0,1.0,15.0,110,0,Breakfast,250,Cereal Bar (Fruit),daily_food_nutrition_dataset.csv,per_serving
+veal parmesan (1 serving),Meal/Meat,550,40.0,30.0,30.0,4.0,7.0,1100,130,Dinner,250,Veal Parmesan (1 serving),daily_food_nutrition_dataset.csv,per_serving
+spaghetti (side),Grain,100,3.5,21.0,0.5,1.0,0.5,0,0,Dinner,0,Spaghetti (side),daily_food_nutrition_dataset.csv,per_serving
+hot chocolate (1 cup),Beverage,200,3.0,30.0,8.0,2.0,25.0,160,10,Snack,240,Hot Chocolate (1 cup),daily_food_nutrition_dataset.csv,per_serving
+coconut shrimp (5 pcs),Meal/Seafood,320,10.0,25.0,20.0,3.0,8.0,600,80,Dinner,0,Coconut Shrimp (5 pcs),daily_food_nutrition_dataset.csv,per_serving
+sweet chili sauce (2 tbsp),Condiment,70,0.0,17.0,0.0,0.5,16.0,450,0,Dinner,0,Sweet Chili Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+white wine (5 oz glass),Beverage,121,0.1,3.8,0.0,0.0,1.4,5,0,Dinner,0,White Wine (5 oz glass),daily_food_nutrition_dataset.csv,per_serving
+trail mix (1/4 cup),Snack/Processed,190,5.0,20.0,12.0,3.0,14.0,50,0,Snack,250,Trail Mix (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+onion rings (6 rings),Snack/Processed,280,4.0,30.0,16.0,3.0,4.0,500,0,Snack,0,Onion Rings (6 rings),daily_food_nutrition_dataset.csv,per_serving
+poached egg (1 large),Protein,72,6.3,0.4,4.8,0.0,0.4,140,185,Breakfast,0,Poached Egg (1 large),daily_food_nutrition_dataset.csv,per_serving
+canadian bacon (2 slices),Protein/Meat,80,12.0,1.0,3.0,0.0,1.0,650,40,Breakfast,0,Canadian Bacon (2 slices),daily_food_nutrition_dataset.csv,per_serving
+eggs benedict (1 serving),Meal/Protein,600,25.0,30.0,40.0,3.0,4.0,1100,450,Breakfast,250,Eggs Benedict (1 serving),daily_food_nutrition_dataset.csv,per_serving
+hollandaise sauce (2 tbsp),Condiment,110,1.0,0.5,12.0,0.0,0.2,150,50,Breakfast,0,Hollandaise Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+spinach artichoke dip (1/4 cup),Snack/Processed,160,5.0,6.0,14.0,2.0,2.0,350,30,Snack,0,Spinach Artichoke Dip (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+tortilla chips (1 oz),Snack/Processed,140,2.0,19.0,7.0,2.0,0.5,120,0,Snack,0,Tortilla Chips (1 oz),daily_food_nutrition_dataset.csv,per_serving
+chicken kebab (2 skewers),Meal/Meat,280,30.0,8.0,14.0,3.0,4.0,500,85,Dinner,250,Chicken Kebab (2 skewers),daily_food_nutrition_dataset.csv,per_serving
+bell peppers  onions (sautéed),Vegetable,60,1.5,10.0,2.0,3.0,6.0,30,0,Dinner,0,Bell Peppers & Onions (sautéed),daily_food_nutrition_dataset.csv,per_serving
+hummus wrap (large),Meal/Vegetarian,450,15.0,60.0,18.0,12.0,5.0,800,0,Lunch,500,Hummus Wrap (large),daily_food_nutrition_dataset.csv,per_serving
+kombucha (1 cup),Beverage,30,0.0,7.0,0.0,0.0,6.0,10,0,Snack,240,Kombucha (1 cup),daily_food_nutrition_dataset.csv,per_serving
+beef stroganoff (15 cups),Meal/Pasta,550,30.0,40.0,28.0,4.0,6.0,900,100,Dinner,0,Beef Stroganoff (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+egg noodles (1 cup cooked),Grain,220,8.0,40.0,3.0,2.0,2.0,20,50,Dinner,0,Egg Noodles (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+cottage cheese (1 cup low fat),Dairy,160,28.0,6.0,2.5,0.0,4.0,820,10,Lunch,250,Cottage Cheese (1 cup low fat),daily_food_nutrition_dataset.csv,per_serving
+tomato (1 medium sliced),Vegetable,22,1.1,4.8,0.2,1.5,3.2,6,0,Lunch,0,Tomato (1 medium sliced),daily_food_nutrition_dataset.csv,per_serving
+black pepper (1 tsp),Condiment,6,0.2,1.5,0.1,0.6,0.0,0,0,Lunch,0,Black Pepper (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+chocolate pudding (1/2 cup),Dessert,150,2.0,28.0,4.0,2.0,22.0,130,2,Snack,0,Chocolate Pudding (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+mackerel (3oz cooked),Protein/Fish,175,16.0,0.0,12.0,0.0,0.0,75,65,Dinner,0,Mackerel (3oz cooked),daily_food_nutrition_dataset.csv,per_serving
+collard greens (1 cup cooked),Vegetable,60,5.0,10.0,1.0,7.0,1.0,40,0,Dinner,0,Collard Greens (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+ham (3oz deli sliced),Protein/Meat,110,16.0,2.0,4.0,0.0,1.5,950,45,Lunch,0,Ham (3oz deli sliced),daily_food_nutrition_dataset.csv,per_serving
+swiss cheese (1 slice),Dairy,106,7.6,1.0,8.0,0.0,0.4,54,26,Lunch,0,Swiss Cheese (1 slice),daily_food_nutrition_dataset.csv,per_serving
+rye bread (1 slice),Grain,83,2.7,15.5,1.1,1.9,1.2,170,0,Lunch,0,Rye Bread (1 slice),daily_food_nutrition_dataset.csv,per_serving
+potato leek soup (1 cup),Meal/Vegetable,180,4.0,25.0,7.0,3.0,4.0,650,15,Lunch,250,Potato Leek Soup (1 cup),daily_food_nutrition_dataset.csv,per_serving
+brie cheese (1 oz),Dairy,95,6.0,0.1,7.9,0.0,0.1,178,28,Snack,0,Brie Cheese (1 oz),daily_food_nutrition_dataset.csv,per_serving
+water cracker (5 crackers),Grain/Processed,70,1.5,12.0,1.5,0.5,0.0,150,0,Snack,0,Water Cracker (5 crackers),daily_food_nutrition_dataset.csv,per_serving
+grapefruit (1/2 medium),Fruit,52,1.1,13.2,0.2,2.0,8.5,0,0,Breakfast,0,Grapefruit (1/2 medium),daily_food_nutrition_dataset.csv,per_serving
+veggie straws (1 oz),Snack/Processed,130,1.0,17.0,7.0,1.0,1.0,220,0,Snack,0,Veggie Straws (1 oz),daily_food_nutrition_dataset.csv,per_serving
+fish tacos (2 tacos),Meal/Fish,420,25.0,40.0,18.0,6.0,5.0,700,60,Dinner,500,Fish Tacos (2 tacos),daily_food_nutrition_dataset.csv,per_serving
+cabbage slaw (side),Vegetable,60,1.0,8.0,3.0,2.0,5.0,120,5,Dinner,0,Cabbage Slaw (side),daily_food_nutrition_dataset.csv,per_serving
+lime (juice of 1),Condiment,11,0.2,3.7,0.0,0.4,0.7,1,0,Dinner,0,Lime (juice of 1),daily_food_nutrition_dataset.csv,per_serving
+beer (12 oz light),Beverage,103,0.9,5.8,0.0,0.0,0.3,10,0,Snack,355,Beer (12 oz light),daily_food_nutrition_dataset.csv,per_serving
+danish (cheese 1 medium),Dessert,340,7.0,38.0,18.0,2.0,16.0,300,55,Breakfast,250,Danish (Cheese 1 medium),daily_food_nutrition_dataset.csv,per_serving
+kefir (plain 1 cup),Beverage/Dairy,104,10.0,10.0,2.5,0.0,9.0,100,10,Breakfast,240,Kefir (Plain 1 cup),daily_food_nutrition_dataset.csv,per_serving
+gnocchi (1 cup),Meal/Pasta,210,4.5,45.0,1.5,3.0,2.0,480,0,Dinner,0,Gnocchi (1 cup),daily_food_nutrition_dataset.csv,per_serving
+pesto sauce (1/4 cup),Condiment,260,5.0,4.0,26.0,2.0,1.0,550,5,Dinner,0,Pesto Sauce (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+pine nuts (1 tbsp),Nut,95,2.0,2.0,10.0,0.5,0.5,0,0,Dinner,0,Pine Nuts (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+chai latte (12 oz),Beverage,190,7.0,32.0,4.0,1.0,30.0,105,15,Snack,355,Chai Latte (12 oz),daily_food_nutrition_dataset.csv,per_serving
+manicotti (2 shells cheese),Meal/Pasta,380,20.0,35.0,18.0,4.0,7.0,650,60,Dinner,0,Manicotti (2 shells cheese),daily_food_nutrition_dataset.csv,per_serving
+italian sausage (1 link),Protein/Meat,200,12.0,3.0,16.0,0.0,1.0,550,50,Dinner,0,Italian Sausage (1 link),daily_food_nutrition_dataset.csv,per_serving
+jicama (1 cup sticks),Vegetable,46,0.9,10.6,0.1,5.8,2.1,5,0,Snack,0,Jicama (1 cup sticks),daily_food_nutrition_dataset.csv,per_serving
+chili powder (1 tsp),Condiment,8,0.3,1.4,0.4,0.9,0.2,10,0,Snack,0,Chili Powder (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+ants on a log (4 pcs),Snack,180,6.0,12.0,12.0,3.0,7.0,120,0,Snack,250,Ants on a Log (4 pcs),daily_food_nutrition_dataset.csv,per_serving
+split pea soup (1 cup),Meal/Legume,180,11.0,30.0,2.0,10.0,6.0,700,5,Lunch,250,Split Pea Soup (1 cup),daily_food_nutrition_dataset.csv,per_serving
+ham  cheese croissant,Meal/Processed,400,15.0,35.0,22.0,2.0,6.0,750,60,Breakfast,250,Ham & Cheese Croissant,daily_food_nutrition_dataset.csv,per_serving
+espresso (double shot),Beverage,5,0.5,0.0,0.1,0.0,0.0,1,0,Breakfast,60,Espresso (double shot),daily_food_nutrition_dataset.csv,per_serving
+ricotta cheese (1/4 cup),Dairy,85,5.5,2.5,6.0,0.0,1.0,50,24,Dinner,0,Ricotta Cheese (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+chicken  rice soup (1 can),Meal/Processed,130,7.0,18.0,3.0,2.0,2.0,850,15,Lunch,250,Chicken & Rice Soup (1 can),daily_food_nutrition_dataset.csv,per_serving
+salt (1/4 tsp),Condiment,0,0.0,0.0,0.0,0.0,0.0,580,0,Dinner,0,Salt (1/4 tsp),daily_food_nutrition_dataset.csv,per_serving
+guava,Fruit,68,2.6,14.3,0.9,5.4,8.9,3,0,Snack,0,Guava,daily_food_nutrition_dataset.csv,per_serving
+club sandwich,Meal/Processed,580,35.0,40.0,30.0,5.0,7.0,1300,95,Lunch,500,Club Sandwich,daily_food_nutrition_dataset.csv,per_serving
+pickle (1 whole dill),Vegetable,17,0.8,3.7,0.2,1.5,1.7,1200,0,Snack,0,Pickle (1 whole dill),daily_food_nutrition_dataset.csv,per_serving
+turkey chili (1 cup),Meal/Meat,250,22.0,25.0,7.0,8.0,6.0,750,50,Dinner,250,Turkey Chili (1 cup),daily_food_nutrition_dataset.csv,per_serving
+sour cream (2 tbsp),Condiment/Dairy,60,0.8,1.3,5.8,0.0,0.8,25,12,Dinner,0,Sour Cream (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+shredded cheese (cheddar 1/4 cup),Dairy,115,7.0,1.0,9.5,0.0,0.5,180,30,Dinner,0,Shredded Cheese (Cheddar 1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+matcha latte (12 oz),Beverage,180,6.0,28.0,5.0,2.0,25.0,90,20,Snack,355,Matcha Latte (12 oz),daily_food_nutrition_dataset.csv,per_serving
+chocolate donut (1 medium),Dessert,300,4.0,35.0,17.0,2.0,18.0,230,20,Breakfast,0,Chocolate Donut (1 medium),daily_food_nutrition_dataset.csv,per_serving
+tuna melt,Meal/Processed,450,25.0,32.0,25.0,3.0,4.0,900,50,Lunch,250,Tuna Melt,daily_food_nutrition_dataset.csv,per_serving
+apple cider (1 cup),Beverage,117,0.1,29.0,0.3,0.5,27.0,10,0,Snack,240,Apple Cider (1 cup),daily_food_nutrition_dataset.csv,per_serving
+beef burrito (large),Meal/Processed,650,30.0,70.0,28.0,10.0,5.0,1400,70,Dinner,500,Beef Burrito (large),daily_food_nutrition_dataset.csv,per_serving
+pico de gallo (1/4 cup),Condiment,15,0.5,3.0,0.0,1.0,2.0,200,0,Dinner,0,Pico de Gallo (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+corn tortilla (1 medium),Grain,52,1.4,11.2,0.7,1.5,0.2,4,0,Dinner,0,Corn Tortilla (1 medium),daily_food_nutrition_dataset.csv,per_serving
+mussels (3oz steamed),Protein/Seafood,146,20.0,6.0,4.0,0.0,0.0,310,48,Dinner,0,Mussels (3oz steamed),daily_food_nutrition_dataset.csv,per_serving
+white wine sauce (1/4 cup),Condiment,80,1.0,4.0,6.0,0.5,2.0,300,5,Dinner,0,White Wine Sauce (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+french bread (2 slices),Grain,180,6.0,36.0,1.0,2.0,2.0,380,0,Dinner,0,French Bread (2 slices),daily_food_nutrition_dataset.csv,per_serving
+blackberries (1 cup),Fruit,62,2.0,13.8,0.7,7.6,4.9,1,0,Snack,0,Blackberries (1 cup),daily_food_nutrition_dataset.csv,per_serving
+cheese danish,Dessert,340,7.0,38.0,18.0,2.0,16.0,300,55,Breakfast,250,Cheese Danish,daily_food_nutrition_dataset.csv,per_serving
+chicken salad sandwich,Meal/Processed,420,20.0,35.0,20.0,3.0,5.0,850,60,Lunch,250,Chicken Salad Sandwich,daily_food_nutrition_dataset.csv,per_serving
+soyrizo (2 oz),Protein/Vegetarian,140,10.0,6.0,9.0,3.0,2.0,450,0,Breakfast,0,Soyrizo (2 oz),daily_food_nutrition_dataset.csv,per_serving
+hash browns (1 cup),Vegetable,330,3.0,38.0,19.0,3.0,1.0,550,0,Breakfast,0,Hash Browns (1 cup),daily_food_nutrition_dataset.csv,per_serving
+ketchup (1 packet),Condiment,10,0.1,2.5,0.0,0.1,2.0,90,0,Breakfast,0,Ketchup (1 packet),daily_food_nutrition_dataset.csv,per_serving
+philly cheesesteak (6 inch),Meal/Processed,500,25.0,40.0,28.0,3.0,5.0,1100,70,Lunch,500,Philly Cheesesteak (6 inch),daily_food_nutrition_dataset.csv,per_serving
+cheese whiz (2 tbsp),Condiment/Processed,90,4.0,3.0,7.0,0.0,2.0,540,20,Lunch,0,Cheese Whiz (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+onions (sautéed 1/4 cup),Vegetable,30,0.5,5.0,1.0,1.0,3.0,5,0,Lunch,0,Onions (sautéed 1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+raspberries (1 cup),Fruit,64,1.5,14.7,0.8,8.0,5.4,1,0,Snack,0,Raspberries (1 cup),daily_food_nutrition_dataset.csv,per_serving
+cheesy grits (1 cup),Meal/Grain,210,6.0,34.0,6.0,2.0,1.0,550,20,Breakfast,0,Cheesy Grits (1 cup),daily_food_nutrition_dataset.csv,per_serving
+collard greens (with ham hock),Vegetable,180,10.0,15.0,9.0,8.0,3.0,600,30,Dinner,0,Collard Greens (with ham hock),daily_food_nutrition_dataset.csv,per_serving
+fried okra (1 cup),Vegetable,220,4.0,25.0,12.0,5.0,3.0,450,10,Dinner,0,Fried Okra (1 cup),daily_food_nutrition_dataset.csv,per_serving
+sweet tea (16 oz),Beverage,180,0.0,46.0,0.0,0.0,46.0,15,0,Lunch,473,Sweet Tea (16 oz),daily_food_nutrition_dataset.csv,per_serving
+gyro (1 sandwich),Meal/Meat,600,25.0,55.0,30.0,5.0,6.0,1200,80,Dinner,250,Gyro (1 sandwich),daily_food_nutrition_dataset.csv,per_serving
+pita bread (white 1 large),Grain,220,7.0,45.0,2.0,2.0,2.0,440,0,Dinner,0,Pita Bread (White 1 large),daily_food_nutrition_dataset.csv,per_serving
+baklava (1 piece),Dessert,280,3.0,30.0,18.0,2.0,20.0,80,10,Snack,0,Baklava (1 piece),daily_food_nutrition_dataset.csv,per_serving
+coconut (shredded 1/4 cup),Fruit,110,1.0,4.5,10.5,2.0,1.5,3,0,Snack,0,Coconut (shredded 1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+smore (1 serving),Dessert,140,2.0,25.0,4.0,1.0,15.0,90,0,Snack,0,S'more (1 serving),daily_food_nutrition_dataset.csv,per_serving
+graham cracker (1 large rectangle),Grain/Processed,60,1.0,11.0,1.5,0.5,4.0,70,0,Snack,0,Graham Cracker (1 large rectangle),daily_food_nutrition_dataset.csv,per_serving
+marshmallow (1 large),Dessert,23,0.1,5.8,0.0,0.0,4.0,5,0,Snack,0,Marshmallow (1 large),daily_food_nutrition_dataset.csv,per_serving
+chocolate (hersheys bar 1 segment),Dessert,25,0.3,3.0,1.5,0.2,2.8,4,1,Snack,0,Chocolate (Hershey's bar 1 segment),daily_food_nutrition_dataset.csv,per_serving
+chicken parm sandwich,Meal/Processed,650,40.0,55.0,30.0,6.0,9.0,1400,100,Lunch,500,Chicken Parm Sandwich,daily_food_nutrition_dataset.csv,per_serving
+mozzarella (1 slice),Dairy,80,6.0,1.0,6.0,0.0,0.5,150,20,Lunch,0,Mozzarella (1 slice),daily_food_nutrition_dataset.csv,per_serving
+bread roll (hoagie),Grain,200,6.0,38.0,2.0,2.0,3.0,400,0,Lunch,0,Bread Roll (hoagie),daily_food_nutrition_dataset.csv,per_serving
+artichoke (1 medium steamed),Vegetable,60,4.2,13.4,0.2,6.9,1.2,112,0,Dinner,0,Artichoke (1 medium steamed),daily_food_nutrition_dataset.csv,per_serving
+mayonnaise (1 tbsp for dipping),Condiment,90,0.1,0.1,10.0,0.0,0.1,70,5,Dinner,0,Mayonnaise (1 tbsp for dipping),daily_food_nutrition_dataset.csv,per_serving
+calamari (fried 3oz),Meal/Seafood,150,13.0,8.0,7.0,1.0,1.0,600,220,Dinner,0,Calamari (fried 3oz),daily_food_nutrition_dataset.csv,per_serving
+lemon wedge (for calamari),Condiment,3,0.1,1.0,0.0,0.3,0.2,0,0,Dinner,0,Lemon Wedge (for calamari),daily_food_nutrition_dataset.csv,per_serving
+root beer (1 can),Beverage,150,0.0,40.0,0.0,0.0,40.0,55,0,Snack,355,Root Beer (1 can),daily_food_nutrition_dataset.csv,per_serving
+chicken mcnuggets (6 pcs),Meal/Processed,270,15.0,16.0,16.0,1.0,0.0,500,40,Lunch,0,Chicken McNuggets (6 pcs),daily_food_nutrition_dataset.csv,per_serving
+bbq sauce (2 tbsp),Condiment,60,0.5,15.0,0.0,0.5,12.0,350,0,Lunch,0,BBQ Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+honey (1 tbsp),Condiment,64,0.1,17.3,0.0,0.0,17.2,1,0,Breakfast,0,Honey (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+tofu scramble,Meal/Vegetarian,250,20.0,8.0,16.0,4.0,3.0,300,0,Breakfast,250,Tofu Scramble,daily_food_nutrition_dataset.csv,per_serving
+turmeric (1 tsp),Condiment,9,0.3,1.9,0.1,0.7,0.1,1,0,Breakfast,0,Turmeric (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+nutritional yeast (1 tbsp),Condiment,20,3.0,2.0,0.0,1.0,0.0,10,0,Breakfast,0,Nutritional Yeast (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+seitan (3oz),Protein/Vegetarian,90,18.0,4.0,1.0,1.0,1.0,300,0,Dinner,0,Seitan (3oz),daily_food_nutrition_dataset.csv,per_serving
+vegetable broth (1 cup),Beverage,15,1.0,3.0,0.0,1.0,2.0,550,0,Dinner,240,Vegetable Broth (1 cup),daily_food_nutrition_dataset.csv,per_serving
+mashed cauliflower (1 cup),Vegetable,140,5.0,12.0,8.0,5.0,4.0,400,25,Dinner,0,Mashed Cauliflower (1 cup),daily_food_nutrition_dataset.csv,per_serving
+peanut sauce (2 tbsp),Condiment,80,2.0,4.0,6.0,1.0,3.0,250,0,Dinner,0,Peanut Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+tempeh (3oz),Protein/Vegetarian,160,16.0,8.0,9.0,5.0,0.0,10,0,Lunch,0,Tempeh (3oz),daily_food_nutrition_dataset.csv,per_serving
+sauerkraut (1/2 cup),Vegetable,14,0.7,3.1,0.1,2.0,1.2,468,0,Lunch,0,Sauerkraut (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+rye crispbread (2 slices),Grain,70,2.0,14.0,0.5,3.0,0.0,120,0,Lunch,0,Rye Crispbread (2 slices),daily_food_nutrition_dataset.csv,per_serving
+capers (1 tbsp),Condiment,2,0.2,0.4,0.1,0.3,0.1,200,0,Dinner,0,Capers (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+chicken liver (2 oz cooked),Protein/Meat,91,13.6,0.6,3.6,0.0,0.0,50,320,Dinner,0,Chicken Liver (2 oz cooked),daily_food_nutrition_dataset.csv,per_serving
+onion (1/2 cup raw chopped),Vegetable,32,0.9,7.5,0.1,1.4,3.8,3,0,Dinner,0,Onion (1/2 cup raw chopped),daily_food_nutrition_dataset.csv,per_serving
+bok choy (1 cup steamed),Vegetable,10,1.5,2.0,0.1,1.0,1.0,40,0,Dinner,0,Bok Choy (1 cup steamed),daily_food_nutrition_dataset.csv,per_serving
+gummy bears (10 pcs),Snack/Dessert,100,2.0,22.0,0.0,0.0,15.0,10,0,Snack,0,Gummy Bears (10 pcs),daily_food_nutrition_dataset.csv,per_serving
+whiskey (15 oz shot),Beverage,105,0.0,0.1,0.0,0.0,0.1,1,0,Snack,0,Whiskey (1.5 oz shot),daily_food_nutrition_dataset.csv,per_serving
+dates (2 medium medjool),Fruit,133,0.8,36.0,0.1,3.2,32.0,1,0,Snack,0,Dates (2 medium Medjool),daily_food_nutrition_dataset.csv,per_serving
+tahini (1 tbsp),Condiment,89,2.6,3.2,8.0,1.4,0.1,17,0,Snack,0,Tahini (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+chickpeas (1/2 cup canned),Legume,135,7.0,22.0,2.0,6.0,3.0,250,0,Lunch,0,Chickpeas (1/2 cup canned),daily_food_nutrition_dataset.csv,per_serving
+lettuce (romaine 2 cups),Vegetable,16,1.0,3.0,0.3,2.0,1.0,10,0,Lunch,0,Lettuce (Romaine 2 cups),daily_food_nutrition_dataset.csv,per_serving
+italian dressing (2 tbsp),Condiment,70,0.0,3.0,7.0,0.0,2.0,300,0,Lunch,0,Italian Dressing (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+turkey sausage (1 patty),Protein/Meat,70,9.0,1.0,4.0,0.0,0.5,280,35,Breakfast,0,Turkey Sausage (1 patty),daily_food_nutrition_dataset.csv,per_serving
+maple syrup (1 tbsp),Condiment,52,0.0,13.5,0.0,0.0,12.0,1,0,Breakfast,0,Maple Syrup (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+quesadilla (cheese 1 medium),Meal/Processed,400,18.0,35.0,22.0,3.0,2.0,700,50,Lunch,250,Quesadilla (Cheese 1 medium),daily_food_nutrition_dataset.csv,per_serving
+sour cream (1 tbsp),Condiment/Dairy,30,0.4,0.6,2.9,0.0,0.4,12,6,Lunch,0,Sour Cream (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+salsa (2 tbsp),Condiment,10,0.5,2.0,0.0,0.5,1.0,120,0,Lunch,0,Salsa (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+red cabbage (1 cup raw),Vegetable,22,1.1,5.2,0.1,1.6,2.8,8,0,Dinner,0,Red Cabbage (1 cup raw),daily_food_nutrition_dataset.csv,per_serving
+duck (3oz roasted),Protein/Meat,285,16.0,0.0,24.0,0.0,0.0,65,72,Dinner,0,Duck (3oz roasted),daily_food_nutrition_dataset.csv,per_serving
+orange sauce (1/4 cup for duck),Condiment,90,0.5,22.0,0.0,0.5,20.0,200,0,Dinner,0,Orange Sauce (1/4 cup for duck),daily_food_nutrition_dataset.csv,per_serving
+wild rice (1 cup cooked),Grain,166,6.5,35.0,0.6,3.0,1.2,5,0,Dinner,0,Wild Rice (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+cupcake (vanilla 1 medium),Dessert,240,2.0,35.0,11.0,1.0,25.0,200,30,Snack,0,Cupcake (Vanilla 1 medium),daily_food_nutrition_dataset.csv,per_serving
+frosting (vanilla 2 tbsp),Condiment,140,0.0,22.0,6.0,0.0,22.0,65,0,Snack,0,Frosting (Vanilla 2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+hot sauce (1 tsp tabasco),Condiment,0,0.0,0.0,0.0,0.0,0.0,35,0,Breakfast,0,Hot Sauce (1 tsp Tabasco),daily_food_nutrition_dataset.csv,per_serving
+bison burger (1 patty),Protein/Meat,150,22.0,0.0,7.0,0.0,0.0,65,70,Lunch,250,Bison Burger (1 patty),daily_food_nutrition_dataset.csv,per_serving
+pretzel bun (1 medium),Grain,230,8.0,45.0,2.0,2.0,4.0,550,0,Lunch,0,Pretzel Bun (1 medium),daily_food_nutrition_dataset.csv,per_serving
+spicy mustard (1 tbsp),Condiment,10,0.5,1.0,0.5,0.5,0.0,120,0,Lunch,0,Spicy Mustard (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+pasta salad (1 cup),Meal/Pasta,280,8.0,30.0,14.0,4.0,5.0,450,10,Lunch,0,Pasta Salad (1 cup),daily_food_nutrition_dataset.csv,per_serving
+pepperoncini (2 peppers),Vegetable,10,0.5,2.0,0.0,1.0,1.0,350,0,Lunch,0,Pepperoncini (2 peppers),daily_food_nutrition_dataset.csv,per_serving
+coconut milk (1/4 cup canned),Condiment,111,1.1,2.9,11.6,0.5,1.5,8,0,Dinner,0,Coconut Milk (1/4 cup canned),daily_food_nutrition_dataset.csv,per_serving
+green curry paste (1 tbsp),Condiment,30,0.5,2.0,2.5,1.0,1.0,400,0,Dinner,0,Green Curry Paste (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+chicken thigh (1 roasted),Protein/Meat,210,24.0,0.0,13.0,0.0,0.0,90,120,Dinner,0,Chicken Thigh (1 roasted),daily_food_nutrition_dataset.csv,per_serving
+jasmine rice (1 cup cooked),Grain,205,4.3,45.0,0.4,0.6,0.0,2,0,Dinner,0,Jasmine Rice (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+thai iced tea (1 glass),Beverage,250,3.0,35.0,12.0,0.0,33.0,50,35,Snack,300,Thai Iced Tea (1 glass),daily_food_nutrition_dataset.csv,per_serving
+papaya (1 cup cubes),Fruit,62,0.6,15.7,0.4,2.5,11.0,12,0,Snack,0,Papaya (1 cup cubes),daily_food_nutrition_dataset.csv,per_serving
+lime juice (1 tbsp),Condiment,4,0.1,1.3,0.0,0.1,0.2,0,0,Snack,0,Lime Juice (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+macaroni salad (1 cup),Meal/Pasta,380,8.0,30.0,25.0,3.0,6.0,750,20,Lunch,0,Macaroni Salad (1 cup),daily_food_nutrition_dataset.csv,per_serving
+celery (1 stalk),Vegetable,6,0.3,1.2,0.1,0.6,0.5,32,0,Lunch,0,Celery (1 stalk),daily_food_nutrition_dataset.csv,per_serving
+blue cheese (1 oz),Dairy,100,6.0,0.7,8.0,0.0,0.1,325,21,Snack,0,Blue Cheese (1 oz),daily_food_nutrition_dataset.csv,per_serving
+dark chocolate (1 oz 70),Dessert,170,2.2,13.0,12.0,3.0,7.0,5,0,Snack,0,Dark Chocolate (1 oz 70%),daily_food_nutrition_dataset.csv,per_serving
+acai bowl (1 serving),Meal/Fruit,350,5.0,60.0,12.0,10.0,30.0,40,0,Breakfast,250,Acai Bowl (1 serving),daily_food_nutrition_dataset.csv,per_serving
+granola (1/4 cup topping),Grain,120,3.0,15.0,6.0,3.0,7.0,20,0,Breakfast,0,Granola (1/4 cup topping),daily_food_nutrition_dataset.csv,per_serving
+coconut flakes (1 tbsp topping),Fruit,35,0.3,1.5,3.3,0.7,0.5,1,0,Breakfast,0,Coconut Flakes (1 tbsp topping),daily_food_nutrition_dataset.csv,per_serving
+honey (1 tsp drizzle),Condiment,21,0.0,5.8,0.0,0.0,5.8,0,0,Breakfast,0,Honey (1 tsp drizzle),daily_food_nutrition_dataset.csv,per_serving
+shrimp cocktail (4 large shrimp),Protein/Seafood,60,10.0,1.0,1.0,0.0,0.5,300,110,Snack,0,Shrimp Cocktail (4 large shrimp),daily_food_nutrition_dataset.csv,per_serving
+cocktail sauce (2 tbsp),Condiment,30,0.5,7.0,0.0,0.5,5.0,450,0,Snack,0,Cocktail Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+pork bun (1 steamed),Meal/Processed,220,8.0,30.0,8.0,2.0,6.0,400,20,Lunch,0,Pork Bun (1 steamed),daily_food_nutrition_dataset.csv,per_serving
+dim sum (siu mai 3 pcs),Meal/Processed,180,12.0,10.0,10.0,2.0,1.0,550,60,Lunch,0,Dim Sum (Siu Mai 3 pcs),daily_food_nutrition_dataset.csv,per_serving
+soy sauce (1 tbsp for dipping),Condiment,9,1.0,1.0,0.0,0.1,0.4,920,0,Lunch,0,Soy Sauce (1 tbsp for dipping),daily_food_nutrition_dataset.csv,per_serving
+oyster (1 medium raw),Protein/Seafood,8,1.0,0.5,0.2,0.0,0.0,50,10,Dinner,0,Oyster (1 medium raw),daily_food_nutrition_dataset.csv,per_serving
+mignonette sauce (1 tbsp),Condiment,5,0.0,1.0,0.0,0.0,0.5,30,0,Dinner,0,Mignonette Sauce (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+beef pho (1 large bowl),Meal/Soup,450,30.0,55.0,12.0,4.0,5.0,1500,60,Dinner,500,Beef Pho (1 large bowl),daily_food_nutrition_dataset.csv,per_serving
+bean sprouts (1/4 cup garnish),Vegetable,8,0.8,1.5,0.1,0.4,1.0,1,0,Dinner,0,Bean Sprouts (1/4 cup garnish),daily_food_nutrition_dataset.csv,per_serving
+thai basil (garnish),Condiment,1,0.1,0.0,0.0,0.0,0.0,0,0,Dinner,0,Thai Basil (garnish),daily_food_nutrition_dataset.csv,per_serving
+lime wedge (garnish),Condiment,3,0.1,1.0,0.0,0.3,0.2,0,0,Dinner,0,Lime Wedge (garnish),daily_food_nutrition_dataset.csv,per_serving
+jalapeno (1 tbsp sliced),Vegetable,4,0.1,0.8,0.1,0.4,0.5,1,0,Dinner,0,Jalapeno (1 tbsp sliced),daily_food_nutrition_dataset.csv,per_serving
+hoisin sauce (1 tbsp),Condiment,35,0.3,8.0,0.2,0.1,5.0,220,0,Dinner,0,Hoisin Sauce (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+sriracha (1 tsp),Condiment,5,0.1,1.0,0.1,0.1,0.8,80,0,Dinner,0,Sriracha (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+crepe (1 plain),Grain,90,3.5,14.0,2.0,0.5,3.0,100,25,Breakfast,0,Crepe (1 plain),daily_food_nutrition_dataset.csv,per_serving
+nutella (1 tbsp),Condiment,100,1.5,11.0,6.0,1.0,10.0,10,0,Breakfast,0,Nutella (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+powdered sugar (1 tsp),Condiment,10,0.0,2.5,0.0,0.0,2.5,0,0,Breakfast,0,Powdered Sugar (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+sake (3 oz),Beverage,117,0.4,3.8,0.0,0.0,0.0,4,0,Dinner,0,Sake (3 oz),daily_food_nutrition_dataset.csv,per_serving
+edamame (in pod 1 cup),Legume,120,11.0,9.0,5.0,5.0,2.0,9,0,Snack,250,Edamame (in pod 1 cup),daily_food_nutrition_dataset.csv,per_serving
+sea salt (coarse 1/4 tsp),Condiment,0,0.0,0.0,0.0,0.0,0.0,550,0,Snack,0,Sea Salt (coarse 1/4 tsp),daily_food_nutrition_dataset.csv,per_serving
+biryani (chicken 15 cups),Meal/Meat,520,28.0,60.0,18.0,5.0,6.0,900,75,Dinner,0,Biryani (Chicken 1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+raita (2 tbsp),Condiment/Dairy,30,1.0,2.0,2.0,0.5,1.5,100,5,Dinner,0,Raita (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+lassi (mango 1 cup),Beverage,180,5.0,30.0,4.0,1.0,28.0,60,15,Snack,240,Lassi (Mango 1 cup),daily_food_nutrition_dataset.csv,per_serving
+samosa (1 piece vegetable),Snack/Processed,130,2.0,18.0,6.0,2.0,1.0,300,0,Snack,0,Samosa (1 piece vegetable),daily_food_nutrition_dataset.csv,per_serving
+tamarind chutney (1 tbsp),Condiment,20,0.1,5.0,0.0,0.5,4.0,120,0,Snack,0,Tamarind Chutney (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+mint chutney (1 tbsp),Condiment,5,0.2,0.5,0.0,0.3,0.2,150,0,Snack,0,Mint Chutney (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+pani puri (6 pcs),Snack/Processed,200,4.0,35.0,5.0,3.0,2.0,400,0,Snack,0,Pani Puri (6 pcs),daily_food_nutrition_dataset.csv,per_serving
+passion fruit (1 fruit),Fruit,17,0.4,4.2,0.1,1.9,2.0,5,0,Snack,0,Passion Fruit (1 fruit),daily_food_nutrition_dataset.csv,per_serving
+kimchi jjigae (1 bowl),Meal/Soup,350,15.0,20.0,22.0,5.0,6.0,1200,30,Dinner,500,Kimchi Jjigae (1 bowl),daily_food_nutrition_dataset.csv,per_serving
+silken tofu (3oz in soup),Protein/Vegetarian,45,5.0,2.0,2.5,0.5,1.0,5,0,Dinner,0,Silken Tofu (3oz in soup),daily_food_nutrition_dataset.csv,per_serving
+pork belly (1 oz in soup),Protein/Meat,145,3.0,0.0,15.0,0.0,0.0,150,20,Dinner,0,Pork Belly (1 oz in soup),daily_food_nutrition_dataset.csv,per_serving
+gochugaru (1 tsp),Condiment,10,0.3,1.8,0.3,0.5,0.3,1,0,Dinner,0,Gochugaru (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+gochujang (1 tbsp),Condiment,30,0.5,6.0,0.0,0.5,4.0,200,0,Dinner,0,Gochujang (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+sesame oil (1 tsp),Condiment,40,0.0,0.0,4.5,0.0,0.0,0,0,Dinner,0,Sesame Oil (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+fish sauce (1 tsp),Condiment,5,0.4,0.5,0.0,0.0,0.4,450,0,Dinner,0,Fish Sauce (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+green onion (1 tbsp garnish),Vegetable,3,0.2,0.7,0.0,0.2,0.2,0,0,Dinner,0,Green Onion (1 tbsp garnish),daily_food_nutrition_dataset.csv,per_serving
+kombucha (16 oz),Beverage,60,0.0,14.0,0.0,0.0,12.0,20,0,Snack,473,Kombucha (16 oz),daily_food_nutrition_dataset.csv,per_serving
+beef wellington (1 slice),Meal/Meat,600,30.0,35.0,38.0,4.0,4.0,850,100,Dinner,0,Beef Wellington (1 slice),daily_food_nutrition_dataset.csv,per_serving
+pate (mushroom 2 tbsp),Condiment,70,1.0,2.0,7.0,1.0,1.0,100,0,Dinner,0,Pate (Mushroom 2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+puff pastry (1 oz wrapper),Grain,115,1.5,9.0,8.0,0.5,0.0,100,0,Dinner,0,Puff Pastry (1 oz wrapper),daily_food_nutrition_dataset.csv,per_serving
+prosciutto (1 slice),Protein/Meat,35,4.0,0.0,2.5,0.0,0.0,280,10,Dinner,0,Prosciutto (1 slice),daily_food_nutrition_dataset.csv,per_serving
+asparagus (6 spears roasted),Vegetable,40,4.0,4.0,2.0,3.0,2.0,150,0,Dinner,0,Asparagus (6 spears roasted),daily_food_nutrition_dataset.csv,per_serving
+hollandaise sauce (1 tbsp),Condiment,55,0.5,0.2,6.0,0.0,0.1,75,25,Dinner,0,Hollandaise Sauce (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+flan (1 slice),Dessert,220,6.0,35.0,7.0,0.0,33.0,80,90,Snack,0,Flan (1 slice),daily_food_nutrition_dataset.csv,per_serving
+caramel sauce (1 tbsp),Condiment,60,0.0,13.0,1.0,0.0,12.0,30,5,Snack,0,Caramel Sauce (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+congee (1 cup plain),Meal/Grain,130,2.5,28.0,1.0,1.0,0.5,300,0,Breakfast,0,Congee (1 cup plain),daily_food_nutrition_dataset.csv,per_serving
+pickled radish (1/4 cup),Vegetable,15,0.5,3.0,0.0,1.0,2.0,250,0,Breakfast,0,Pickled Radish (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+pork floss (1 tbsp),Protein/Meat,50,4.0,3.0,2.0,0.0,2.5,150,10,Breakfast,0,Pork Floss (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+century egg (1 egg),Protein,100,7.0,1.0,7.0,0.0,0.5,300,200,Breakfast,0,Century Egg (1 egg),daily_food_nutrition_dataset.csv,per_serving
+arugula (2 cups),Vegetable,10,1.0,0.8,0.2,0.4,0.4,6,0,Lunch,0,Arugula (2 cups),daily_food_nutrition_dataset.csv,per_serving
+goat cheese (1 oz),Dairy,103,6.1,0.1,8.5,0.0,0.1,146,22,Lunch,0,Goat Cheese (1 oz),daily_food_nutrition_dataset.csv,per_serving
+beets (1/2 cup roasted),Vegetable,30,0.8,6.8,0.1,1.4,5.8,50,0,Lunch,0,Beets (1/2 cup roasted),daily_food_nutrition_dataset.csv,per_serving
+walnuts (1 tbsp chopped),Nut,46,1.1,1.0,4.6,0.5,0.2,0,0,Lunch,0,Walnuts (1 tbsp chopped),daily_food_nutrition_dataset.csv,per_serving
+balsamic glaze (1 tbsp),Condiment,40,0.0,9.0,0.0,0.0,8.0,10,0,Lunch,0,Balsamic Glaze (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+bobotie (1 serving),Meal/Meat,450,25.0,30.0,25.0,5.0,15.0,700,150,Dinner,0,Bobotie (1 serving),daily_food_nutrition_dataset.csv,per_serving
+yellow rice (1 cup),Grain,230,4.0,50.0,1.0,2.0,1.0,300,0,Dinner,0,Yellow Rice (1 cup),daily_food_nutrition_dataset.csv,per_serving
+chutney (mango 1 tbsp),Condiment,45,0.1,11.0,0.1,0.5,10.0,180,0,Dinner,0,Chutney (Mango 1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+malva pudding (1 slice),Dessert,380,5.0,60.0,14.0,2.0,40.0,350,60,Snack,0,Malva Pudding (1 slice),daily_food_nutrition_dataset.csv,per_serving
+custard (1/4 cup),Condiment,80,3.0,10.0,3.0,0.0,8.0,40,40,Snack,0,Custard (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+bubble tea (16 oz milk tea),Beverage,320,2.0,70.0,4.0,1.0,60.0,100,10,Snack,473,Bubble Tea (16 oz milk tea),daily_food_nutrition_dataset.csv,per_serving
+tapioca pearls (1/4 cup boba),Condiment,100,0.0,25.0,0.0,0.0,20.0,5,0,Snack,0,Tapioca Pearls (1/4 cup boba),daily_food_nutrition_dataset.csv,per_serving
+paella (15 cups seafood),Meal/Rice,550,30.0,70.0,18.0,6.0,5.0,1200,110,Dinner,0,Paella (1.5 cups seafood),daily_food_nutrition_dataset.csv,per_serving
+chorizo (1 oz in paella),Protein/Meat,130,6.0,1.0,11.0,0.0,0.5,350,30,Dinner,0,Chorizo (1 oz in paella),daily_food_nutrition_dataset.csv,per_serving
+saffron (pinch),Condiment,1,0.0,0.1,0.0,0.0,0.0,0,0,Dinner,0,Saffron (pinch),daily_food_nutrition_dataset.csv,per_serving
+aioli (garlic 1 tbsp),Condiment,95,0.1,0.5,10.5,0.0,0.1,70,5,Dinner,0,Aioli (Garlic 1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+gazpacho (1 cup),Meal/Soup,90,2.0,12.0,4.0,3.0,7.0,600,0,Lunch,240,Gazpacho (1 cup),daily_food_nutrition_dataset.csv,per_serving
+croutons (garlic 1/4 cup),Grain,50,1.5,7.0,2.0,0.5,0.5,140,0,Lunch,0,Croutons (Garlic 1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+olive oil (1 tsp garnish),Condiment,40,0.0,0.0,4.5,0.0,0.0,0,0,Lunch,0,Olive Oil (1 tsp garnish),daily_food_nutrition_dataset.csv,per_serving
+churros (2 sticks),Dessert,240,3.0,30.0,12.0,1.5,10.0,200,20,Snack,0,Churros (2 sticks),daily_food_nutrition_dataset.csv,per_serving
+chocolate sauce (1 tbsp dipping),Condiment,50,0.5,10.0,1.5,1.0,8.0,5,0,Snack,0,Chocolate Sauce (1 tbsp dipping),daily_food_nutrition_dataset.csv,per_serving
+cinnamon sugar (1 tsp),Condiment,20,0.0,5.0,0.0,0.0,5.0,0,0,Snack,0,Cinnamon Sugar (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+horchata (1 cup),Beverage,140,2.0,25.0,3.0,1.0,22.0,30,5,Snack,240,Horchata (1 cup),daily_food_nutrition_dataset.csv,per_serving
+ceviche (1 cup fish),Meal/Fish,180,25.0,15.0,2.0,3.0,4.0,700,45,Lunch,0,Ceviche (1 cup fish),daily_food_nutrition_dataset.csv,per_serving
+red onion (1/4 cup in ceviche),Vegetable,16,0.3,3.7,0.0,0.4,1.8,1,0,Lunch,0,Red Onion (1/4 cup in ceviche),daily_food_nutrition_dataset.csv,per_serving
+cilantro (2 tbsp garnish),Condiment,1,0.1,0.0,0.0,0.1,0.0,0,0,Lunch,0,Cilantro (2 tbsp garnish),daily_food_nutrition_dataset.csv,per_serving
+corn nuts (1 oz),Snack/Processed,130,2.0,23.0,4.0,2.0,0.0,180,0,Snack,0,Corn Nuts (1 oz),daily_food_nutrition_dataset.csv,per_serving
+lomo saltado (15 cups),Meal/Meat,500,35.0,45.0,22.0,5.0,6.0,1100,90,Dinner,0,Lomo Saltado (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+french fries (as side),Vegetable/Processed,200,2.0,25.0,10.0,2.0,0.2,130,0,Dinner,0,French Fries (as side),daily_food_nutrition_dataset.csv,per_serving
+soy sauce (1 tbsp in stir-fry),Condiment,9,1.0,1.0,0.0,0.1,0.4,920,0,Dinner,0,Soy Sauce (1 tbsp in stir-fry),daily_food_nutrition_dataset.csv,per_serving
+aji amarillo paste (1 tsp),Condiment,5,0.1,1.0,0.0,0.5,0.5,50,0,Dinner,0,Aji Amarillo Paste (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+pisco sour (1 drink),Beverage,250,1.0,25.0,0.0,0.0,24.0,5,5,Snack,180,Pisco Sour (1 drink),daily_food_nutrition_dataset.csv,per_serving
+egg white (in drink),Condiment,17,3.6,0.2,0.0,0.0,0.2,55,0,Snack,0,Egg White (in drink),daily_food_nutrition_dataset.csv,per_serving
+angostura bitters (dash),Condiment,5,0.0,0.0,0.0,0.0,0.0,0,0,Snack,0,Angostura Bitters (dash),daily_food_nutrition_dataset.csv,per_serving
+alfajores (1 cookie),Dessert,180,2.0,22.0,10.0,1.0,15.0,60,20,Snack,0,Alfajores (1 cookie),daily_food_nutrition_dataset.csv,per_serving
+dulce de leche (1 tbsp filling),Condiment,65,1.0,12.0,1.5,0.0,10.0,30,5,Snack,0,Dulce de Leche (1 tbsp filling),daily_food_nutrition_dataset.csv,per_serving
+coconut (shredded garnish),Fruit,10,0.1,0.5,1.0,0.2,0.1,0,0,Snack,0,Coconut (shredded garnish),daily_food_nutrition_dataset.csv,per_serving
+mate (1 cup),Beverage,5,0.2,1.0,0.0,0.0,0.0,2,0,Breakfast,240,Mate (1 cup),daily_food_nutrition_dataset.csv,per_serving
+media luna (1 pastry),Grain,190,4.0,25.0,8.0,1.0,9.0,150,25,Breakfast,0,Media Luna (1 pastry),daily_food_nutrition_dataset.csv,per_serving
+chimichurri (1 tbsp),Condiment,45,0.1,0.5,4.5,0.2,0.1,100,0,Dinner,0,Chimichurri (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+skirt steak (4oz grilled),Protein/Meat,240,26.0,0.0,15.0,0.0,0.0,70,80,Dinner,0,Skirt Steak (4oz grilled),daily_food_nutrition_dataset.csv,per_serving
+provoleta (1 oz grilled cheese),Dairy,100,7.0,1.0,8.0,0.0,0.5,250,20,Dinner,0,Provoleta (1 oz grilled cheese),daily_food_nutrition_dataset.csv,per_serving
+oregano (1 tsp),Condiment,3,0.1,0.7,0.0,0.2,0.0,0,0,Dinner,0,Oregano (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+empanada (beef 1 medium),Meal/Processed,290,10.0,28.0,16.0,3.0,3.0,550,30,Lunch,0,Empanada (Beef 1 medium),daily_food_nutrition_dataset.csv,per_serving
+chicken milanesa (1 serving),Meal/Meat,450,35.0,30.0,22.0,3.0,2.0,700,100,Dinner,0,Chicken Milanesa (1 serving),daily_food_nutrition_dataset.csv,per_serving
+mashed potatoes (side),Vegetable,150,3.0,25.0,4.0,2.0,2.0,300,10,Dinner,0,Mashed Potatoes (side),daily_food_nutrition_dataset.csv,per_serving
+choripan (1 sandwich),Meal/Processed,550,20.0,40.0,35.0,3.0,4.0,1100,80,Lunch,250,Choripan (1 sandwich),daily_food_nutrition_dataset.csv,per_serving
+baguette (slice),Grain,70,2.5,14.0,0.5,0.6,0.5,150,0,Lunch,0,Baguette (slice),daily_food_nutrition_dataset.csv,per_serving
+pizza (margherita 1 slice),Meal/Processed,250,12.0,30.0,10.0,3.0,4.0,600,25,Dinner,250,Pizza (Margherita 1 slice),daily_food_nutrition_dataset.csv,per_serving
+fresh mozzarella (1 oz),Dairy,72,5.0,0.8,5.0,0.0,0.3,138,22,Dinner,0,Fresh Mozzarella (1 oz),daily_food_nutrition_dataset.csv,per_serving
+basil (2 tbsp fresh),Condiment,1,0.1,0.1,0.0,0.1,0.0,0,0,Dinner,0,Basil (2 tbsp fresh),daily_food_nutrition_dataset.csv,per_serving
+carbonara (15 cups),Meal/Pasta,650,25.0,60.0,35.0,4.0,4.0,900,250,Dinner,0,Carbonara (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+guanciale (1 oz),Protein/Meat,170,3.0,0.0,18.0,0.0,0.0,450,35,Dinner,0,Guanciale (1 oz),daily_food_nutrition_dataset.csv,per_serving
+pecorino cheese (1 tbsp),Dairy,25,1.5,0.1,2.0,0.0,0.0,110,6,Dinner,0,Pecorino Cheese (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+black pepper (1/4 tsp),Condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,Dinner,0,Black Pepper (1/4 tsp),daily_food_nutrition_dataset.csv,per_serving
+egg yolk (1 large in sauce),Protein,55,2.7,0.6,4.5,0.0,0.3,8,184,Dinner,0,Egg Yolk (1 large in sauce),daily_food_nutrition_dataset.csv,per_serving
+supplì (1 piece fried rice ball),Snack/Processed,200,8.0,25.0,8.0,2.0,2.0,400,25,Snack,0,Supplì (1 piece fried rice ball),daily_food_nutrition_dataset.csv,per_serving
+aperol spritz (1 drink),Beverage,180,0.0,20.0,0.0,0.0,20.0,10,0,Snack,150,Aperol Spritz (1 drink),daily_food_nutrition_dataset.csv,per_serving
+prosecco (3 oz),Beverage,70,0.0,2.0,0.0,0.0,1.5,5,0,Snack,0,Prosecco (3 oz),daily_food_nutrition_dataset.csv,per_serving
+club soda (2 oz),Beverage,0,0.0,0.0,0.0,0.0,0.0,20,0,Snack,0,Club Soda (2 oz),daily_food_nutrition_dataset.csv,per_serving
+orange slice (garnish),Fruit,5,0.1,1.0,0.0,0.2,0.8,0,0,Snack,0,Orange Slice (garnish),daily_food_nutrition_dataset.csv,per_serving
+tagliatelle al ragù (bolognese),Meal/Pasta,550,28.0,65.0,20.0,7.0,8.0,850,70,Dinner,500,Tagliatelle al Ragù (Bolognese),daily_food_nutrition_dataset.csv,per_serving
+ground beef (2 oz in sauce),Protein/Meat,140,11.0,0.0,10.0,0.0,0.0,40,35,Dinner,0,Ground Beef (2 oz in sauce),daily_food_nutrition_dataset.csv,per_serving
+pancetta (05 oz in sauce),Protein/Meat,45,1.5,0.0,4.5,0.0,0.0,160,10,Dinner,0,Pancetta (0.5 oz in sauce),daily_food_nutrition_dataset.csv,per_serving
+carrot (1/4 minced in sauce),Vegetable,10,0.2,2.4,0.1,0.7,1.2,17,0,Dinner,0,Carrot (1/4 minced in sauce),daily_food_nutrition_dataset.csv,per_serving
+celery (1/4 stalk minced),Vegetable,2,0.1,0.4,0.0,0.2,0.2,12,0,Dinner,0,Celery (1/4 stalk minced),daily_food_nutrition_dataset.csv,per_serving
+onion (1/8 minced in sauce),Vegetable,5,0.1,1.2,0.0,0.2,0.6,1,0,Dinner,0,Onion (1/8 minced in sauce),daily_food_nutrition_dataset.csv,per_serving
+crushed tomatoes (1/2 cup sauce),Vegetable,20,1.0,4.0,0.0,1.5,3.0,200,0,Dinner,0,Crushed Tomatoes (1/2 cup sauce),daily_food_nutrition_dataset.csv,per_serving
+parmigiano-reggiano (1 tbsp),Dairy,22,2.0,0.2,1.5,0.0,0.0,95,4,Dinner,0,Parmigiano-Reggiano (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+cannoli (1 medium),Dessert,240,5.0,25.0,13.0,1.0,18.0,100,30,Snack,0,Cannoli (1 medium),daily_food_nutrition_dataset.csv,per_serving
+ricotta (filling 1 oz),Dairy,49,3.2,0.8,3.8,0.0,0.1,23,14,Snack,0,Ricotta (filling 1 oz),daily_food_nutrition_dataset.csv,per_serving
+pistachio (garnish),Nut,10,0.4,0.5,0.8,0.2,0.1,0,0,Snack,0,Pistachio (garnish),daily_food_nutrition_dataset.csv,per_serving
+biscotti (1 cookie),Dessert,110,2.0,18.0,4.0,1.0,9.0,50,15,Snack,0,Biscotti (1 cookie),daily_food_nutrition_dataset.csv,per_serving
+espresso (for dipping),Beverage,2,0.2,0.0,0.0,0.0,0.0,1,0,Snack,30,Espresso (for dipping),daily_food_nutrition_dataset.csv,per_serving
+focaccia (1 square),Grain,250,8.0,40.0,7.0,2.0,2.0,500,0,Lunch,0,Focaccia (1 square),daily_food_nutrition_dataset.csv,per_serving
+rosemary (1 tsp topping),Condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,Lunch,0,Rosemary (1 tsp topping),daily_food_nutrition_dataset.csv,per_serving
+coarse salt (garnish),Condiment,0,0.0,0.0,0.0,0.0,0.0,200,0,Lunch,0,Coarse Salt (garnish),daily_food_nutrition_dataset.csv,per_serving
+olive oil (1 tbsp drizzle),Condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,Lunch,0,Olive Oil (1 tbsp drizzle),daily_food_nutrition_dataset.csv,per_serving
+bruschetta (2 pcs),Snack/Appetizer,180,4.0,25.0,7.0,3.0,4.0,350,0,Snack,0,Bruschetta (2 pcs),daily_food_nutrition_dataset.csv,per_serving
+balsamic glaze (1 tsp),Condiment,13,0.0,3.0,0.0,0.0,2.7,3,0,Snack,0,Balsamic Glaze (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+ribollita (15 cups soup),Meal/Soup,350,15.0,55.0,8.0,14.0,10.0,900,5,Dinner,500,Ribollita (1.5 cups soup),daily_food_nutrition_dataset.csv,per_serving
+cannellini beans (1/2 cup in soup),Legume,105,7.0,20.0,0.5,6.0,1.0,230,0,Dinner,0,Cannellini Beans (1/2 cup in soup),daily_food_nutrition_dataset.csv,per_serving
+kale (1 cup in soup),Vegetable,33,2.9,6.0,0.6,2.0,1.0,29,0,Dinner,0,Kale (1 cup in soup),daily_food_nutrition_dataset.csv,per_serving
+stale bread (1/2 cup in soup),Grain,80,3.0,15.0,1.0,1.0,1.5,160,0,Dinner,0,Stale Bread (1/2 cup in soup),daily_food_nutrition_dataset.csv,per_serving
+polenta (1 cup creamy),Meal/Grain,150,3.0,32.0,1.0,3.0,1.0,350,5,Dinner,0,Polenta (1 cup creamy),daily_food_nutrition_dataset.csv,per_serving
+gorgonzola cheese (1 oz),Dairy,100,6.0,0.7,8.0,0.0,0.1,325,21,Dinner,0,Gorgonzola Cheese (1 oz),daily_food_nutrition_dataset.csv,per_serving
+negroni (1 drink),Beverage,190,0.0,15.0,0.0,0.0,15.0,5,0,Snack,90,Negroni (1 drink),daily_food_nutrition_dataset.csv,per_serving
+gin (1 oz),Beverage,70,0.0,0.0,0.0,0.0,0.0,0,0,Snack,0,Gin (1 oz),daily_food_nutrition_dataset.csv,per_serving
+campari (1 oz),Beverage,80,0.0,10.0,0.0,0.0,10.0,5,0,Snack,0,Campari (1 oz),daily_food_nutrition_dataset.csv,per_serving
+sweet vermouth (1 oz),Beverage,40,0.0,5.0,0.0,0.0,5.0,0,0,Snack,0,Sweet Vermouth (1 oz),daily_food_nutrition_dataset.csv,per_serving
+orange peel (garnish),Condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,Snack,0,Orange Peel (garnish),daily_food_nutrition_dataset.csv,per_serving
+osso buco (1 serving),Meal/Meat,550,45.0,15.0,30.0,4.0,6.0,900,150,Dinner,0,Osso Buco (1 serving),daily_food_nutrition_dataset.csv,per_serving
+gremolata (1 tbsp),Condiment,15,0.5,1.0,1.0,0.5,0.5,5,0,Dinner,0,Gremolata (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+risotto alla milanese (1 cup),Meal/Rice,350,10.0,50.0,12.0,3.0,3.0,700,30,Dinner,0,Risotto alla Milanese (1 cup),daily_food_nutrition_dataset.csv,per_serving
+saffron (pinch in risotto),Condiment,1,0.0,0.1,0.0,0.0,0.0,0,0,Dinner,0,Saffron (pinch in risotto),daily_food_nutrition_dataset.csv,per_serving
+panettone (1 slice),Dessert,320,6.0,50.0,12.0,3.0,25.0,200,70,Snack,0,Panettone (1 slice),daily_food_nutrition_dataset.csv,per_serving
+candied fruit (1 tbsp),Fruit,30,0.0,8.0,0.0,0.5,8.0,5,0,Snack,0,Candied Fruit (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+amaretti cookie (2 cookies),Dessert,90,2.0,12.0,4.0,1.0,10.0,10,0,Snack,0,Amaretti Cookie (2 cookies),daily_food_nutrition_dataset.csv,per_serving
+limoncello (15 oz shot),Beverage,150,0.0,18.0,0.0,0.0,18.0,0,0,Snack,0,Limoncello (1.5 oz shot),daily_food_nutrition_dataset.csv,per_serving
+panna cotta (1 serving),Dessert,300,4.0,25.0,20.0,0.0,22.0,50,70,Snack,0,Panna Cotta (1 serving),daily_food_nutrition_dataset.csv,per_serving
+berry coulis (1 tbsp),Condiment,20,0.0,5.0,0.0,0.5,4.5,0,0,Snack,0,Berry Coulis (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+saltimbocca (1 serving),Meal/Meat,380,38.0,5.0,22.0,0.5,1.0,850,120,Dinner,0,Saltimbocca (1 serving),daily_food_nutrition_dataset.csv,per_serving
+prosciutto (1 slice wrapper),Protein/Meat,35,4.0,0.0,2.5,0.0,0.0,280,10,Dinner,0,Prosciutto (1 slice wrapper),daily_food_nutrition_dataset.csv,per_serving
+sage (2 leaves),Condiment,1,0.0,0.1,0.0,0.1,0.0,0,0,Dinner,0,Sage (2 leaves),daily_food_nutrition_dataset.csv,per_serving
+polenta (grilled 1 slice),Meal/Grain,120,2.5,25.0,1.0,2.0,0.5,300,0,Dinner,0,Polenta (grilled 1 slice),daily_food_nutrition_dataset.csv,per_serving
+caponata (1/2 cup),Meal/Vegetable,180,2.0,15.0,14.0,5.0,9.0,400,0,Dinner,0,Caponata (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+eggplant (1/2 cup in caponata),Vegetable,40,0.5,6.0,2.0,2.0,3.0,150,0,Dinner,0,Eggplant (1/2 cup in caponata),daily_food_nutrition_dataset.csv,per_serving
+pine nuts (1/2 tbsp),Nut,48,1.0,1.0,5.0,0.2,0.2,0,0,Dinner,0,Pine Nuts (1/2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+raisins (1 tbsp),Fruit,27,0.3,7.0,0.0,0.3,6.0,1,0,Dinner,0,Raisins (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+gelato (pistachio 1/2 cup),Dessert,220,5.0,24.0,12.0,2.0,20.0,60,40,Snack,0,Gelato (Pistachio 1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+waffle cone (1 small),Grain,70,1.0,13.0,1.5,0.5,7.0,30,5,Snack,0,Waffle Cone (1 small),daily_food_nutrition_dataset.csv,per_serving
+cacio e pepe (15 cups),Meal/Pasta,500,18.0,65.0,19.0,4.0,3.0,700,50,Dinner,0,Cacio e Pepe (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+pecorino romano (1/4 cup),Dairy,110,7.5,1.0,8.5,0.0,0.0,450,25,Dinner,0,Pecorino Romano (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+black pepper (1/2 tsp),Condiment,3,0.1,0.7,0.0,0.3,0.0,0,0,Dinner,0,Black Pepper (1/2 tsp),daily_food_nutrition_dataset.csv,per_serving
+fiorentina steak (3oz portion),Protein/Meat,230,24.0,0.0,15.0,0.0,0.0,60,75,Dinner,0,Fiorentina Steak (3oz portion),daily_food_nutrition_dataset.csv,per_serving
+rosemary (garnish),Condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,Dinner,0,Rosemary (garnish),daily_food_nutrition_dataset.csv,per_serving
+white beans (tuscan style 1/2 cup),Legume,150,8.0,20.0,4.0,7.0,2.0,350,0,Dinner,0,White Beans (Tuscan style 1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+garlic (1 clove in beans),Vegetable,4,0.2,0.9,0.0,0.1,0.0,1,0,Dinner,0,Garlic (1 clove in beans),daily_food_nutrition_dataset.csv,per_serving
+sage (in beans),Condiment,1,0.0,0.1,0.0,0.1,0.0,0,0,Dinner,0,Sage (in beans),daily_food_nutrition_dataset.csv,per_serving
+arancini (1 large ball),Snack/Processed,250,9.0,30.0,10.0,3.0,3.0,500,30,Snack,0,Arancini (1 large ball),daily_food_nutrition_dataset.csv,per_serving
+ragù (filling 1 tbsp),Condiment,25,1.5,1.0,1.5,0.5,0.5,60,5,Snack,0,Ragù (filling 1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+mozzarella (filling 05 oz),Dairy,40,3.0,0.5,3.0,0.0,0.2,75,10,Snack,0,Mozzarella (filling 0.5 oz),daily_food_nutrition_dataset.csv,per_serving
+breadcrumbs (coating),Grain,25,0.5,4.0,0.5,0.5,0.5,50,0,Snack,0,Breadcrumbs (coating),daily_food_nutrition_dataset.csv,per_serving
+campari  soda (1 drink),Beverage,85,0.0,10.0,0.0,0.0,10.0,25,0,Snack,150,Campari & Soda (1 drink),daily_food_nutrition_dataset.csv,per_serving
+olive (garnish),Fruit,5,0.0,0.1,0.5,0.1,0.0,30,0,Snack,0,Olive (garnish),daily_food_nutrition_dataset.csv,per_serving
+vitello tonnato (1 serving),Meal/Meat,380,35.0,3.0,25.0,0.5,1.0,600,110,Lunch,0,Vitello Tonnato (1 serving),daily_food_nutrition_dataset.csv,per_serving
+tuna sauce (2 tbsp),Condiment,100,4.0,1.0,9.0,0.0,0.5,200,15,Lunch,0,Tuna Sauce (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+capers (garnish),Condiment,2,0.2,0.4,0.1,0.3,0.1,200,0,Lunch,0,Capers (garnish),daily_food_nutrition_dataset.csv,per_serving
+lemon slice (garnish),Condiment,1,0.0,0.3,0.0,0.1,0.1,0,0,Lunch,0,Lemon Slice (garnish),daily_food_nutrition_dataset.csv,per_serving
+gnocchi alla sorrentina (15 cups),Meal/Pasta,450,15.0,60.0,18.0,6.0,9.0,800,40,Dinner,0,Gnocchi alla Sorrentina (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+tomato sauce (1/2 cup),Condiment,40,1.5,7.0,1.0,2.0,4.0,350,0,Dinner,0,Tomato Sauce (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+mozzarella (1 oz melted),Dairy,80,6.0,1.0,6.0,0.0,0.5,150,20,Dinner,0,Mozzarella (1 oz melted),daily_food_nutrition_dataset.csv,per_serving
+basil (fresh garnish),Condiment,1,0.1,0.0,0.0,0.1,0.0,0,0,Dinner,0,Basil (fresh garnish),daily_food_nutrition_dataset.csv,per_serving
+pesto (1/4 cup),Condiment,290,5.0,4.0,29.0,2.0,1.0,600,5,Dinner,0,Pesto (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+pine nuts (1 tbsp in pesto),Nut,95,2.0,2.0,10.0,0.5,0.5,0,0,Dinner,0,Pine Nuts (1 tbsp in pesto),daily_food_nutrition_dataset.csv,per_serving
+garlic (1/2 clove in pesto),Vegetable,2,0.1,0.5,0.0,0.0,0.0,0,0,Dinner,0,Garlic (1/2 clove in pesto),daily_food_nutrition_dataset.csv,per_serving
+trofie pasta (1 cup cooked),Grain,210,7.0,43.0,1.0,2.0,1.0,5,0,Dinner,0,Trofie Pasta (1 cup cooked),daily_food_nutrition_dataset.csv,per_serving
+green beans (1/2 cup w/ pasta),Vegetable,15,0.9,3.5,0.1,1.3,1.6,3,0,Dinner,0,Green Beans (1/2 cup w/ pasta),daily_food_nutrition_dataset.csv,per_serving
+potato (1/2 w/ pasta),Vegetable,65,1.0,15.0,0.1,1.0,0.5,3,0,Dinner,0,Potato (1/2 w/ pasta),daily_food_nutrition_dataset.csv,per_serving
+espresso martini (1 drink),Beverage,280,0.5,25.0,0.0,0.0,25.0,5,0,Snack,120,Espresso Martini (1 drink),daily_food_nutrition_dataset.csv,per_serving
+vodka (15 oz),Beverage,97,0.0,0.0,0.0,0.0,0.0,0,0,Snack,0,Vodka (1.5 oz),daily_food_nutrition_dataset.csv,per_serving
+coffee liqueur (1 oz),Beverage,100,0.0,15.0,0.0,0.0,15.0,2,0,Snack,0,Coffee Liqueur (1 oz),daily_food_nutrition_dataset.csv,per_serving
+espresso (1 oz in drink),Beverage,3,0.3,0.0,0.1,0.0,0.0,1,0,Snack,0,Espresso (1 oz in drink),daily_food_nutrition_dataset.csv,per_serving
+simple syrup (1/2 oz),Condiment,30,0.0,8.0,0.0,0.0,8.0,0,0,Snack,0,Simple Syrup (1/2 oz),daily_food_nutrition_dataset.csv,per_serving
+coffee beans (3 garnish),Snack,2,0.1,0.3,0.0,0.1,0.0,0,0,Snack,0,Coffee Beans (3 garnish),daily_food_nutrition_dataset.csv,per_serving
+baba ganoush (1/4 cup),Meal/Vegetable,100,2.0,8.0,7.0,4.0,2.0,300,0,Snack,0,Baba Ganoush (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+pita bread (1 white),Grain,165,5.5,33.0,1.2,1.5,1.5,310,0,Snack,0,Pita Bread (1 white),daily_food_nutrition_dataset.csv,per_serving
+falafel (3 pieces),Meal/Vegetarian,180,6.0,18.0,9.0,4.0,1.0,320,0,Lunch,0,Falafel (3 pieces),daily_food_nutrition_dataset.csv,per_serving
+tahini sauce (1 tbsp),Condiment,30,1.0,1.5,2.5,0.5,0.0,45,0,Lunch,0,Tahini Sauce (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+pickled turnips (2 tbsp),Vegetable,10,0.2,2.0,0.0,0.5,1.0,200,0,Lunch,0,Pickled Turnips (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+shawarma (chicken 1 wrap),Meal/Processed,550,30.0,50.0,25.0,6.0,5.0,1100,80,Lunch,250,Shawarma (Chicken 1 wrap),daily_food_nutrition_dataset.csv,per_serving
+garlic sauce (1 tbsp),Condiment,90,0.1,1.0,10.0,0.0,0.5,80,5,Lunch,0,Garlic Sauce (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+hummus (1/4 cup),Legume,130,5.0,10.0,8.0,4.0,1.0,250,0,Lunch,0,Hummus (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+tabouli (1/2 cup),Meal/Vegetarian,120,3.0,15.0,6.0,4.0,2.0,300,0,Lunch,0,Tabouli (1/2 cup),daily_food_nutrition_dataset.csv,per_serving
+bulgur (1/4 cup in tabouli),Grain,76,2.7,16.8,0.2,4.1,0.1,4,0,Lunch,0,Bulgur (1/4 cup in tabouli),daily_food_nutrition_dataset.csv,per_serving
+parsley (1/4 cup in tabouli),Vegetable,5,0.3,1.0,0.1,0.5,0.1,5,0,Lunch,0,Parsley (1/4 cup in tabouli),daily_food_nutrition_dataset.csv,per_serving
+mint (1 tbsp in tabouli),Condiment,1,0.1,0.1,0.0,0.1,0.0,0,0,Lunch,0,Mint (1 tbsp in tabouli),daily_food_nutrition_dataset.csv,per_serving
+lemon juice (1 tbsp dressing),Condiment,4,0.1,1.3,0.0,0.1,0.2,0,0,Lunch,0,Lemon Juice (1 tbsp dressing),daily_food_nutrition_dataset.csv,per_serving
+olive oil (1 tbsp dressing),Condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,Lunch,0,Olive Oil (1 tbsp dressing),daily_food_nutrition_dataset.csv,per_serving
+kibbeh (1 piece fried),Meal/Meat,230,9.0,20.0,13.0,3.0,1.0,450,30,Snack,0,Kibbeh (1 piece fried),daily_food_nutrition_dataset.csv,per_serving
+pine nuts (1/2 tbsp filling),Nut,48,1.0,1.0,5.0,0.2,0.2,0,0,Snack,0,Pine Nuts (1/2 tbsp filling),daily_food_nutrition_dataset.csv,per_serving
+ground lamb (1 oz filling),Protein/Meat,80,5.5,0.0,6.0,0.0,0.0,20,20,Snack,0,Ground Lamb (1 oz filling),daily_food_nutrition_dataset.csv,per_serving
+bulgur (1 tbsp shell),Grain,15,0.5,3.4,0.0,0.8,0.0,1,0,Snack,0,Bulgur (1 tbsp shell),daily_food_nutrition_dataset.csv,per_serving
+lentil soup (1 cup middle eastern),Meal/Legume,200,10.0,30.0,5.0,10.0,4.0,700,0,Lunch,250,Lentil Soup (1 cup Middle Eastern),daily_food_nutrition_dataset.csv,per_serving
+cumin (1 tsp),Condiment,8,0.3,1.5,0.5,0.4,0.1,3,0,Lunch,0,Cumin (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+coriander (1 tsp),Condiment,5,0.1,1.0,0.2,0.5,0.0,1,0,Lunch,0,Coriander (1 tsp),daily_food_nutrition_dataset.csv,per_serving
+lemon juice (1 tsp in soup),Condiment,1,0.0,0.4,0.0,0.0,0.1,0,0,Lunch,0,Lemon Juice (1 tsp in soup),daily_food_nutrition_dataset.csv,per_serving
+pita crisps (1 oz),Snack/Processed,130,3.0,18.0,5.0,2.0,1.0,240,0,Lunch,0,Pita Crisps (1 oz),daily_food_nutrition_dataset.csv,per_serving
+manakeesh (zaatar 1 small),Meal/Vegetarian,300,7.0,45.0,10.0,4.0,2.0,500,0,Breakfast,0,Manakeesh (Za'atar 1 small),daily_food_nutrition_dataset.csv,per_serving
+zaatar (1 tbsp),Condiment,40,1.0,3.0,3.0,1.5,0.0,150,0,Breakfast,0,Za'atar (1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+olive oil (1 tbsp on bread),Condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,Breakfast,0,Olive Oil (1 tbsp on bread),daily_food_nutrition_dataset.csv,per_serving
+labneh (2 tbsp),Dairy,60,4.0,2.0,4.0,0.0,2.0,80,15,Breakfast,0,Labneh (2 tbsp),daily_food_nutrition_dataset.csv,per_serving
+cucumber (1/4 cup side),Vegetable,8,0.3,1.8,0.0,0.2,0.8,1,0,Breakfast,0,Cucumber (1/4 cup side),daily_food_nutrition_dataset.csv,per_serving
+tomato (1/4 cup side),Vegetable,8,0.3,1.8,0.1,0.5,1.2,2,0,Breakfast,0,Tomato (1/4 cup side),daily_food_nutrition_dataset.csv,per_serving
+olives (5 side),Fruit,35,0.2,1.0,3.5,0.5,0.0,210,0,Breakfast,0,Olives (5 side),daily_food_nutrition_dataset.csv,per_serving
+mint tea (1 cup),Beverage,2,0.1,0.5,0.0,0.0,0.0,5,0,Breakfast,240,Mint Tea (1 cup),daily_food_nutrition_dataset.csv,per_serving
+stuffed grape leaves (3 pcs),Meal/Vegetarian,150,3.0,20.0,7.0,3.0,3.0,400,0,Snack,0,Stuffed Grape Leaves (3 pcs),daily_food_nutrition_dataset.csv,per_serving
+rice (1/4 cup filling),Grain,51,1.1,11.1,0.1,0.1,0.0,0,0,Snack,0,Rice (1/4 cup filling),daily_food_nutrition_dataset.csv,per_serving
+turkish coffee (1 small cup),Beverage,5,0.2,0.5,0.0,0.0,0.0,1,0,Snack,60,Turkish Coffee (1 small cup),daily_food_nutrition_dataset.csv,per_serving
+cardamom (in coffee),Condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,Snack,0,Cardamom (in coffee),daily_food_nutrition_dataset.csv,per_serving
+shish tawook (2 skewers),Meal/Meat,300,35.0,5.0,16.0,1.0,2.0,600,100,Dinner,0,Shish Tawook (2 skewers),daily_food_nutrition_dataset.csv,per_serving
+garlic sauce (toum 1 tbsp),Condiment,90,0.1,1.0,10.0,0.0,0.5,80,5,Dinner,0,Garlic Sauce (Toum 1 tbsp),daily_food_nutrition_dataset.csv,per_serving
+french fries (side),Vegetable/Processed,340,4.0,44.0,17.0,4.0,0.3,230,0,Dinner,0,French Fries (side),daily_food_nutrition_dataset.csv,per_serving
+pickled cucumber (1/4 cup),Vegetable,10,0.5,2.0,0.0,1.0,1.0,300,0,Dinner,0,Pickled Cucumber (1/4 cup),daily_food_nutrition_dataset.csv,per_serving
+fattoush salad (15 cups),Meal/Vegetarian,250,5.0,25.0,15.0,6.0,5.0,500,0,Lunch,0,Fattoush Salad (1.5 cups),daily_food_nutrition_dataset.csv,per_serving
+fried pita (1/2 pita in salad),Grain,80,2.0,12.0,3.0,1.0,0.5,150,0,Lunch,0,Fried Pita (1/2 pita in salad),daily_food_nutrition_dataset.csv,per_serving
+sumac (1/2 tsp dressing),Condiment,5,0.1,1.0,0.2,0.5,0.0,1,0,Lunch,0,Sumac (1/2 tsp dressing),daily_food_nutrition_dataset.csv,per_serving
+pomegranate molasses (1 tsp),Condiment,15,0.0,4.0,0.0,0.0,4.0,0,0,Lunch,0,Pomegranate Molasses (1 tsp),daily_food_nutrition_dataset.csv,per_serving

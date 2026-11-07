@@ -1,0 +1,217 @@
+{
+  "aloo_gobi": {
+    "class_idx": 0,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "aloo_masala": {
+    "class_idx": 1,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "bhindi_masala": {
+    "class_idx": 2,
+    "count": 400,
+    "weight": 0.8956
+  },
+  "biryani": {
+    "class_idx": 3,
+    "count": 400,
+    "weight": 0.8956
+  },
+  "burger": {
+    "class_idx": 4,
+    "count": 309,
+    "weight": 1.1593
+  },
+  "butter_naan": {
+    "class_idx": 5,
+    "count": 329,
+    "weight": 1.0889
+  },
+  "chai": {
+    "class_idx": 6,
+    "count": 581,
+    "weight": 0.6166
+  },
+  "chapati": {
+    "class_idx": 7,
+    "count": 613,
+    "weight": 0.5844
+  },
+  "chicken_curry": {
+    "class_idx": 8,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "chole": {
+    "class_idx": 9,
+    "count": 400,
+    "weight": 0.8956
+  },
+  "chole_bhature": {
+    "class_idx": 10,
+    "count": 811,
+    "weight": 0.4417
+  },
+  "coconut_chutney": {
+    "class_idx": 11,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "dal_makhani": {
+    "class_idx": 12,
+    "count": 721,
+    "weight": 0.4969
+  },
+  "dhokla": {
+    "class_idx": 13,
+    "count": 489,
+    "weight": 0.7326
+  },
+  "dum_aloo": {
+    "class_idx": 14,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "fish_curry": {
+    "class_idx": 15,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "fried_rice": {
+    "class_idx": 16,
+    "count": 355,
+    "weight": 1.0091
+  },
+  "ghevar": {
+    "class_idx": 17,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "green_chutney": {
+    "class_idx": 18,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "gulab_jamun": {
+    "class_idx": 19,
+    "count": 290,
+    "weight": 1.2353
+  },
+  "idli": {
+    "class_idx": 20,
+    "count": 676,
+    "weight": 0.5299
+  },
+  "jalebi": {
+    "class_idx": 21,
+    "count": 697,
+    "weight": 0.514
+  },
+  "kaathi_rolls": {
+    "class_idx": 22,
+    "count": 293,
+    "weight": 1.2226
+  },
+  "kadai_paneer": {
+    "class_idx": 23,
+    "count": 412,
+    "weight": 0.8695
+  },
+  "kebab": {
+    "class_idx": 24,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "kheer": {
+    "class_idx": 25,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "kulfi": {
+    "class_idx": 26,
+    "count": 436,
+    "weight": 0.8216
+  },
+  "lassi": {
+    "class_idx": 27,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "masala_dosa": {
+    "class_idx": 28,
+    "count": 511,
+    "weight": 0.701
+  },
+  "modak": {
+    "class_idx": 29,
+    "count": 172,
+    "weight": 2.0827
+  },
+  "momos": {
+    "class_idx": 30,
+    "count": 319,
+    "weight": 1.123
+  },
+  "mutton_curry": {
+    "class_idx": 31,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "paani_puri": {
+    "class_idx": 32,
+    "count": 130,
+    "weight": 2.7556
+  },
+  "pakode": {
+    "class_idx": 33,
+    "count": 478,
+    "weight": 0.7494
+  },
+  "palak_paneer": {
+    "class_idx": 34,
+    "count": 400,
+    "weight": 0.8956
+  },
+  "pav_bhaji": {
+    "class_idx": 35,
+    "count": 353,
+    "weight": 1.0148
+  },
+  "pizza": {
+    "class_idx": 36,
+    "count": 261,
+    "weight": 1.3725
+  },
+  "poha": {
+    "class_idx": 37,
+    "count": 400,
+    "weight": 0.8956
+  },
+  "rajma_curry": {
+    "class_idx": 38,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "ras_malai": {
+    "class_idx": 39,
+    "count": 200,
+    "weight": 1.7912
+  },
+  "samosa": {
+    "class_idx": 40,
+    "count": 568,
+    "weight": 0.6307
+  },
+  "shahi_paneer": {
+    "class_idx": 41,
+    "count": 400,
+    "weight": 0.8956
+  },
+  "white_rice": {
+    "class_idx": 42,
+    "count": 400,
+    "weight": 0.8956
+  }
+}

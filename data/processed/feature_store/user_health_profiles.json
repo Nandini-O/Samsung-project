@@ -1,0 +1,70 @@
+{
+  "adult_male_sedentary": {
+    "description": "Standard Adult Indian Male (Sedentary, Reference Weight 65kg)",
+    "calories_kcal": 2110.0,
+    "protein_g": 54.0,
+    "carbs_g": 290.0,
+    "fat_g": 25.0,
+    "fibre_g": 30.0,
+    "sodium_mg_max": 2000.0,
+    "calcium_mg": 1000.0,
+    "iron_mg": 19.0,
+    "vitamin_c_mg": 80.0,
+    "folate_ug": 300.0
+  },
+  "adult_female_sedentary": {
+    "description": "Standard Adult Indian Female (Sedentary, Reference Weight 55kg)",
+    "calories_kcal": 1660.0,
+    "protein_g": 46.0,
+    "carbs_g": 230.0,
+    "fat_g": 20.0,
+    "fibre_g": 25.0,
+    "sodium_mg_max": 2000.0,
+    "calcium_mg": 1000.0,
+    "iron_mg": 29.0,
+    "vitamin_c_mg": 65.0,
+    "folate_ug": 220.0
+  },
+  "diabetic_adult": {
+    "description": "Adult with Type-2 Diabetes (Controlled Carbohydrate, High Fiber)",
+    "calories_kcal": 1800.0,
+    "protein_g": 60.0,
+    "carbs_g": 200.0,
+    "fat_g": 25.0,
+    "fibre_g": 35.0,
+    "sodium_mg_max": 2000.0,
+    "calcium_mg": 1000.0,
+    "iron_mg": 20.0,
+    "vitamin_c_mg": 80.0,
+    "folate_ug": 300.0,
+    "clinical_condition": "DIABETES"
+  },
+  "hypertensive_adult": {
+    "description": "Adult with Hypertension (DASH Diet, Low Sodium)",
+    "calories_kcal": 1900.0,
+    "protein_g": 55.0,
+    "carbs_g": 260.0,
+    "fat_g": 25.0,
+    "fibre_g": 30.0,
+    "sodium_mg_max": 1500.0,
+    "calcium_mg": 1200.0,
+    "iron_mg": 20.0,
+    "vitamin_c_mg": 80.0,
+    "folate_ug": 300.0,
+    "clinical_condition": "HYPERTENSION"
+  },
+  "weight_management": {
+    "description": "Adult with Weight Management / Obesity Goals (Caloric Deficit, High Satiety)",
+    "calories_kcal": 1500.0,
+    "protein_g": 65.0,
+    "carbs_g": 180.0,
+    "fat_g": 20.0,
+    "fibre_g": 35.0,
+    "sodium_mg_max": 2000.0,
+    "calcium_mg": 1000.0,
+    "iron_mg": 20.0,
+    "vitamin_c_mg": 80.0,
+    "folate_ug": 300.0,
+    "clinical_condition": "WEIGHT_LOSS"
+  }
+}

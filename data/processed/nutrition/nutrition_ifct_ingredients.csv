@@ -1,0 +1,543 @@
+food_code,food_name,moisture_g,protein_g,fat_g,carbs_g,energy_kj,fibre_total_g,thiamine_b1_mg,riboflavin_b2_mg,niacin_b3_mg,vitamin_c_mg,folate_ug,saturated_fat_mg,cholesterol_mg,food_name_raw,calories_kcal,source_file,serving_reference
+A001,amaranth seed black (amaranthus cruentus),9.89,14.59,5.74,59.98,1490.0,7.02,0.04,0.04,0.45,,27.44,1280.0,,"Amaranth seed, black (Amaranthus cruentus)",356.12,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A002,amaranth seed pale brown (amaranthus cruentus),9.2,13.27,5.56,61.46,1489.0,7.47,0.04,0.04,0.52,,24.65,1140.0,,"Amaranth seed, pale brown (Amaranthus cruentus)",355.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A003,bajra (pennisetum typhoideum),8.97,10.96,5.43,61.78,1456.0,11.49,0.25,0.2,0.86,,36.11,875.0,,Bajra (Pennisetum typhoideum),347.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A004,barley (hordeum vulgare),9.77,10.94,1.3,61.29,1321.0,15.64,0.36,0.18,2.84,,31.58,232.0,,Barley (Hordeum vulgare),315.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A005,jowar (sorghum vulgare),9.01,9.97,1.73,67.68,1398.0,10.22,0.35,0.14,2.1,,39.42,163.0,,Jowar (Sorghum vulgare),334.13,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A006,maize dry (zea mays),9.26,8.8,3.77,64.77,1398.0,12.24,0.33,0.09,2.69,,25.81,413.0,,"Maize, dry (Zea mays)",334.13,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A007,maize tender local (zea mays),68.29,3.57,1.4,22.69,502.0,3.67,0.17,0.12,1.13,4.26,62.96,109.0,,"Maize, tender, local (Zea mays)",119.98,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A008,maize tender sweet (zea mays),74.4,4.16,1.35,16.42,405.0,3.3,0.1,0.14,1.14,5.72,59.71,123.0,,"Maize, tender, sweet (Zea mays)",96.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A009,quinoa (chenopodium quinoa),10.43,13.11,5.5,53.65,1374.0,14.66,0.83,0.22,1.7,,173.0,570.0,,Quinoa (Chenopodium quinoa),328.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A010,ragi (eleusine coracana),10.89,7.16,1.92,66.82,1342.0,11.18,0.37,0.17,1.34,,34.66,317.0,,Ragi (Eleusine coracana),320.75,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A011,rice flakes (oryza sativa),10.36,7.44,1.14,76.75,1480.0,3.46,0.12,0.04,1.6,,8.46,284.0,,Rice flakes (Oryza sativa),353.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A012,rice puffed (oryza sativa ),9.4,7.47,1.62,77.68,1514.0,2.56,0.11,0.04,1.87,,,46.84,,Rice puffed (Oryza sativa ),361.85,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A013,rice raw brown (oryza sativa ),9.33,9.16,1.24,74.8,1480.0,4.43,0.27,0.06,3.4,,11.51,346.0,,"Rice, raw, brown (Oryza sativa )",353.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A014,rice parboiled milled (oryza sativa ),10.09,7.81,0.55,77.16,1471.0,3.74,0.17,0.06,2.51,,9.75,150.0,,"Rice, parboiled, milled (Oryza sativa )",351.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A015,rice raw milled (oryza sativa ),9.93,7.94,0.52,78.24,1491.0,2.81,0.05,0.05,1.69,,9.32,184.0,,"Rice, raw, milled (Oryza sativa )",356.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A016,samai (panicum miliare),11.36,10.13,3.89,65.55,1449.0,7.72,0.26,0.05,1.29,,36.2,589.0,,Samai (Panicum miliare),346.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A017,varagu (setaria italica),14.23,8.92,2.55,66.19,1388.0,6.39,0.29,0.2,1.49,,39.49,246.0,,Varagu (Setaria italica),331.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A018,wheat flour refined (triticum aestivum),11.34,10.36,0.76,74.27,1472.0,2.76,0.15,0.06,0.77,,16.25,98.55,,"Wheat flour, refined (Triticum aestivum)",351.82,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A019,wheat flour atta (triticum aestivum),11.1,10.57,1.53,64.17,1340.0,11.36,0.42,0.15,2.37,,29.22,206.0,,"Wheat flour, atta (Triticum aestivum)",320.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A020,wheat whole (triticum aestivum),10.58,10.59,1.47,64.72,1347.0,11.23,0.46,0.15,2.68,,30.09,191.0,,"Wheat, whole (Triticum aestivum)",321.94,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A021,wheat bulgur (triticum aestivum),8.61,10.84,1.45,69.06,1430.0,8.81,0.24,0.12,2.05,,26.3,196.0,,"Wheat, bulgur (Triticum aestivum)",341.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A022,wheat semolina (triticum aestivum),8.94,11.38,0.74,68.43,1396.0,9.72,0.29,0.04,1.13,,25.68,88.87,,"Wheat, semolina (Triticum aestivum)",333.65,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A023,wheat vermicelli (triticum aestivum),9.59,9.7,0.45,70.39,1392.0,9.28,0.13,0.01,0.86,,14.35,64.59,,"Wheat, vermicelli (Triticum aestivum)",332.7,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+A024,wheat vermicelli roasted (triticum aestivum),7.61,10.37,0.49,71.42,1423.0,9.55,0.12,0.01,0.67,,13.21,49.95,,"Wheat, vermicelli, roasted (Triticum aestivum)",340.11,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B001,bengal gram dal (cicer arietinum),9.18,21.55,5.31,46.72,1377.0,15.15,0.35,0.15,1.87,,182.0,469.0,,"Bengal gram, dal (Cicer arietinum)",329.11,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B002,bengal gram whole (cicer arietinum),8.56,18.77,5.11,39.56,1201.0,25.22,0.37,0.24,2.1,,233.0,453.0,,"Bengal gram, whole (Cicer arietinum)",287.05,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B003,black gram dal (phaseolus mungo),9.16,23.06,1.69,51.0,1356.0,11.93,0.21,0.09,1.76,,88.75,276.0,,"Black gram, dal (Phaseolus mungo)",324.09,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B004,black gram whole (phaseolus mungo),8.7,21.97,1.58,43.99,1219.0,20.41,0.32,0.11,1.85,,134.0,258.0,,"Black gram, whole (Phaseolus mungo)",291.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B005,cowpea brown (vigna catjang),9.42,20.36,1.15,54.62,1340.0,11.54,0.33,0.09,1.64,,231.0,283.0,,"Cowpea, brown (Vigna catjang)",320.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B006,cowpea white (vigna catjang),9.32,21.25,1.14,53.77,1340.0,11.7,0.34,0.09,1.51,,249.0,285.0,,"Cowpea, white (Vigna catjang)",320.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B007,field bean black (phaseolus vulgaris),9.57,19.93,0.92,43.46,1155.0,23.4,0.35,0.07,1.88,,291.0,188.0,,"Field bean, black (Phaseolus vulgaris)",276.05,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B008,field bean brown (phaseolus vulgaris),8.74,19.9,0.98,45.24,1184.0,22.4,0.32,0.07,2.04,,292.0,198.0,,"Field bean, brown (Phaseolus vulgaris)",282.98,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B009,field bean white (phaseolus vulgaris),8.61,19.84,0.94,44.53,1173.0,22.99,0.37,0.07,1.96,,289.0,186.0,,"Field bean, white (Phaseolus vulgaris)",280.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B010,green gram dal (phaseolus aureus),9.77,23.88,1.35,52.59,1363.0,9.37,0.35,0.12,1.84,,92.11,247.0,,"Green gram, dal (Phaseolus aureus)",325.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B011,green gram whole (phaseolus aureus),9.95,22.53,1.14,46.13,1229.0,17.04,0.45,0.27,2.16,,145.0,274.0,,"Green gram, whole (Phaseolus aureus)",293.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B012,horse gram whole (dolicus biflorus),9.28,21.73,0.62,57.24,1379.0,7.88,0.32,0.24,1.82,,163.0,135.0,,"Horse gram, whole (Dolicus biflorus)",329.59,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B013,lentil dal (lens culinaris),9.71,24.35,0.75,52.53,1349.0,10.43,0.34,0.16,1.81,,49.99,91.02,,Lentil dal (Lens culinaris),322.42,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B014,lentil whole brown (lens culinaris),9.2,22.49,0.64,48.47,1251.0,16.82,0.4,0.22,2.54,,132.0,81.22,,"Lentil whole, brown (Lens culinaris)",299.0,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B015,lentil whole yellowish (lens culinaris),9.75,22.87,0.61,47.91,1246.0,16.66,0.42,0.22,2.56,,121.0,76.17,,"Lentil whole, yellowish (Lens culinaris)",297.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B016,moth bean (vigna aconitifolia),8.14,19.75,1.76,52.09,1291.0,15.12,0.45,0.09,1.87,,349.0,434.0,,Moth bean (Vigna aconitifolia),308.56,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B017,peas dry (pisum sativum),9.33,20.43,1.89,48.93,1269.0,17.01,0.56,0.16,2.69,,110.0,242.0,,"Peas, dry (Pisum sativum)",303.3,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B018,rajmah black (phaseolus vulgaris),8.69,19.01,1.62,49.59,1247.0,17.74,0.21,0.19,2.61,,332.0,238.0,,"Rajmah, black (Phaseolus vulgaris)",298.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B019,rajmah brown (phaseolus vulgaris),9.68,19.5,1.68,48.83,1245.0,16.95,0.26,0.21,2.37,,330.0,242.0,,"Rajmah, brown (Phaseolus vulgaris)",297.56,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B020,rajmah red (phaseolus vulgaris),9.87,19.91,1.77,48.61,1252.0,16.57,0.3,0.19,2.42,,316.0,256.0,,"Rajmah, red (Phaseolus vulgaris)",299.24,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B021,red gram dal (cajanus cajan),9.2,21.7,1.56,55.23,1384.0,9.06,0.45,0.11,2.09,,108.0,257.0,,"Red gram, dal (Cajanus cajan)",330.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B022,red gram whole (cajanus cajan),9.3,20.47,1.38,42.48,1146.0,22.84,0.74,0.15,2.42,,229.0,277.0,,"Red gram, whole (Cajanus cajan)",273.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B023,ricebean (vigna umbellata ),11.12,19.97,0.74,51.26,1265.0,13.37,0.46,0.14,2.32,1.11,122.0,172.0,,Ricebean (Vigna umbellata ),302.34,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B024,soya bean brown (glycine max),5.51,35.58,19.82,12.79,1596.0,21.55,0.59,0.24,2.12,,297.0,3092.0,,"Soya bean, brown (Glycine max)",381.45,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+B025,soya bean white (glycine max),5.47,37.8,19.42,10.16,1579.0,22.63,0.61,0.23,2.28,,288.0,3002.0,,"Soya bean, white (Glycine max)",377.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C001,agathi leaves (sesbania grandiflora),74.43,8.01,1.35,5.21,295.0,8.6,0.26,0.33,1.18,121.0,120.0,490.0,,Agathi leaves (Sesbania grandiflora),70.51,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C002,amaranth leaves green (amaranthus gangeticus),86.85,3.29,0.65,2.28,128.0,4.41,0.01,0.19,0.71,83.54,70.33,194.0,,"Amaranth leaves, green (Amaranthus gangeticus)",30.59,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C003,amaranth leaves red (amaranthus gangeticus),85.56,3.93,0.63,2.37,140.0,4.91,0.01,0.269,0.62,86.2,81.95,210.0,,"Amaranth leaves, red (Amaranthus gangeticus)",33.46,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C004,amaranth leaves red and green mix (amaranthus gangeticus),86.37,3.09,0.53,2.87,132.0,4.6,0.01,0.22,0.69,77.24,69.08,197.0,,"Amaranth leaves, red and green mix (Amaranthus gangeticus)",31.55,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C005,amaranth spinosus leaves green (amaranthus spinosus),86.46,3.54,0.36,1.61,110.0,5.1,0.01,0.13,0.63,82.56,41.44,85.13,,"Amaranth spinosus, leaves, green (Amaranthus spinosus)",26.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C006,amaranth spinosus leaves red and green mix (amaranthus spinosus),86.64,2.8,0.34,1.45,99.0,5.57,0.01,0.15,0.72,77.3,44.23,85.96,,"Amaranth spinosus, leaves, red and green mix (Amaranthus spinosus)",23.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C007,basella leaves (basella alba),92.68,1.57,0.45,2.01,82.0,2.21,0.06,0.15,0.46,63.35,90.31,101.0,,Basella leaves (Basella alba),19.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C008,bathua leaves (chenopodium album),88.77,2.5,0.44,2.56,116.0,4.01,0.06,0.51,0.54,41.03,42.55,120.0,,Bathua leaves (Chenopodium album),27.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C009,beet greens (beta vulgaris),86.68,2.38,0.75,3.86,145.0,3.64,0.02,0.17,0.43,35.83,11.52,188.0,,Beet greens (Beta vulgaris),34.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C010,betel leaves big (kolkata) (piper betle),84.93,2.51,0.75,7.37,202.0,2.12,0.03,0.08,0.45,18.4,15.96,250.0,,"Betel leaves, big (kolkata) (Piper betle)",48.28,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C011,betel leaves small (piper betle),85.92,2.62,0.75,6.16,183.0,1.97,0.02,0.07,0.47,24.51,16.56,238.0,,"Betel leaves, small (Piper betle)",43.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C012,brussels sprouts (brassica oleracea var gemmifera),84.39,4.26,0.5,5.09,185.0,4.29,0.06,0.16,0.5,89.45,85.01,226.0,,Brussels sprouts (Brassica oleracea var. gemmifera),44.22,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C013,cabbage chinese (brassica rupa),93.19,1.58,0.13,2.36,75.0,2.01,0.01,0.05,0.38,19.32,54.51,33.01,,"Cabbage, Chinese (Brassica rupa)",17.93,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C014,cabbage collard greens (brassica oleracea var viridis),89.53,3.63,0.27,2.79,126.0,2.98,0.03,0.05,0.26,40.76,63.46,61.87,,"Cabbage, collard greens (Brassica oleracea var. viridis)",30.11,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C015,cabbage green (brassica oleracea var capitata f alba),91.85,1.36,0.12,3.25,90.0,2.76,0.03,0.05,0.24,33.25,46.36,46.54,,"Cabbage, green (Brassica oleracea var. capitata f. alba)",21.51,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C016,cabbage violet (brassica oleracea var capitata f rubra),91.94,1.39,0.21,3.54,97.0,2.21,0.04,0.05,0.27,43.49,34.81,58.42,,"Cabbage, violet (Brassica oleracea var. capitata f. rubra)",23.18,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C017,cauliflower leaves (brassica oleracea var botrytis),87.64,3.9,0.42,3.39,148.0,3.43,0.05,0.05,0.21,52.84,42.99,115.0,,Cauliflower leaves (Brassica oleracea var. botrytis),35.37,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C018,colocasia leaves green (colocasia anti-quorum),83.61,3.42,1.38,3.69,182.0,5.6,0.08,0.07,0.8,40.71,159.0,426.0,,"Colocasia leaves, green (Colocasia anti-quorum)",43.5,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C019,drumstick leaves (moringa oleifera),75.65,6.41,1.64,5.62,282.0,8.21,0.06,0.45,0.82,108.0,42.89,560.0,,Drumstick leaves (Moringa oleifera),67.4,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C020,fenugreek leaves (trigonella foenum graecum),86.73,3.68,0.83,2.17,144.0,4.9,0.11,0.22,0.7,58.25,75.26,199.0,,Fenugreek leaves (Trigonella foenum graecum),34.42,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C021,garden cress (lepidium sativum),84.02,5.62,0.8,4.48,208.0,2.6,0.03,0.06,1.2,42.75,58.1,28.68,,Garden cress (Lepidium sativum),49.71,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C022,gogu leaves green (hibiscus cannabinus),87.42,1.86,1.09,4.06,152.0,4.59,0.13,0.06,0.58,29.65,74.94,245.0,,"Gogu leaves, green (Hibiscus cannabinus)",36.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C023,gogu leaves red (hibiscus cannabinus),87.98,1.85,1.07,4.24,153.0,3.89,0.12,0.05,0.56,35.43,88.63,243.0,,"Gogu leaves, red (Hibiscus cannabinus)",36.57,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C024,knol-khol leaves (brassica oleracea var gongylodes),86.2,3.12,0.35,6.16,178.0,2.76,0.06,0.15,0.86,71.11,41.55,107.0,,"Knol-Khol, leaves (Brassica oleracea var. gongylodes)",42.54,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C025,lettuce (lactuca sativa),92.27,1.54,0.27,3.01,91.0,1.79,0.05,0.09,0.17,11.91,30.69,116.0,,Lettuce (Lactuca sativa),21.75,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C026,mustard leaves (brassica juncea),88.17,3.52,0.51,2.41,127.0,3.92,0.08,0.18,0.58,60.32,110.0,142.0,,Mustard leaves (Brassica juncea),30.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C027,pak choi leaves (brassica rapa var chinensis),93.56,1.41,0.25,1.78,67.0,1.91,0.02,0.22,0.66,55.6,98.5,38.98,,Pak Choi leaves (Brassica rapa var. Chinensis),16.01,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C028,parsley (petroselinum crispum),77.76,5.55,1.14,9.43,305.0,3.87,0.19,0.1,0.36,133.0,197.0,345.0,,Parsley (Petroselinum crispum),72.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C029,ponnaganni (alternanthera sessilis),79.43,5.29,0.71,5.17,213.0,6.74,0.02,0.1,0.32,103.0,48.42,204.0,,Ponnaganni (Alternanthera sessilis),50.91,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C030,pumpkin leaves tender (cucurbita maxima),85.82,4.21,0.74,4.75,185.0,2.25,0.07,0.13,1.49,12.33,33.82,267.0,,"Pumpkin leaves, tender (Cucurbita maxima)",44.22,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C031,radish leaves (raphanus sativus),91.19,2.22,0.51,2.77,109.0,1.82,0.06,0.13,0.47,65.76,53.14,147.0,,Radish leaves (Raphanus sativus),26.05,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C032,rumex leaves (rumex patientia),93.18,1.62,0.33,2.33,82.0,1.27,0.03,0.14,0.33,53.76,41.01,60.92,,Rumex leaves (Rumex patientia),19.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C033,spinach (spinacia oleracea),90.31,2.14,0.64,2.05,102.0,2.38,0.16,0.1,0.33,30.28,142.0,183.0,,Spinach (Spinacia oleracea),24.38,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+C034,tamarind leaves tender (tamarindus indica),71.69,5.84,0.49,10.04,299.0,10.7,0.12,0.03,0.79,28.22,91.82,176.0,,"Tamarind leaves, tender (Tamarindus indica)",71.46,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D001,ash gourd (benincasa hispida),92.17,0.79,0.14,2.84,73.0,3.37,0.03,0.01,0.12,11.41,14.11,25.26,,Ash gourd (Benincasa hispida),17.45,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D002,bamboo shoot tender (bambusa vulgaris),94.56,1.33,0.35,1.67,68.0,1.55,0.06,0.06,0.25,15.74,17.05,41.09,,"Bamboo shoot, tender (Bambusa vulgaris)",16.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D003,bean scarlet tender (phaseolus coccineus),85.51,2.86,0.99,5.16,179.0,4.5,0.13,0.12,0.52,6.61,45.26,266.0,,"Bean scarlet, tender (Phaseolus coccineus)",42.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D004,bitter gourd jagged teeth ridges elongate (momordica charantia),90.87,1.44,0.24,2.82,87.0,3.78,0.05,0.04,0.27,46.53,60.28,144.0,,"Bitter gourd, jagged, teeth ridges, elongate (Momordica charantia)",20.79,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D005,bitter gourd jagged teeth ridges short (momordica charantia),91.6,1.34,0.24,2.53,79.0,3.49,0.06,0.04,0.29,50.87,51.45,139.0,,"Bitter gourd, jagged, teeth ridges, short (Momordica charantia)",18.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D006,bitter gourd jagged smooth ridges elongate (momordica charantia),91.24,1.61,0.26,2.29,81.0,3.72,0.06,0.04,0.3,54.3,60.03,142.0,,"Bitter gourd, jagged, smooth ridges, elongate (Momordica charantia)",19.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D007,bottle gourd elongate pale green (lagenaria vulgaris),95.17,0.53,0.13,1.68,46.0,2.12,0.03,0.01,0.14,4.33,41.99,41.44,,"Bottle gourd, elongate, pale green (Lagenaria vulgaris)",10.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D008,bottle gourd round pale green (lagenaria vulgaris),94.5,0.42,0.12,2.53,57.0,2.1,0.03,0.01,0.14,4.54,49.59,41.07,,"Bottle gourd, round, pale green (Lagenaria vulgaris)",13.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D009,bottle gourd elongate dark green (lagenaria vulgaris),94.63,0.49,0.13,2.25,54.0,2.11,0.03,0.01,0.14,3.8,46.31,42.04,,"Bottle gourd, elongate, dark green (Lagenaria vulgaris)",12.91,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D010,brinjal-1 (solanum melongena),89.95,1.77,0.39,3.49,114.0,3.57,0.07,0.13,0.74,1.58,37.22,94.53,,Brinjal-1 (Solanum melongena),27.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D011,brinjal-2 (solanum melongena),90.28,1.82,0.34,2.71,99.0,4.01,0.09,0.11,0.56,1.03,27.22,88.11,,Brinjal-2 (Solanum melongena),23.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D012,brinjal-3 (solanum melongena),90.02,1.36,0.33,3.38,102.0,4.26,0.05,0.109,0.6,2.34,32.29,72.34,,Brinjal-3 (Solanum melongena),24.38,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D013,brinjal-4 (solanum melongena),90.28,1.51,0.31,3.19,100.0,4.04,0.06,0.11,0.52,2.22,36.67,66.91,,Brinjal-4 (Solanum melongena),23.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D014,brinjal-5 (solanum melongena),89.45,1.38,0.29,4.02,111.0,4.13,0.07,0.11,0.49,3.15,32.21,69.24,,Brinjal-5 (Solanum melongena),26.53,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D015,brinjal-6 (solanum melongena),90.57,1.46,0.29,3.29,97.0,3.68,0.05,0.11,0.51,1.49,34.21,70.99,,Brinjal-6 (Solanum melongena),23.18,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D016,brinjal-7 (solanum melongena),91.25,1.4,0.37,3.1,98.0,3.32,0.05,0.12,0.44,1.08,26.58,71.72,,Brinjal-7 (Solanum melongena),23.42,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D017,brinjal-8 (solanum melongena),89.28,1.82,0.33,3.75,117.0,4.01,0.07,0.11,0.65,1.89,33.89,68.17,,Brinjal-8 (Solanum melongena),27.96,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D018,brinjal-9 (solanum melongena),89.83,1.47,0.35,3.52,106.0,4.0,0.06,0.11,0.56,1.72,35.89,80.49,,Brinjal-9 (Solanum melongena),25.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D019,brinjal-10 (solanum melongena),89.38,1.68,0.25,4.08,116.0,3.9,0.06,0.1,0.5,2.4,37.11,66.0,,Brinjal-10 (Solanum melongena),27.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D020,brinjal-11 (solanum melongena),89.93,1.43,0.31,3.53,105.0,4.12,0.06,0.11,0.53,2.24,34.24,68.14,,Brinjal-11 (Solanum melongena),25.1,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D021,brinjal-12 (solanum melongena),90.94,1.6,0.27,2.73,93.0,3.89,0.04,0.1,0.46,2.55,27.83,68.52,,Brinjal-12 (Solanum melongena),22.23,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D022,brinjal-13 (solanum melongena),89.14,1.49,0.31,4.51,124.0,3.92,0.04,0.12,0.54,1.49,30.99,82.96,,Brinjal-13 (Solanum melongena),29.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D023,brinjal-14 (solanum melongena),90.31,1.56,0.35,3.27,106.0,3.87,0.06,0.1,0.46,1.83,38.99,59.14,,Brinjal-14 (Solanum melongena),25.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D024,brinjal-15 (solanum melongena),89.44,1.58,0.29,3.96,114.0,3.99,0.07,0.11,0.51,2.01,32.48,67.08,,Brinjal-15 (Solanum melongena),27.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D025,brinjal-16 (solanum melongena),90.39,1.26,0.34,3.46,103.0,3.74,0.04,0.11,0.44,1.53,30.87,83.65,,Brinjal-16 (Solanum melongena),24.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D026,brinjal-17 (solanum melongena),90.83,1.18,0.36,2.89,91.0,3.94,0.08,0.09,0.53,1.95,27.7,81.14,,Brinjal-17 (Solanum melongena),21.75,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D027,brinjal-18 (solanum melongena),89.07,1.47,0.33,4.1,116.0,4.38,0.04,0.1,0.57,1.97,38.27,69.18,,Brinjal-18 (Solanum melongena),27.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D028,brinjal-19 (solanum melongena),90.41,1.26,0.31,3.39,100.0,3.97,0.04,0.1,0.53,2.53,34.32,59.27,,Brinjal-19 (Solanum melongena),23.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D029,brinjal-20 (solanum melongena),90.65,1.44,0.34,3.15,99.0,3.73,0.06,0.1,0.55,2.21,33.44,79.91,,Brinjal-20 (Solanum melongena),23.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D030,brinjal-21 (solanum melongena),89.83,1.36,0.35,3.93,113.0,3.85,0.05,0.11,0.53,1.38,32.6,88.28,,Brinjal-21 (Solanum melongena),27.01,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D031,brinjal - all varieties (solanum melongena),90.0,1.48,0.32,3.52,106.0,3.98,0.06,0.11,0.53,2.09,33.93,71.15,,Brinjal - all varieties (Solanum melongena),25.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D032,broad beans (vicia faba),84.2,3.85,0.15,2.11,123.0,8.63,0.12,0.1,0.76,10.98,20.46,42.62,,Broad beans (Vicia faba),29.4,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D033,capsicum green (capsicum annuum),93.89,1.11,0.34,1.84,68.0,2.06,0.05,0.03,0.56,123.0,51.85,77.03,,"Capsicum, green (Capsicum annuum)",16.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D034,capsicum red (capsicum annuum),92.99,1.47,0.47,2.14,83.0,2.19,0.1,0.03,0.66,112.0,62.54,86.39,,"Capsicum, red (Capsicum annuum)",19.84,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D035,capsicum yellow (capsicum annuum),93.38,1.35,0.41,1.95,78.0,2.19,0.14,0.02,0.59,127.0,66.15,102.0,,"Capsicum, yellow (Capsicum annuum)",18.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D036,cauliflower (brassica oleracea),90.76,2.15,0.44,2.03,96.0,3.71,0.04,0.07,0.31,47.14,45.95,117.0,,Cauliflower (Brassica oleracea),22.94,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D037,celery stalk (apium graveolens),92.87,0.98,0.24,2.33,69.0,2.09,0.03,0.04,0.48,12.3,22.48,62.76,,Celery stalk (Apium graveolens),16.49,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D038,cho-cho-marrow (sechium edule),93.78,0.66,0.15,3.47,79.0,1.55,0.01,0.03,0.23,20.21,63.03,76.12,,Cho-cho-marrow (Sechium edule),18.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D039,cluster beans (cyamopsis tetragonobola),84.65,3.55,0.37,4.91,168.0,4.83,0.05,0.03,0.71,17.96,41.24,107.0,,Cluster beans (Cyamopsis tetragonobola),40.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D040,colocasia stem black (colocasia antiquorum),91.15,0.76,0.34,3.83,100.0,3.01,0.02,0.04,0.16,5.15,30.88,103.0,,"Colocasia, stem, black (Colocasia antiquorum)",23.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D041,colocasia stem green (colocasia antiquorum),92.67,0.91,0.22,2.86,81.0,2.33,0.02,0.03,0.22,5.83,25.32,67.53,,"Colocasia, stem, green (Colocasia antiquorum)",19.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D042,corn baby (zea mays),75.44,2.69,1.33,11.66,306.0,6.09,0.15,0.07,0.53,8.59,45.53,211.0,,"Corn, Baby (Zea mays)",73.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D043,cucumber green elongate (cucumis sativus),92.96,0.71,0.16,3.48,82.0,2.14,0.02,0.01,0.35,6.11,16.84,64.17,,"Cucumber, green, elongate (Cucumis sativus)",19.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D044,cucumber green short (cucumis sativus),93.52,0.83,0.18,2.82,73.0,2.13,0.02,0.01,0.35,6.21,14.67,67.77,,"Cucumber, green, short (Cucumis sativus)",17.45,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D045,cucumber orange round (cucumis sativus),92.8,0.98,0.24,3.01,82.0,2.46,0.02,0.01,0.36,6.24,18.77,71.9,,"Cucumber, orange, round (Cucumis sativus)",19.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D046,drumstick (moringa oleifera),85.39,2.62,0.12,3.76,123.0,6.83,0.04,0.07,0.62,71.86,62.75,29.05,,Drumstick (Moringa oleifera),29.4,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D047,field beans tender broad (vicia faba),86.98,3.06,0.64,2.75,129.0,5.64,0.07,0.07,0.32,5.99,123.0,182.0,,"Field beans, tender, broad (Vicia faba)",30.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D048,field beans tender lean (vicia faba),85.57,3.71,0.6,2.85,140.0,6.19,0.08,0.07,0.33,3.84,127.0,175.0,,"Field beans, tender, lean (Vicia faba)",33.46,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D049,french beans country (phaseolus vulgaris),89.14,2.49,0.26,2.68,102.0,4.38,0.04,0.06,0.83,15.81,47.45,71.07,,"French beans, country (Phaseolus vulgaris)",24.38,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D050,french beans hybrid (phaseolus vulgaris),90.11,2.12,0.19,2.63,93.0,4.18,0.05,0.05,0.77,1.38,61.98,66.8,,"French beans, hybrid (Phaseolus vulgaris)",22.23,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D051,jack fruit raw (artocarpus heterophyllus),85.52,1.98,0.35,3.48,110.0,7.69,0.05,0.05,0.19,17.51,35.73,47.36,,"Jack fruit, raw (Artocarpus heterophyllus)",26.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D052,jack fruit seed mature (artocarpus heterophyllus),72.32,5.79,0.44,11.81,322.0,8.63,0.06,0.03,0.19,9.68,54.58,146.0,,"Jack fruit, seed, mature (Artocarpus heterophyllus)",76.96,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D053,knol - khol (brassica oleracea),93.14,1.58,0.35,1.39,67.0,2.75,0.04,0.06,0.37,64.7,14.76,97.4,,Knol - Khol (Brassica oleracea),16.01,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D054,kovai big (coccinia cordifolia),92.78,1.39,0.24,2.01,73.0,3.0,0.04,0.02,0.55,17.62,48.68,68.84,,"Kovai, big (Coccinia cordifolia)",17.45,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D055,kovai small (coccinia cordifolia),92.4,1.22,0.24,2.41,80.0,3.25,0.04,0.02,0.51,21.08,50.13,75.33,,"Kovai, small (Coccinia cordifolia)",19.12,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D056,ladies finger (abelmoschus esculentus),89.06,2.08,0.22,3.62,115.0,4.08,0.04,0.07,0.61,22.51,63.68,69.37,,Ladies finger (Abelmoschus esculentus),27.49,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D057,mango green raw (mangifera indica),85.14,0.69,0.08,10.59,205.0,3.01,0.02,0.02,0.26,90.24,25.86,27.28,,"Mango, green, raw (Mangifera indica)",49.0,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D058,onion stalk (allium cepa),88.35,2.07,0.26,2.99,107.0,5.21,0.03,0.05,0.14,27.23,57.61,92.08,,"Onion, stalk (Allium cepa)",25.57,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D059,papaya raw (carica papaya),92.04,0.5,0.23,4.4,100.0,2.28,0.02,0.03,0.12,20.73,29.79,69.15,,"Papaya, raw (Carica papaya)",23.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D060,parwar (trichosanthes dioica),91.57,1.4,0.3,3.54,101.0,2.61,0.05,0.05,0.67,19.24,19.96,95.93,,Parwar (Trichosanthes dioica),24.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D061,peas fresh (pisum sativum),73.37,7.25,0.13,11.88,340.0,6.32,0.27,0.03,1.28,38.4,54.77,19.01,,"Peas, fresh (Pisum sativum)",81.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D062,plantain flower (musa x paradisiaca),89.14,1.47,0.63,2.15,89.0,5.25,0.02,0.02,0.28,6.49,49.27,273.0,,"Plantain, flower (Musa x paradisiaca)",21.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D063,plantain green (musa x paradisiaca),76.15,1.18,0.23,17.58,334.0,3.6,0.01,0.05,0.33,23.28,18.96,57.13,,"Plantain, green (Musa x paradisiaca)",79.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D064,plantain stem (musa x paradisiaca),87.53,0.35,0.16,8.64,165.0,2.12,0.02,0.02,0.18,3.77,12.85,27.45,,"Plantain, stem (Musa x paradisiaca)",39.44,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D065,pumpkin green cylindrical (cucurbita maxima),91.73,0.87,0.18,4.22,103.0,2.53,0.03,0.02,0.44,7.29,31.6,53.32,,"Pumpkin, green, cylindrical (Cucurbita maxima)",24.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D066,pumpkin orange round (cucurbita maxima),91.85,0.84,0.16,4.0,97.0,2.56,0.03,0.03,0.41,8.04,24.14,44.58,,"Pumpkin, orange, round (Cucurbita maxima)",23.18,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D067,red gram tender fresh (cajanus cajan),64.0,8.09,0.92,19.46,520.0,5.9,0.23,0.09,2.14,15.13,94.21,211.0,,"Red gram, tender, fresh (Cajanus cajan)",124.28,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D068,ridge gourd (luffa acutangula),94.99,0.91,0.14,1.72,55.0,1.81,0.02,0.01,0.2,5.42,29.26,54.49,,Ridge gourd (Luffa acutangula),13.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D069,ridge gourd smooth skin (luffa acutangula),94.27,0.98,0.13,2.24,64.0,1.85,0.02,0.01,0.21,8.1,27.36,43.07,,"Ridge gourd, smooth skin (Luffa acutangula)",15.3,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D070,snake gourd long pale green (trichosanthes anguina),94.81,0.98,0.25,1.27,52.0,2.27,0.03,0.03,0.34,2.72,18.34,94.9,,"Snake gourd, long, pale green (Trichosanthes anguina)",12.43,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D071,snake gourd long dark green (trichosanthes anguina),94.92,0.89,0.25,1.23,50.0,2.27,0.03,0.03,0.33,2.85,16.52,95.87,,"Snake gourd, long, dark green (Trichosanthes anguina)",11.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D072,snake gourd short (trichosanthes anguina),94.35,0.54,0.26,2.15,61.0,2.29,0.03,0.02,0.33,2.3,17.74,100.0,,"Snake gourd, short (Trichosanthes anguina)",14.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D073,tinda tender (praecitrullus fistulosus),94.41,1.02,0.17,1.9,58.0,2.0,0.02,0.03,0.56,14.2,43.23,48.97,,"Tinda, tender (Praecitrullus fistulosus)",13.86,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D074,tomato green (lycopersicon esculentum),93.21,1.12,0.27,3.18,87.0,1.62,0.08,0.05,0.46,16.41,12.51,46.91,,"Tomato, green (Lycopersicon esculentum)",20.79,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D075,tomato ripe hybrid (lycopersicon esculentum),93.79,0.76,0.25,3.2,79.0,1.58,0.04,0.02,0.51,25.27,15.41,47.65,,"Tomato, ripe, hybrid (Lycopersicon esculentum)",18.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D076,tomato ripe local (lycopersicon esculentum),93.62,0.9,0.47,2.71,82.0,1.77,0.03,0.03,0.52,27.47,19.46,79.56,,"Tomato, ripe, local (Lycopersicon esculentum)",19.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D077,zucchini green (cucurbita pepo),92.83,1.1,0.51,2.33,84.0,2.3,0.05,0.09,1.03,15.78,18.85,119.0,,"Zucchini, green (Cucurbita pepo)",20.08,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+D078,zucchini yellow (cucurbita pepo),93.15,1.31,0.44,2.2,79.0,1.84,0.03,0.02,0.42,16.71,21.5,56.92,,"Zucchini, yellow (Cucurbita pepo)",18.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E001,apple big (malus domestica),83.01,0.29,0.64,13.11,261.0,2.59,0.03,0.01,0.25,3.57,3.04,154.0,,"Apple, big (Malus domestica)",62.38,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E002,apple green (malus domestica),85.54,0.46,0.5,10.65,214.0,2.54,0.01,0.02,0.21,2.9,3.43,116.0,,"Apple, green (Malus domestica)",51.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E003,apple small (malus domestica),82.91,0.31,0.53,13.95,267.0,2.06,0.01,0.01,0.09,4.0,3.52,149.0,,"Apple, small (Malus domestica)",63.81,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E004,apple small kashmir (malus sylvestris),82.79,0.27,0.6,13.99,269.0,2.07,0.01,0.01,0.09,4.24,3.97,176.0,,"Apple, small, Kashmir (Malus sylvestris)",64.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E005,apricot dried (prunus armeniaca),16.68,3.17,0.74,72.63,1321.0,3.32,0.04,0.04,1.66,0.42,10.5,200.0,,"Apricot, dried (Prunus armeniaca)",315.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E006,apricot processed (prunus armeniaca),85.75,1.47,0.64,10.93,236.0,0.59,0.25,0.04,1.07,7.98,5.42,185.0,,"Apricot, processed (Prunus armeniaca)",56.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E007,avocado fruit (persea americana),73.56,2.95,13.86,1.75,604.0,6.69,0.07,0.08,0.9,9.36,67.17,1237.0,,Avocado fruit (Persea americana),144.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E008,bael fruit (aegle marmelos),61.36,2.63,0.57,28.21,569.0,6.31,0.03,0.04,0.25,7.5,55.22,190.0,,Bael fruit (Aegle marmelos),135.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E009,banana ripe montham (musa x paradisiaca),70.13,1.25,0.32,24.95,463.0,2.21,0.01,0.04,0.48,8.06,17.93,110.0,,"Banana, ripe, montham (Musa x paradisiaca)",110.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E010,banana ripe poovam (musa x paradisiaca),71.32,1.49,0.35,23.41,445.0,2.33,0.01,0.03,0.43,6.74,19.95,113.0,,"Banana, ripe, poovam (Musa x paradisiaca)",106.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E011,banana ripe red (musa x paradisiaca),70.28,1.29,0.29,25.21,467.0,1.98,0.01,0.02,0.46,6.74,18.92,106.0,,"Banana, ripe, red (Musa x paradisiaca)",111.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E012,banana ripe robusta (musa x paradisiaca),71.93,1.23,0.33,23.63,440.0,1.94,0.01,0.03,0.47,4.76,16.81,114.0,,"Banana, ripe, robusta (Musa x paradisiaca)",105.16,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E013,black berry (rubus fruticosus),82.94,0.92,0.63,10.64,227.0,4.35,0.01,0.02,0.4,19.45,22.95,195.0,,Black berry (Rubus fruticosus),54.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E014,cherries red (prunus cerasus),83.61,1.49,0.46,11.87,250.0,2.12,0.07,0.02,0.19,8.82,4.92,125.0,,"Cherries, red (Prunus cerasus)",59.75,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E015,currants black (ribes nigrum),83.27,1.51,0.53,9.93,227.0,4.07,0.03,0.03,0.35,182.0,8.48,83.33,,"Currants, black (Ribes nigrum)",54.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E016,custard apple (annona squamosa),71.55,1.62,0.67,20.38,414.0,5.1,0.13,0.09,0.69,21.51,7.6,138.0,,Custard apple (Annona squamosa),98.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E017,dates dry pale brown (phoenix dactylifera),11.14,2.45,0.35,74.91,1340.0,8.95,0.03,0.03,1.47,4.42,18.65,97.03,,"Dates, dry, pale brown (Phoenix dactylifera)",320.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E018,dates dry dark brown (phoenix dactylifera),13.13,2.38,0.35,72.67,1301.0,9.1,0.02,0.03,1.09,3.84,12.8,114.0,,"Dates, dry, dark brown (Phoenix dactylifera)",310.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E019,dates processed (phoenix dactylifera),22.01,1.18,0.41,67.95,1197.0,6.52,0.05,0.02,0.51,15.51,24.53,149.0,,"Dates, processed (Phoenix dactylifera)",286.09,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E020,fig (ficus carica),75.6,2.03,0.37,16.28,341.0,4.64,0.04,0.02,0.27,16.92,13.67,89.44,,Fig (Ficus carica),81.5,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E021,goosberry (emblica officinalis),87.02,0.34,0.16,4.39,99.0,7.75,0.01,0.03,0.12,252.0,7.86,38.48,,Goosberry (Emblica officinalis),23.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E022,grapes seeded round black (vitis vinifera),83.88,0.76,0.32,13.23,254.0,1.35,0.03,0.03,0.14,18.3,8.69,106.0,,"Grapes, seeded, round, black (Vitis vinifera)",60.71,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E023,grapes seeded round green (vitis vinifera),85.07,0.77,0.29,12.19,235.0,1.25,0.03,0.02,0.13,17.1,8.35,92.42,,"Grapes, seeded, round, green (Vitis vinifera)",56.17,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E024,grapes seeded round red (vitis vinifera),84.46,0.95,0.29,12.55,244.0,1.28,0.04,0.03,0.1,20.59,7.49,92.04,,"Grapes, seeded, round, red (Vitis vinifera)",58.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E025,grapes seedless oval black (vitis vinifera),75.3,1.41,0.46,20.48,395.0,1.64,0.03,0.02,0.15,27.32,7.22,45.63,,"Grapes, seedless, oval, black (Vitis vinifera)",94.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E026,grapes seedless round green (vitis vinifera),85.55,0.62,0.26,11.81,224.0,1.28,0.04,0.03,0.12,16.47,8.31,87.11,,"Grapes, seedless, round, green (Vitis vinifera)",53.54,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E027,grapes seedless round black (vitis vinifera),76.9,1.24,0.35,19.86,374.0,1.15,0.03,0.03,0.13,22.79,8.89,129.0,,"Grapes, seedless, round, black (Vitis vinifera)",89.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E028,guava white flesh (psidium guajava),83.79,1.44,0.32,5.13,135.0,8.59,0.05,0.04,0.6,214.0,29.76,49.3,,"Guava, white flesh (Psidium guajava)",32.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E029,guava pink flesh (psidium guajava),81.22,1.19,0.25,9.14,195.0,7.39,0.03,0.03,0.59,222.0,32.17,27.18,,"Guava, pink flesh (Psidium guajava)",46.61,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E030,jack fruit ripe (artocarpus heterophyllus),78.56,2.74,0.15,14.01,302.0,3.62,0.05,0.01,0.42,6.73,32.15,37.66,,"Jack fruit, ripe (Artocarpus heterophyllus)",72.18,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E031,jambu fruit ripe (syzygium cumini),83.33,0.82,0.17,12.3,235.0,3.07,0.02,0.02,0.14,16.47,7.63,66.49,,"Jambu fruit, ripe (Syzygium cumini)",56.17,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E032,karonda fruit (carissa carandas),86.04,1.15,1.67,2.87,141.0,7.25,0.01,0.02,0.25,135.0,8.72,66.81,,Karonda fruit (Carissa carandas),33.7,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E033,lemon juice (citrus limon),91.59,0.41,0.75,,153.0,,0.04,0.01,0.1,48.16,12.43,202.0,,"Lemon, juice (Citrus limon)",36.57,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E034,lime sweetpulp (citrus limetta),91.32,0.76,0.2,5.18,114.0,2.07,0.06,0.01,0.17,46.96,15.38,76.4,,"Lime, sweet,pulp (Citrus limetta)",27.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E035,litchi (nephelium litchi),85.56,0.99,0.26,11.41,225.0,1.34,0.02,0.06,0.23,33.82,15.69,91.48,,Litchi (Nephelium litchi),53.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E036,mango ripe banganapalli (mangifera indica),88.44,0.54,0.55,8.18,175.0,1.88,0.03,0.04,0.26,32.97,82.05,170.0,,"Mango, ripe, banganapalli (Mangifera indica)",41.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E037,mango ripe gulabkhas (mangifera indica),86.65,0.52,0.53,10.32,209.0,1.67,0.03,0.04,0.23,27.65,84.35,180.0,,"Mango, ripe, gulabkhas (Mangifera indica)",49.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E038,mango ripe himsagar (mangifera indica),88.04,0.46,0.54,9.03,187.0,1.55,0.03,0.03,0.27,49.09,90.98,174.0,,"Mango, ripe, himsagar (Mangifera indica)",44.69,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E039,mango ripe kesar (mangifera indica),85.07,0.54,0.57,11.36,231.0,2.02,0.03,0.04,0.26,29.08,90.43,172.0,,"Mango, ripe, kesar (Mangifera indica)",55.21,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E040,mango ripe neelam (mangifera indica),88.41,0.68,0.55,8.21,178.0,1.77,0.03,0.04,0.23,29.93,68.7,178.0,,"Mango, ripe, neelam (Mangifera indica)",42.54,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E041,mango ripe paheri (mangifera indica),87.69,0.68,0.58,8.67,188.0,1.97,0.03,0.04,0.28,30.75,65.28,186.0,,"Mango, ripe, paheri (Mangifera indica)",44.93,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E042,mango ripe totapari (mangifera indica),84.14,0.41,0.49,12.75,248.0,1.73,0.02,0.05,0.27,25.26,77.69,175.0,,"Mango, ripe, totapari (Mangifera indica)",59.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E043,mangosteen (garcinia mangostana),85.52,0.63,0.24,11.41,219.0,1.87,0.01,0.01,0.58,26.33,13.52,176.0,,Mangosteen (Garcinia mangostana),52.34,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E044,manila tamarind (pithecellobium dulce),74.54,3.56,1.14,13.54,342.0,4.4,0.18,0.14,0.4,55.78,4.24,27.81,,Manila tamarind (Pithecellobium dulce),81.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E045,musk melon orange flesh (cucumis melon),92.97,0.42,0.35,4.24,97.0,1.51,0.01,0.01,0.41,22.76,22.31,92.94,,"Musk melon, orange flesh (Cucumis melon)",23.18,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E046,musk melon yellow flesh (cucumis melon),91.84,0.53,0.26,5.4,116.0,1.49,0.01,0.02,0.43,21.32,20.23,79.0,,"Musk melon, yellow flesh (Cucumis melon)",27.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E047,orange pulp (citrus aurantium),89.61,0.7,0.13,7.92,156.0,1.29,0.07,0.02,0.28,42.72,19.46,37.11,,"Orange, pulp (Citrus aurantium)",37.28,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E048,palm fruit tender (borassus flabellifer),91.93,0.5,0.12,4.92,101.0,2.4,0.01,0.46,,0.25,24.4,33.36,,"Palm fruit, tender (Borassus flabellifer)",24.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E049,papaya ripe (carcia papaya),91.47,0.42,0.16,4.61,100.0,2.83,0.03,0.11,0.33,43.09,60.9,56.08,,"Papaya, ripe (Carcia papaya)",23.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E050,peach (prunus communis),88.31,0.86,0.37,7.82,168.0,2.13,0.02,0.02,0.29,5.49,6.34,23.9,,Peach (Prunus communis),40.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E051,pear (pyrus sp),86.49,0.36,0.27,8.09,157.0,4.48,0.02,0.02,0.13,3.31,5.28,75.94,,Pear (Pyrus sp.),37.52,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E052,phalsa (grewia asiatica),77.48,1.66,0.14,15.09,299.0,4.54,0.03,0.06,0.4,5.11,22.56,164.0,,Phalsa (Grewia asiatica),71.46,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E053,pineapple (ananas comosus),86.06,0.52,0.16,9.42,180.0,3.46,0.05,0.03,0.12,36.37,18.21,51.09,,Pineapple (Ananas comosus),43.02,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E054,plum (prunus domestica),84.44,0.64,0.4,12.1,238.0,2.07,0.02,0.02,0.44,2.26,14.29,20.05,,Plum (Prunus domestica),56.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E055,pomegranate maroon seeds (punica granatum),83.55,1.33,0.15,11.58,229.0,2.83,0.06,0.01,0.2,12.69,38.64,42.5,,"Pomegranate, maroon seeds (Punica granatum)",54.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E056,pummelo (citrus maxima),86.97,0.68,0.42,10.64,210.0,0.8,0.06,0.02,0.23,48.89,13.44,115.0,,Pummelo (Citrus maxima),50.19,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E057,raisins dried black (vitis vinifera),19.69,2.57,0.34,71.29,1279.0,3.92,0.09,0.04,0.48,2.05,38.3,62.47,,"Raisins, dried, black (Vitis vinifera)",305.69,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E058,raisins dried golden (vitis vinifera),21.5,2.76,0.35,68.79,1241.0,4.56,0.09,0.04,0.64,1.85,34.68,121.0,,"Raisins, dried, golden (Vitis vinifera)",296.61,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E059,rambutan (nephelium lappaceum),80.87,0.68,0.16,16.84,306.0,1.02,0.11,0.01,0.26,65.0,7.35,144.0,,Rambutan (Nephelium lappaceum),73.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E060,sapota (achras sapota),73.64,0.92,1.26,13.9,307.0,9.6,0.01,0.03,0.24,20.96,10.83,389.0,,Sapota (Achras sapota),73.37,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E061,soursop (annona muricata),80.85,0.74,0.94,11.94,260.0,4.95,0.03,0.04,0.85,59.54,6.09,135.0,,Soursop (Annona muricata),62.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E062,star fruit (averrhoa carambola),91.18,0.79,0.39,4.51,110.0,2.81,0.08,0.02,0.34,33.55,8.43,20.77,,Star fruit (Averrhoa carambola),26.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E063,strawberry (fragaria ananassa),92.03,0.97,0.56,3.4,103.0,2.5,0.06,0.01,0.48,50.2,8.91,66.21,,Strawberry (Fragaria ananassa),24.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E064,tamarind pulp (tamarindus indicus),20.83,2.92,0.15,67.35,1207.0,5.31,0.34,0.07,1.56,3.62,9.79,27.26,,"Tamarind, pulp (Tamarindus indicus)",288.48,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E065,water melon dark green (sugar baby) (citrullus vulgaris),94.54,0.6,0.16,3.86,85.0,0.7,0.02,0.02,0.28,13.26,5.88,39.7,,"Water melon, dark green (sugar baby) (Citrullus vulgaris)",20.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E066,water melon pale green (citrullus vulgaris),95.33,0.59,0.16,3.02,70.0,0.78,0.02,0.02,0.3,11.45,5.55,50.33,,"Water melon, pale green (Citrullus vulgaris)",16.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E067,wood apple (limonia acidissima),79.36,3.14,3.62,7.52,327.0,5.21,0.04,0.01,0.55,22.17,6.51,877.0,,Wood Apple (Limonia acidissima),78.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+E068,zizyphus (zizyphus jujube),84.39,1.34,0.35,9.4,204.0,3.73,0.01,0.02,0.33,60.93,5.99,119.0,,Zizyphus (Zizyphus jujube),48.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F001,beet root (beta vulgaris),86.95,1.95,0.14,6.18,149.0,3.31,0.01,0.01,0.21,5.26,97.37,31.17,,Beet root (Beta vulgaris),35.61,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F002,carrot orange (dacus carota),87.69,0.95,0.47,5.55,139.0,4.18,0.04,0.03,0.22,6.22,24.04,87.71,,"Carrot, orange (Dacus carota)",33.22,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F003,carrot red (dacus carota),86.07,1.04,0.47,6.71,160.0,4.49,0.04,0.03,0.25,6.76,23.67,88.91,,"Carrot, red (Dacus carota)",38.24,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F004,colocasia (colocasia antiquorum),73.49,3.31,0.17,17.85,372.0,3.22,0.06,0.03,0.51,1.83,19.91,41.84,,Colocasia (Colocasia antiquorum),88.91,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F005,lotus root (nelumbium nelumbo),76.26,1.94,0.93,14.67,332.0,4.7,0.07,0.05,0.43,26.63,26.49,249.0,,Lotus root (Nelumbium nelumbo),79.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F006,potato brown skin big (solanum tuberosum),80.72,1.54,0.23,14.89,292.0,1.71,0.06,0.01,1.04,23.15,15.51,43.56,,"Potato, brown skin, big (Solanum tuberosum)",69.79,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F007,potato brown skin small (solanum tuberosum),82.97,1.35,0.22,12.9,255.0,1.69,0.05,0.01,1.36,26.41,13.85,44.03,,"Potato, brown skin, small (Solanum tuberosum)",60.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F008,potato red skin (solanum tuberosum),79.72,1.83,0.22,15.43,306.0,1.68,0.06,0.01,1.13,25.04,17.83,39.87,,"Potato, red skin (Solanum tuberosum)",73.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F009,radish elongate red skin (raphanus sativus),89.32,0.67,0.13,6.71,134.0,2.46,0.03,0.02,0.31,17.63,24.65,42.65,,"Radish, elongate, red skin (Raphanus sativus)",32.03,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F010,radish elongate white skin (raphanus sativus),89.05,0.77,0.15,6.56,135.0,2.65,0.02,0.02,0.3,19.91,29.75,43.88,,"Radish, elongate, white skin (Raphanus sativus)",32.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F011,radish round red skin (raphanus sativus),89.68,0.89,0.16,6.07,130.0,2.29,0.03,0.02,0.3,15.69,24.59,46.08,,"Radish, round, red skin (Raphanus sativus)",31.07,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F012,radish round white skin (raphanus sativus),89.76,0.8,0.14,6.13,129.0,2.37,0.03,0.02,0.24,14.0,22.6,41.15,,"Radish, round, white skin (Raphanus sativus)",30.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F013,sweet potato brown skin (ipomoes batatas),69.21,1.33,0.26,24.25,456.0,3.99,0.07,0.04,0.67,17.94,15.62,66.1,,"Sweet potato, brown skin (Ipomoes batatas)",108.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F014,sweet potato pink skin (ipomoes batatas),69.58,1.27,0.33,23.93,452.0,3.94,0.06,0.04,0.69,22.2,14.44,101.0,,"Sweet potato, pink skin (Ipomoes batatas)",108.03,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F015,tapioca (manihot esculenta),75.23,1.03,0.2,17.81,334.0,4.61,0.07,0.02,0.45,15.51,25.64,59.5,,Tapioca (Manihot esculenta),79.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F016,water chestnut (eleocharis dulcis),73.34,0.86,0.37,21.46,400.0,3.02,0.02,0.02,0.74,5.26,9.8,87.42,,Water Chestnut (Eleocharis dulcis),95.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F017,yam elephant (amorphophallus campanulatus),74.39,2.56,0.14,17.46,353.0,4.17,0.04,0.05,0.61,15.22,20.54,35.72,,"Yam, elephant (Amorphophallus campanulatus)",84.37,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F018,yam ordinary (amorphophallus campanulatus),74.28,2.18,0.17,17.65,349.0,4.08,0.04,0.02,0.56,13.88,15.68,42.63,,"Yam, ordinary (Amorphophallus campanulatus)",83.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+F019,yam wild (dioscorea versicolor),69.35,3.07,0.3,20.95,430.0,4.57,0.121,0.015,0.7,14.06,21.01,79.51,,"Yam, wild (Dioscorea versicolor)",102.77,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G001,chillies green-1 (capsicum annum),84.47,2.62,0.73,6.32,191.0,4.86,0.11,0.09,0.8,79.5,25.31,126.0,,"Chillies, green-1 (Capsicum annum)",45.65,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G002,chillies green-2 (capsicum annum),85.72,2.28,0.75,5.27,167.0,5.13,0.08,0.09,0.93,90.97,25.93,131.0,,"Chillies, green-2 (Capsicum annum)",39.91,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G003,chillies green-3 (capsicum annum),85.59,2.38,0.75,5.23,169.0,5.1,0.09,0.11,0.87,93.63,20.45,133.0,,"Chillies, green-3 (Capsicum annum)",40.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G004,chillies green-4 (capsicum annum),85.29,2.33,0.74,6.63,190.0,4.15,0.09,0.12,0.9,102.0,15.92,148.0,,"Chillies, green-4 (Capsicum annum)",45.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G005,chillies green-5 (capsicum annum),85.93,2.01,0.65,6.64,180.0,3.95,0.08,0.16,1.06,97.77,17.75,109.0,,"Chillies, green-5 (Capsicum annum)",43.02,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G006,chillies green-6 (capsicum annum),84.93,3.01,0.64,5.31,175.0,5.15,0.07,0.13,0.92,108.0,18.87,121.0,,"Chillies, green-6 (Capsicum annum)",41.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G007,chillies green-7 (capsicum annum),85.83,2.12,0.6,5.61,163.0,4.95,0.08,0.11,0.8,112.0,19.39,102.0,,"Chillies, green-7 (Capsicum annum)",38.96,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G008,chillies green - all varieties (capsicum annum),85.39,2.36,0.72,5.86,177.0,4.77,0.09,0.11,0.89,94.07,21.5,129.0,,"Chillies, green - all varieties (Capsicum annum)",42.3,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G009,coriander leaves (coriandrum sativum),86.99,3.52,0.7,1.93,130.0,4.66,0.09,0.05,0.73,23.87,51.01,228.0,,Coriander leaves (Coriandrum sativum),31.07,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G010,curry leaves (murraya koenigii),65.33,7.41,1.06,4.51,266.0,16.83,0.07,0.13,0.85,6.04,117.0,267.0,,Curry leaves (Murraya koenigii),63.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G011,garlic big clove (allium sativum),64.38,6.92,0.16,21.93,518.0,5.22,0.2,0.25,0.38,12.62,85.77,33.52,,"Garlic, big clove (Allium sativum)",123.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G012,garlic small clove (allium sativum),64.42,6.75,0.14,21.84,514.0,5.47,0.2,0.23,0.36,13.57,78.82,32.63,,"Garlic, small clove (Allium sativum)",122.85,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G013,garlic single clove kashmir (allium sativum),64.49,6.12,0.16,23.46,523.0,4.01,0.25,0.22,0.42,15.38,92.25,34.76,,"Garlic, single clove, Kashmir (Allium sativum)",125.0,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G014,ginger fresh (zinziber officinale),81.27,2.22,0.85,8.97,230.0,5.36,0.04,0.04,0.42,5.43,10.82,231.0,,"Ginger, fresh (Zinziber officinale)",54.97,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G015,mango ginger (curcuma amada),84.55,1.45,0.7,6.98,177.0,4.74,0.02,0.07,0.45,1.62,22.62,177.0,,Mango ginger (Curcuma amada),42.3,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G016,mint leaves (mentha spicata ),84.24,4.66,0.65,2.39,155.0,5.89,0.02,0.19,0.74,17.16,106.0,125.0,,Mint leaves (Mentha spicata ),37.05,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G017,onion big (allium cepa),85.76,1.5,0.24,9.56,201.0,2.45,0.04,0.01,0.34,6.69,28.88,60.81,,"Onion, big (Allium cepa)",48.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G018,onion small (allium cepa),84.67,1.82,0.16,11.58,237.0,1.16,0.07,0.02,0.21,10.96,29.68,41.01,,"Onion, small (Allium cepa)",56.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G019,asafoetida (ferula assa-foetida),9.42,6.34,1.26,71.95,1387.0,5.13,0.82,0.01,0.43,,26.28,242.0,,Asafoetida (Ferula assa-foetida),331.5,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G020,cardamom green (elettaria cardamomum),11.24,8.1,2.6,47.76,1067.0,23.1,0.12,0.07,1.13,,2.85,624.0,,"Cardamom, green (Elettaria cardamomum)",255.02,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G021,cardamom black (elettaria cardamomum),6.69,6.69,2.8,52.53,1132.0,23.46,0.05,0.13,0.52,,4.96,493.0,,"Cardamom, black (Elettaria cardamomum)",270.55,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G022,chillies red (capsicum annum),14.57,12.69,6.4,29.46,990.0,31.15,0.46,0.83,6.94,,51.5,1141.0,,"Chillies, red (Capsicum annum)",236.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G023,cloves (syzygium aromaticum),26.49,5.86,8.41,18.73,781.0,34.52,0.53,0.22,1.15,,32.81,2679.0,,Cloves (Syzygium aromaticum),186.66,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G024,coriander seeds (coriandrum sativum),8.72,10.66,17.47,12.98,1125.0,44.81,0.19,0.23,1.2,,22.07,952.0,,Coriander seeds (Coriandrum sativum),268.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G025,cumin seeds (cuminum cyminum),10.59,13.91,16.64,22.62,1274.0,30.35,0.52,0.13,2.87,,27.79,619.0,,Cumin seeds (Cuminum cyminum),304.49,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G026,fenugreek seeds (trigonella foenum graecum),7.82,25.41,5.72,10.57,983.0,47.55,0.28,0.14,1.19,,51.11,770.0,,Fenugreek seeds (Trigonella foenum graecum),234.94,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G027,mace (myristica fragrans),20.06,6.24,24.41,26.51,1488.0,20.31,0.13,0.13,0.92,,32.65,9304.0,,Mace (Myristica fragrans),355.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G028,nutmeg (myristica fragrans),15.55,6.3,36.52,27.64,1940.0,11.99,0.04,0.05,0.51,,74.78,3359.0,,Nutmeg (Myristica fragrans),463.67,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G029,omum (trachyspermum ammi),9.71,15.89,21.11,24.53,1495.0,20.58,0.3,0.23,1.23,,51.79,1112.0,,Omum (Trachyspermum ammi),357.31,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G030,pippali (piper longum),10.95,10.53,2.27,35.7,906.0,34.14,0.06,0.14,1.06,,66.45,602.0,,Pippali (Piper longum),216.54,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G031,pepper black (piper nigrum),13.18,10.12,2.74,36.22,910.0,33.16,0.06,0.09,0.85,,21.89,654.0,,"Pepper, black (Piper nigrum)",217.5,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G032,poppy seeds (papaver somniferum),4.22,20.31,30.38,12.37,1768.0,26.68,0.87,0.1,0.77,,78.73,2074.0,,Poppy seeds (Papaver somniferum),422.56,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+G033,turmeric powder (curcuma domestica),10.58,7.66,5.03,49.22,1174.0,21.38,0.06,0.01,1.55,,13.86,1634.0,,Turmeric powder (Curcuma domestica),280.59,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H001,almond (prunus amygdalus),4.37,18.41,58.49,3.04,2549.0,13.06,0.15,0.26,3.71,0.74,36.46,4358.0,,Almond (Prunus amygdalus),609.23,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H002,arecanut dried brown (areca catechu),6.63,5.78,4.35,70.42,1467.0,11.44,0.04,0.03,0.71,,7.54,2605.0,,"Arecanut, dried, brown (Areca catechu)",350.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H003,arecanut dried red color (areca catechu),6.3,6.46,4.46,70.27,1477.0,11.11,0.03,0.24,0.8,,8.57,1674.0,,"Arecanut, dried, red color (Areca catechu)",353.01,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H004,arecanut fresh (areca catechu),37.7,2.73,5.51,45.0,1024.0,7.63,0.038,0.031,0.74,,26.51,3389.0,,"Arecanut, fresh (Areca catechu)",244.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H005,cashew nut (anacardium occidentale),4.44,18.78,45.2,25.46,2438.0,3.86,0.61,0.03,1.03,,25.2,7816.0,,Cashew nut (Anacardium occidentale),582.7,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H006,coconut kernal dry (cocos nucifera),3.97,7.27,63.26,8.01,2611.0,15.88,0.04,0.04,0.71,,24.27,43138.0,,"Coconut, kernal, dry (Cocos nucifera)",624.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H007,coconut kernel fresh (cocos nucifera),36.14,3.84,41.38,6.3,1711.0,10.42,0.03,0.08,0.3,0.8,25.41,28048.0,,"Coconut, kernel, fresh (Cocos nucifera)",408.94,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H008,garden cress seeds (lepidium sativum),4.6,23.36,23.74,33.66,1863.0,8.27,0.52,0.15,5.67,,30.92,4101.0,,"Garden cress, seeds (Lepidium sativum)",445.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H009,gingelly seeds black (sesamum indicum),4.51,19.17,43.1,10.29,2124.0,17.16,0.34,0.1,3.12,,127.0,6317.0,,"Gingelly seeds, black (Sesamum indicum)",507.65,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H010,gingelly seeds brown (sesamum indicum),3.62,21.61,43.22,9.76,2161.0,17.21,0.27,0.08,3.05,,92.63,6250.0,,"Gingelly seeds, brown (Sesamum indicum)",516.49,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H011,gingelly seeds white (sesamum indicum),3.3,21.7,43.05,10.83,2174.0,16.99,0.36,0.07,3.94,,131.0,6430.0,,"Gingelly seeds, white (Sesamum indicum)",519.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H012,ground nut (arachis hypogea),6.97,23.65,39.63,17.27,2176.0,10.38,0.57,0.12,11.35,,90.87,8144.0,,Ground nut (Arachis hypogea),520.08,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H013,mustard seeds (brassica juncea),5.67,19.51,40.19,16.8,2132.0,14.1,0.55,0.33,3.8,,94.88,2112.0,,Mustard seeds (Brassica juncea),509.56,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H014,linseeds (linum usitatissimum),5.48,18.55,35.67,10.99,1857.0,26.17,0.28,0.05,1.09,,86.5,2968.0,,Linseeds (Linum usitatissimum),443.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H015,niger seeds black (guizotia abyssinica),4.65,18.92,38.61,22.98,2144.0,10.93,0.46,0.23,1.14,,140.0,5945.0,,"Niger seeds, black (Guizotia abyssinica)",512.43,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H016,niger seeds gray (guizotia abyssinica),5.66,18.34,39.53,20.59,2128.0,10.96,0.38,0.35,0.88,,73.13,9737.0,,"Niger seeds, gray (Guizotia abyssinica)",508.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H017,pine seed (pinus gerardiana),5.32,12.55,48.79,26.77,2486.0,3.79,0.36,0.08,3.52,,31.64,3801.0,,Pine seed (Pinus gerardiana),594.17,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H018,pistachio nuts (pistacla vera),4.68,23.35,42.49,15.82,2257.0,10.64,0.98,0.04,0.86,,64.9,4043.0,,Pistachio nuts (Pistacla vera),539.44,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H019,safflower seeds (carthamus tinctorius),5.24,17.66,30.87,30.18,1981.0,13.49,0.85,0.15,1.12,,82.41,2548.0,,Safflower seeds (Carthamus tinctorius),473.47,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H020,sunflower seeds (helianthus annuus),3.53,23.53,51.85,6.85,2453.0,10.8,0.59,0.13,1.6,,81.79,6159.0,,Sunflower seeds (Helianthus annuus),586.28,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+H021,walnut (juglans regia),3.56,14.92,64.27,10.14,2809.0,5.39,0.4,0.12,0.86,0.88,57.95,5208.0,,Walnut (Juglans regia),671.37,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+I001,jaggery cane (saccharum officinarum),11.2,1.85,0.16,84.87,1480.0,,0.04,0.01,0.02,,14.4,69.23,,"Jaggery, cane (Saccharum officinarum)",353.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+I002,sugarcane juice (saccharum officinarum),85.54,0.16,0.4,13.11,242.0,0.56,0.03,0.04,0.14,6.73,44.53,140.0,,"Sugarcane, juice (Saccharum officinarum)",57.84,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+J001,button mushroom fresh (agaricus sp),90.09,3.68,0.42,1.98,115.0,3.11,0.01,0.03,0.68,,8.28,62.89,,"Button mushroom, fresh (Agaricus sp.)",27.49,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+J002,chicken mushroom fresh (lactiporus sp),92.43,1.84,0.25,2.76,89.0,1.99,0.37,0.06,1.45,0.45,11.13,59.6,,"Chicken mushroom, fresh (Lactiporus sp.)",21.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+J003,shiitake mushroom fresh (lentinula sp),82.94,3.19,0.76,8.98,243.0,3.02,0.05,0.16,1.92,,10.92,116.0,,"Shiitake mushroom, fresh (Lentinula sp.)",58.08,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+J004,oyster mushroom dried (pleurotus sp),4.51,19.04,2.86,33.07,1019.0,39.12,0.24,0.17,3.77,,10.4,422.0,,"Oyster mushroom, dried (Pleurotus sp.)",243.55,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+K001,toddy,93.86,0.18,0.03,5.72,101.0,,0.01,0.27,0.35,0.92,0.73,30.65,,Toddy,24.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+K002,coconut water,95.77,0.26,0.16,3.16,64.0,,0.01,0.01,0.04,0.64,10.88,93.49,,Coconut Water,15.3,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+L001,milk whole buffalo,80.68,3.68,6.58,8.39,449.0,,0.05,0.13,0.07,2.37,8.57,4630.0,,"Milk, whole, Buffalo",107.31,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+L002,milk whole cow,86.64,3.26,4.48,4.94,305.0,,0.03,0.11,0.08,2.01,7.03,2707.0,,"Milk, whole, Cow",72.9,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+L003,paneer,51.96,18.86,14.78,12.41,1079.0,,0.02,0.1,0.13,,93.31,8851.0,,Paneer,257.89,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+L004,khoa,42.51,16.34,20.62,16.53,1322.0,,0.11,0.11,0.43,,94.25,12936.0,,Khoa,315.97,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M001,egg poultry whole raw,76.51,13.28,9.15,,564.0,,0.06,0.19,0.11,,49.32,2958.0,366.0,"Egg, poultry, whole, raw",134.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M002,egg poultry white raw,86.68,10.84,0.06,,187.0,,0.02,0.16,0.01,,4.96,,,"Egg, poultry, white, raw",44.69,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M003,egg poultry yolk raw,53.57,15.74,26.34,,1242.0,,0.11,0.16,0.69,,112.0,8580.0,1076.0,"Egg, poultry, yolk, raw",296.85,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M004,egg poultry whole boiled,73.46,13.43,10.54,,618.0,,0.06,0.18,0.21,,48.25,3464.0,365.0,"Egg, poultry, whole, boiled",147.71,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M005,egg poultry white boiled,83.54,12.37,0.26,,220.0,,0.02,0.18,0.01,,4.1,,,"Egg, poultry, white, boiled",52.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M006,egg poultry yolk boiled,51.42,16.13,27.46,,1290.0,,0.17,0.15,0.45,,110.0,8819.0,1085.0,"Egg, poultry, yolk, boiled",308.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M007,egg poultry omlet,68.48,16.53,11.6,,710.0,,0.11,0.2,0.33,,37.66,3179.0,316.0,"Egg, poultry, omlet",169.69,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M008,egg country hen whole raw,72.96,13.14,13.0,,704.0,,0.14,0.08,0.14,,54.6,3792.0,355.0,"Egg, country hen, whole, raw",168.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M009,egg country hen whole boiled,70.43,14.43,14.1,,767.0,,0.11,0.08,0.12,,59.98,4074.0,369.0,"Egg, country hen, whole, boiled",183.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M010,egg country hen omlet,67.8,14.8,16.3,,855.0,,0.14,0.07,0.14,,58.79,4886.0,318.0,"Egg, country hen, omlet",204.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M011,egg duck whole boiled,71.61,13.8,13.61,,738.0,,0.21,0.07,0.18,,73.32,3598.0,856.0,"Egg, duck, whole, boiled",176.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M012,egg duck whole raw,70.53,14.6,13.83,,760.0,,0.18,0.07,0.13,,75.48,3373.0,839.0,"Egg, duck, whole, raw",181.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M013,egg duck whole omlet,68.9,15.1,14.8,,804.0,,0.31,0.09,0.14,,67.95,3871.0,815.0,"Egg, duck, whole, omlet",192.16,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M014,egg quial whole raw,75.11,12.39,11.46,,635.0,,0.15,0.11,0.12,,54.86,2788.0,833.0,"Egg, quial, whole, raw",151.77,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+M015,egg quial whole boiled,74.41,13.03,11.5,,647.0,,0.11,0.08,0.15,,51.72,2726.0,855.0,"Egg, quial, whole, boiled",154.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N001,chicken poultry leg skinless,67.61,19.44,12.64,,1605.0,,0.17,0.13,5.6,,7.47,1157.0,84.25,"Chicken, poultry, leg, skinless",383.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N002,chicken poultry thigh skinless,67.58,18.18,14.23,,836.0,,0.13,0.1,5.62,,9.0,1071.0,91.93,"Chicken, poultry, thigh, skinless",199.81,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N003,chicken poultry breast skinless,67.15,21.81,9.0,,704.0,,0.1,0.06,8.06,,10.44,816.0,61.55,"Chicken, poultry, breast, skinless",168.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N004,chicken poultry wing skinless,67.48,17.42,13.81,,807.0,,0.08,0.07,6.66,,7.87,1241.0,54.52,"Chicken, poultry, wing, skinless",192.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N005,poultry chicken liver,73.2,21.57,4.08,,518.0,,0.28,0.2,4.44,,1032.0,1328.0,268.0,"Poultry, chicken, liver",123.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N006,poultry chicken gizzard,78.05,18.22,2.07,,386.0,,0.01,0.11,2.87,,8.72,772.0,57.24,"Poultry, chicken, gizzard",92.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N007,country hen leg with skin,70.02,17.01,11.73,,723.0,,0.17,0.1,2.44,,8.1,534.0,87.95,"Country hen, leg, with skin",172.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N008,country hen thigh with skin,67.46,18.29,12.82,,785.0,,0.11,0.13,3.62,,10.42,610.0,91.81,"Country hen, thigh, with skin",187.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N009,country hen breast with skin,66.53,22.08,10.2,,753.0,,0.11,0.04,5.62,,12.98,419.0,66.03,"Country hen, breast, with skin",179.97,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N010,country hen wing with skin,68.01,18.65,12.09,,764.0,,0.07,0.03,3.19,,9.19,688.0,55.42,"Country hen, wing, with skin",182.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N011,duck meat with skin,73.49,19.07,6.03,,547.0,,0.22,0.13,2.24,,27.98,345.0,81.76,"Duck, meat, with skin",130.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N012,emu meat skinless,71.65,22.65,4.62,,556.0,,0.1,0.17,3.26,,7.07,200.0,72.69,"Emu, meat, skinless",132.89,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N013,guinea fowl meat with skin,75.21,20.52,3.24,,469.0,,0.02,0.18,3.64,,5.69,1138.0,87.48,"Guinea fowl, meat, with skin",112.09,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N014,pigeon meat with skin,74.61,17.94,6.03,,528.0,,0.18,0.39,3.45,,8.41,1828.0,107.0,"Pigeon, meat, with skin",126.2,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N015,quail meat skinless,71.58,20.92,5.95,,576.0,,0.05,0.24,4.69,,9.33,2024.0,77.87,"Quail, meat, skinless",137.67,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N016,turkey leg with skin,69.24,20.3,8.15,,647.0,,0.05,0.11,4.92,,8.55,980.0,83.44,"Turkey, leg, with skin",154.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N017,turkey thigh with skin,72.17,20.46,6.31,,581.0,,0.04,0.12,1.94,,10.91,1015.0,85.35,"Turkey, thigh, with skin",138.86,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N018,turkey breast with skin,68.44,21.96,8.04,,671.0,,0.06,0.1,4.49,,14.67,934.0,81.28,"Turkey, breast, with skin",160.37,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+N019,turkey wing with skin,66.16,21.91,10.77,,771.0,,0.03,0.09,4.38,,10.41,897.0,80.01,"Turkey, wing, with skin",184.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O001,goat shoulder,66.39,20.33,11.94,,787.0,,0.07,0.17,5.14,,,5444.0,82.18,"Goat, shoulder",188.1,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O002,goat chops,72.46,20.39,5.98,,568.0,,0.05,0.13,5.51,,,2877.0,88.37,"Goat, chops",135.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O003,goat legs,68.85,22.07,7.94,,669.0,,0.07,0.15,5.15,,,3665.0,82.52,"Goat, legs",159.89,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O004,goat brain,76.74,13.82,8.06,,533.0,,0.13,0.17,2.04,,,2138.0,1340.0,"Goat, brain",127.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O005,goat tongue,68.4,16.63,13.68,,789.0,,0.14,0.22,3.04,,,5028.0,206.0,"Goat, tongue",188.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O006,goat lungs,79.03,16.86,3.09,,401.0,,0.08,0.32,2.79,,,1564.0,448.0,"Goat, lungs",95.84,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O007,goat heart,75.15,19.38,4.4,,492.0,,0.36,0.33,5.97,,,1939.0,122.0,"Goat, heart",117.59,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O008,goat liver,73.37,20.32,4.88,,526.0,,0.2,0.37,12.88,,,1770.0,415.0,"Goat, liver",125.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O009,goat tripe,80.94,15.36,3.36,,386.0,,0.02,0.1,0.81,,,1682.0,113.0,"Goat, tripe",92.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O010,goat spleen,77.93,18.45,2.37,,401.0,,0.06,0.16,5.2,,,1200.0,243.0,"Goat, spleen",95.84,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O011,goat kidneys,80.26,15.6,2.93,,374.0,,0.34,0.34,5.5,,,1143.0,419.0,"Goat, kidneys",89.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O012,goat tube (small intestine),78.12,12.92,8.26,,525.0,,0.01,0.11,0.64,,,4445.0,176.0,"Goat, tube (small intestine)",125.48,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O013,goat testis,84.29,12.32,2.39,,298.0,,0.15,0.11,1.72,,,1215.0,118.0,"Goat, testis",71.22,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O014,sheep shoulder,66.51,18.24,14.31,,840.0,,0.05,0.18,4.53,,,6916.0,74.72,"Sheep, shoulder",200.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O015,sheep chops,75.66,18.0,5.15,,496.0,,0.07,0.16,4.94,,,2773.0,86.14,"Sheep, chops",118.55,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O016,sheep leg,68.26,21.42,8.69,,686.0,,0.08,0.16,5.25,,,3745.0,84.84,"Sheep, leg",163.96,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O017,sheep brain,78.36,13.05,7.29,,492.0,,0.12,0.21,2.66,,,2040.0,1336.0,"Sheep, brain",117.59,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O018,sheep tongue,68.7,16.61,13.53,,783.0,,0.15,0.2,2.78,,,5576.0,210.0,"Sheep, tongue",187.14,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O019,sheep lungs,80.41,16.12,2.41,,363.0,,0.07,0.23,2.75,,,1138.0,431.0,"Sheep, lungs",86.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O020,sheep heart,77.06,18.19,3.66,,445.0,,0.34,0.3,5.43,,,1677.0,112.0,"Sheep, heart",106.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O021,sheep liver,69.71,22.26,4.87,,559.0,,0.17,0.35,15.66,,,1822.0,430.0,"Sheep, liver",133.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O022,sheep tripe,78.81,16.76,4.05,,435.0,,0.02,0.08,0.63,,,1962.0,113.0,"Sheep, tripe",103.97,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O023,sheep spleen,79.66,16.02,3.02,,384.0,,0.07,0.23,5.42,,,1533.0,262.0,"Sheep, spleen",91.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O024,sheep kidneys,79.77,16.22,2.92,,384.0,,0.35,0.31,5.51,,,1127.0,299.0,"Sheep, kidneys",91.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O025,beef shoulder,63.84,20.56,14.59,,889.0,,0.03,0.12,5.18,,,7046.0,66.36,"Beef, shoulder",212.48,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O026,beef chops,72.4,19.82,6.71,,585.0,,0.02,0.06,4.36,,,3031.0,45.97,"Beef, chops",139.82,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O027,beef round (leg),68.04,22.64,7.38,,658.0,,0.04,0.06,6.3,,,2998.0,55.81,"Beef, round (leg)",157.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O028,beef brain,78.71,10.55,9.28,,523.0,,0.12,0.13,1.91,,,2490.0,1668.0,"Beef, brain",125.0,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O029,beef tongue,70.97,15.63,12.57,,731.0,,0.05,0.13,2.93,,,6287.0,141.0,"Beef, tongue",174.71,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O030,beef lungs,80.83,15.66,2.28,,351.0,,0.09,0.12,3.13,,,1198.0,334.0,"Beef, lungs",83.89,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O031,beef heart,77.77,17.68,3.57,,433.0,,0.24,0.3,5.38,,,1479.0,92.73,"Beef, heart",103.49,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O032,beef liver,74.15,20.73,3.96,,499.0,,0.17,0.34,14.01,,,1543.0,261.0,"Beef, liver",119.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O033,beef tripe,83.74,13.1,2.51,,316.0,,0.03,0.08,1.31,,,1371.0,82.66,"Beef, tripe",75.53,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O034,beef spleen,79.03,17.42,2.22,,378.0,,0.31,0.25,7.45,,,1160.0,353.0,"Beef, spleen",90.34,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O035,beef kidneys,77.59,17.09,4.01,,439.0,,0.26,0.27,6.52,,,1743.0,439.0,"Beef, kidneys",104.92,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O036,calf shoulder,70.49,20.98,7.47,,633.0,,0.1,0.2,6.11,,,3510.0,58.27,"Calf, shoulder",151.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O037,calf chops,72.66,22.47,3.85,,524.0,,0.07,0.17,5.11,,,1966.0,62.05,"Calf, chops",125.24,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O038,calf round (leg),71.13,21.1,6.92,,615.0,,0.03,0.17,5.97,,,2263.0,50.1,"Calf, round (leg)",146.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O039,calf brain,81.19,9.84,7.6,,448.0,,0.07,0.19,3.19,,,2202.0,1345.0,"Calf, brain",107.07,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O040,calf tongue,69.44,17.78,11.76,,737.0,,0.11,0.22,4.31,,,5630.0,107.0,"Calf, tongue",176.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O041,calf heart,73.44,18.84,3.75,,459.0,,0.26,0.29,5.3,,,1489.0,130.0,"Calf, heart",109.7,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O042,calf liver,73.66,21.02,3.95,,503.0,,0.17,0.31,12.98,,,1616.0,306.0,"Calf, liver",120.22,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O043,calf spleen,78.65,17.71,2.12,,379.0,,0.09,0.28,7.61,,,1030.0,360.0,"Calf, spleen",90.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O044,calf kidneys,80.23,15.16,3.5,,387.0,,0.32,0.35,4.16,,,1464.0,271.0,"Calf, kidneys",92.5,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O045,mithun shoulder,68.86,19.05,11.14,,736.0,,0.04,0.06,6.29,,,4436.0,45.07,"Mithun, shoulder",175.91,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O046,mithun chops,73.81,18.19,6.12,,536.0,,0.2,0.18,4.76,,,2736.0,46.99,"Mithun, chops",128.11,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O047,mithun round (leg),72.25,19.61,4.1,,485.0,,0.02,0.05,5.3,,,1442.0,44.01,"Mithun, round (leg)",115.92,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O048,pork shoulder,62.92,17.41,18.83,,993.0,,0.18,0.1,4.22,,,6887.0,44.38,"Pork, shoulder",237.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O049,pork chops,68.4,19.41,11.3,,748.0,,0.3,0.11,4.49,,,4803.0,46.98,"Pork, chops",178.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O050,pork ham,61.94,18.83,18.55,,1006.0,,0.24,0.1,4.59,,,6938.0,47.08,"Pork, ham",240.44,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O051,pork lungs,81.12,15.13,2.74,,358.0,,0.08,0.14,3.11,,,1247.0,232.0,"Pork, lungs",85.56,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O052,pork heart,77.74,16.31,4.87,,457.0,,0.28,0.3,5.13,,,1575.0,134.0,"Pork, heart",109.23,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O053,pork liver,74.88,19.89,3.94,,484.0,,0.16,0.31,13.76,,,1325.0,216.0,"Pork, liver",115.68,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O054,pork stomach,76.51,15.36,7.81,,550.0,,0.1,0.06,1.9,,,3327.0,187.0,"Pork, stomach",131.45,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O055,pork spleen,80.93,15.13,2.71,,357.0,,0.13,0.27,7.8,,,1245.0,201.0,"Pork, spleen",85.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O056,pork kidneys,80.92,14.35,3.65,,379.0,,0.24,0.37,6.46,,,1169.0,267.0,"Pork, kidneys",90.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O057,pork tube (small intestine),75.42,14.96,8.98,,587.0,,0.08,0.1,0.9,,,4109.0,180.0,"Pork, tube (small intestine)",140.3,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O058,hare shoulder,71.06,21.13,6.58,,603.0,,0.07,0.27,5.04,,,2698.0,79.93,"Hare, shoulder",144.12,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O059,hare chops,75.47,20.62,2.55,,445.0,,0.07,0.28,4.85,,,1028.0,77.7,"Hare, chops",106.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O060,hare leg,73.0,20.52,4.16,,503.0,,0.08,0.22,5.63,,,910.0,78.81,"Hare, leg",120.22,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O061,rabbit shoulder,70.75,20.01,7.96,,635.0,,0.03,0.14,4.38,,,3142.0,82.56,"Rabbit, shoulder",151.77,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O062,rabbit chops,71.03,22.61,4.88,,565.0,,0.02,0.08,7.54,,,1907.0,79.17,"Rabbit, chops",135.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+O063,rabbit leg,70.33,21.31,5.99,,584.0,,0.03,0.1,5.02,,,1575.0,76.7,"Rabbit, leg",139.58,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P001,allathi (elops machnata),75.91,21.77,0.98,,406.0,,0.08,0.04,3.67,,,346.0,13.98,Allathi (Elops machnata),97.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P002,aluva (parastromateus niger),75.71,21.63,1.8,,434.0,,0.05,0.02,2.35,,,755.0,21.97,Aluva (Parastromateus niger),103.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P003,anchovy (stolephorus indicus),77.77,19.88,0.78,,367.0,,0.03,0.04,0.91,,,248.0,29.56,Anchovy (Stolephorus indicus),87.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P004,ari fish (aprion virescens ),77.09,22.01,1.11,,415.0,,0.06,0.03,3.65,,,408.0,15.99,Ari fish (Aprion virescens ),99.19,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P005,betki (lates calcarifer),82.52,15.28,0.29,,284.0,,0.01,0.04,1.54,,,86.4,18.99,Betki (Lates calcarifer),67.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P006,black snapper (macolor niger),78.09,19.5,1.24,,377.0,,0.02,,2.89,,,470.0,30.45,Black snapper (Macolor niger),90.11,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P007,bombay duck (harpadon nehereus),83.24,13.53,1.03,,287.0,,0.03,0.02,0.64,,,398.0,46.43,Bombay duck (Harpadon nehereus),68.59,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P008,bommuralu (muraenesox cinerius),76.42,22.3,2.87,,485.0,,0.05,0.02,1.34,,,1238.0,44.68,Bommuralu (Muraenesox cinerius),115.92,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P009,cat fish (tachysurus thalassinus),76.22,22.18,2.13,,456.0,,0.05,0.05,1.38,,,792.0,18.36,Cat fish (Tachysurus thalassinus),108.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P010,chakla (rachycentron canadum),78.36,20.21,1.68,,406.0,,0.06,0.04,2.37,,,654.0,30.39,Chakla (Rachycentron canadum),97.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P011,chappal (aluterus monoceros ),80.61,17.17,0.67,,317.0,,0.06,0.02,3.95,,,199.0,10.84,Chappal (Aluterus monoceros ),75.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P012,chelu (elagatis bipinnulata),76.36,20.02,0.7,,366.0,,0.06,0.02,2.19,,,229.0,22.64,Chelu (Elagatis bipinnulata),87.48,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P013,chembali (lutjanus quinquelineatus),77.54,20.06,1.77,,406.0,,0.03,0.06,1.8,,,700.0,10.86,Chembali (Lutjanus quinquelineatus),97.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P014,eri meen (pristipomoides filamentosus),76.54,22.3,2.02,,454.0,,0.04,0.03,2.88,,,739.0,13.17,Eri meen (Pristipomoides filamentosus),108.51,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P015,gobro (epinephelus diacanthus),78.84,19.37,0.88,,362.0,,0.07,0.02,1.27,,,289.0,21.38,Gobro (Epinephelus diacanthus),86.52,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P016,guitar fish (rhinobatus prahli),75.73,22.56,0.44,,400.0,,0.03,0.02,2.01,,,114.0,10.48,Guitar fish (Rhinobatus prahli),95.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P017,hilsa (tenualosa ilisha),60.09,21.8,18.49,,1083.0,,0.01,0.04,2.85,,,9286.0,82.42,Hilsa (Tenualosa ilisha),258.84,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P018,jallal (arius sp),77.5,21.55,1.46,,420.0,,0.02,0.02,3.24,,,519.0,19.26,Jallal (Arius sp.),100.38,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P019,jathi vela meen (lethrinus lentjan),75.66,22.45,1.92,,453.0,,0.12,0.02,2.82,,,837.0,19.98,Jathi vela meen (Lethrinus lentjan),108.27,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P020,kadal bral (synodus indicus),79.66,18.72,1.34,,368.0,,0.01,0.06,1.76,,,478.0,26.09,Kadal bral (Synodus indicus),87.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P021,kadali (nemipterus mesoprion),73.74,22.07,4.2,,530.0,,0.04,0.01,1.86,,,1611.0,19.88,Kadali (Nemipterus mesoprion),126.67,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P022,kalamaara (leptomelanosoma indicum),75.5,20.89,4.54,,523.0,,0.06,0.03,2.22,,,2107.0,28.79,Kalamaara (Leptomelanosoma indicum),125.0,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P023,kalava (epinephelus coioides),80.02,19.38,1.2,,374.0,,0.06,0.05,2.24,,,455.0,20.59,Kalava (Epinephelus coioides),89.39,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P024,kanamayya (lutjanus rivulatus),77.59,20.19,0.65,,367.0,,0.06,0.01,1.22,,,209.0,22.07,Kanamayya (Lutjanus rivulatus),87.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P025,kannadi paarai (alectis indicus),76.25,22.09,1.27,,423.0,,0.04,0.03,1.81,,,479.0,18.56,Kannadi paarai (Alectis indicus),101.1,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P026,karimeen (etroplus suratensis),78.66,19.68,1.38,,386.0,,0.08,0.05,1.15,,,577.0,15.62,Karimeen (Etroplus suratensis),92.26,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P027,karnagawala (anchoa hepsetus),79.22,19.52,0.84,,363.0,,0.07,0.01,0.98,,,255.0,35.4,Karnagawala (Anchoa hepsetus),86.76,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P028,kayrai (thunnus albacores),72.69,20.15,3.0,,454.0,,0.08,0.07,5.18,,,1096.0,29.85,Kayrai (Thunnus albacores),108.51,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P029,kiriyan (atule mate),72.39,22.49,4.7,,556.0,,0.04,0.13,2.75,,,2102.0,11.15,Kiriyan (Atule mate),132.89,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P030,kite fish (mobula kuhlii),77.61,23.07,0.56,,413.0,,0.04,0.07,2.5,,,169.0,15.01,Kite fish (Mobula kuhlii),98.71,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P031,korka (terapon jarbua),72.25,23.72,3.36,,528.0,,0.03,0.17,3.42,,,1407.0,107.0,Korka (Terapon jarbua),126.2,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P032,kulam paarai (carangoides fulvoguttatus),73.44,21.62,3.6,,501.0,,0.06,0.01,1.97,,,1430.0,55.4,Kulam paarai (Carangoides fulvoguttatus),119.74,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P033,maagaa (polynemus plebeius),79.23,20.11,0.67,,366.0,,0.02,0.01,0.73,,,201.0,7.24,Maagaa (Polynemus plebeius),87.48,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P034,mackerel (rastrelliger kanagurta),74.55,21.51,1.53,,423.0,,0.07,0.1,2.67,,,604.0,46.48,Mackerel (Rastrelliger kanagurta),101.1,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P035,manda clathi (naso reticulatus),76.32,21.27,1.0,,398.0,,0.03,0.02,2.77,,,337.0,21.03,Manda clathi (Naso reticulatus),95.12,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P036,matha (acanthurus mata),79.81,21.17,0.79,,389.0,,0.05,0.05,2.37,,,297.0,20.55,Matha (Acanthurus mata),92.97,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P037,milk fish (chanos chanos),72.22,23.66,1.09,,442.0,,0.05,0.07,5.21,,,366.0,21.38,Milk fish (Chanos chanos),105.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P038,moon fish (mene maculata),74.21,20.74,4.69,,526.0,,0.07,0.07,1.83,,,2929.0,68.88,Moon fish (Mene maculata),125.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P039,mullet (mugil cephalus),76.12,20.23,1.32,,393.0,,0.05,0.09,2.52,,,495.0,18.3,Mullet (Mugil cephalus),93.93,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P040,mural (tylosurus crocodilus crocodilus),78.96,19.04,0.58,,345.0,,0.06,0.03,2.65,,,349.0,17.43,Mural (Tylosurus crocodilus crocodilus),82.46,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P041,myil meen (istiophorus platypterus),75.57,22.89,0.56,,410.0,,0.04,0.04,4.41,,,150.0,21.72,Myil meen (Istiophorus platypterus),97.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P042,nalla bontha (epinephelus sp),79.32,19.82,0.72,,364.0,,0.04,0.01,0.56,,,238.0,15.0,Nalla bontha (Epinephelus sp.),87.0,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P043,narba (caranx sexfasciatus),76.37,21.95,1.6,,432.0,,0.05,0.04,1.51,,,603.0,16.06,Narba (Caranx sexfasciatus),103.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P044,paarai (caranx heberi),75.77,21.58,1.84,,435.0,,0.03,0.02,2.86,,,720.0,23.29,Paarai (Caranx heberi),103.97,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P045,padayappa (canthidermis maculata),79.18,19.7,0.69,,360.0,,0.03,0.05,4.53,,,169.0,9.65,Padayappa (Canthidermis maculata),86.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P046,pali kora (panna microdon),78.63,19.25,1.81,,394.0,,0.03,0.05,0.78,,,761.0,33.18,Pali kora (Panna microdon),94.17,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P047,pambada (lepturacanthus savala),74.67,21.95,4.44,,537.0,,0.04,0.03,1.96,,,1959.0,54.63,Pambada (Lepturacanthus savala),128.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P048,pandukopa (pseudosciaena manchurica),77.46,19.73,0.65,,360.0,,0.04,0.02,0.54,,,195.0,26.43,Pandukopa (Pseudosciaena manchurica),86.04,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P049,parava (lactarius lactarius),77.19,21.5,2.74,,467.0,,0.03,0.03,0.98,,,1184.0,26.2,Parava (Lactarius lactarius),111.62,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P050,parcus (psettodes erumei),79.01,19.87,0.62,,361.0,,0.04,0.02,0.88,,,166.0,10.03,Parcus (Psettodes erumei),86.28,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P051,parrot fish (scarus ghobban),76.84,20.82,0.57,,375.0,,0.06,0.02,1.89,,,174.0,9.95,Parrot fish (Scarus ghobban),89.63,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P052,perinkilichai (pinjalo pinjalo),78.33,20.89,0.87,,387.0,,0.08,0.01,1.48,,,290.0,17.24,Perinkilichai (Pinjalo pinjalo),92.5,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P053,phopat (coryphaena hippurus),76.42,22.05,1.33,,424.0,,0.06,0.04,4.28,,,441.0,13.53,Phopat (Coryphaena hippurus),101.34,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P054,piranha (pygopritis sp),76.15,20.46,5.43,,549.0,,0.04,0.05,0.97,,,1973.0,97.5,Piranha (Pygopritis sp.),131.21,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P055,pomfret black (parastromateus niger),74.43,18.91,4.83,,515.0,,0.06,0.02,2.61,,,2229.0,48.16,"Pomfret, black (Parastromateus niger)",123.09,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P056,pomfret snub nose (trachinotus blochii),77.81,21.05,0.46,,375.0,,0.08,0.05,1.94,,,145.0,7.48,"Pomfret, snub nose (Trachinotus blochii)",89.63,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P057,pomfret white (pampus argenteus),75.91,19.02,5.12,,513.0,,0.05,0.03,1.38,,,2669.0,41.56,"Pomfret, white (Pampus argenteus)",122.61,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P058,pranel (gerres sp),79.54,19.69,1.89,,405.0,,0.04,0.13,3.37,,,827.0,29.01,Pranel (Gerres sp.),96.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P059,pulli paarai (gnathanodon speciosus),75.99,20.06,1.55,,399.0,,0.05,0.04,1.94,,,593.0,47.79,Pulli paarai (Gnathanodon speciosus),95.36,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P060,queen fish (scomberoides commersonianus),76.63,20.97,1.17,,400.0,,0.06,0.04,3.24,,,693.0,21.93,Queen fish (Scomberoides commersonianus),95.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P061,raai fish (lobotes surinamensis),77.14,21.61,1.69,,430.0,,0.07,0.02,1.63,,,654.0,24.95,Raai fish (Lobotes surinamensis),102.77,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P062,raai vanthu (epinephelus chlorostigma),79.95,19.39,2.17,,410.0,,0.03,0.01,0.72,,,864.0,21.98,Raai vanthu (Epinephelus chlorostigma),97.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P063,rani (pink perch),78.55,18.83,1.49,,377.0,,0.01,,1.33,,,2926.0,69.04,Rani (Pink perch),90.11,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P064,ray fish bow head spotted (rhina ancylostoma),80.3,19.03,0.7,,349.0,,0.05,0.03,1.99,,,187.0,13.91,"Ray fish, bow head, spotted (Rhina ancylostoma)",83.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P065,red snapper (lutjanus argentimaculatus),76.28,22.79,1.34,,437.0,,0.02,0.02,3.14,,,485.0,132.0,Red snapper (Lutjanus argentimaculatus),104.45,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P066,red snapper small (priacanthus hamrur),76.31,21.5,2.3,,451.0,,0.06,0.03,3.43,,,861.0,38.42,"Red snapper, small (Priacanthus hamrur)",107.79,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P067,sadaya (platax orbicularis ),75.53,20.68,2.97,,462.0,,0.07,0.38,2.45,,,1059.0,61.97,Sadaya (Platax orbicularis ),110.42,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P068,salmon (salmo salar),67.84,20.97,9.86,,721.0,,0.07,0.06,4.45,,,4305.0,61.27,Salmon (Salmo salar),172.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P069,sangada (nemipterus japonicus),78.51,20.26,2.67,,443.0,,0.01,0.02,0.68,,,1128.0,75.77,Sangada (Nemipterus japonicus),105.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P070,sankata paarai (caranx ignobilis),74.88,21.87,1.68,,434.0,,0.03,0.06,3.7,,,3317.0,64.34,Sankata paarai (Caranx ignobilis),103.73,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P071,sardine (sardinella longiceps),72.29,17.91,8.99,,637.0,,0.01,0.06,0.91,,,1250.0,49.12,Sardine (Sardinella longiceps),152.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P072,shark (carcharhinus sorrah),72.82,21.6,0.83,,398.0,,0.03,0.04,2.68,,,275.0,24.4,Shark (Carcharhinus sorrah),95.12,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P073,shark hammer head (sphyrna mokarran),74.61,23.4,0.8,,432.0,,0.02,0.04,2.72,,,264.0,55.81,"Shark, hammer head (Sphyrna mokarran)",103.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P074,shark spotted (stegostoma fasciatum),78.83,20.95,0.75,,384.0,,0.05,0.05,1.02,,,253.0,13.75,"Shark, spotted (Stegostoma fasciatum)",91.78,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P075,shelavu (sphyraena jello),74.6,22.46,1.74,,446.0,,0.05,0.06,2.1,,,677.0,30.5,Shelavu (Sphyraena jello),106.6,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P076,silan (silonia silondia),70.12,22.72,6.68,,633.0,,0.02,0.07,1.27,,,3615.0,58.93,Silan (Silonia silondia),151.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P077,silk fish (beryx sp),77.61,20.65,1.53,,408.0,,0.03,0.04,2.24,,,497.0,10.71,Silk fish (Beryx sp.),97.51,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P078,silver carp (hypophthalmichthys molitrix),72.47,21.71,5.17,,555.0,,0.02,0.02,1.87,,,1826.0,68.54,Silver carp (Hypophthalmichthys molitrix),132.65,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P079,sole fish (cynoglossus arel),80.18,19.05,1.18,,367.0,,0.01,0.02,0.47,,,416.0,16.0,Sole fish (Cynoglossus arel),87.72,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P080,stingray (dasyatis pastinaca),75.67,23.98,0.68,,408.0,,0.03,0.02,2.74,,,289.0,62.47,Stingray (Dasyatis pastinaca),97.51,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P081,tarlava (drepane punctata),76.76,21.72,1.2,,414.0,,0.04,0.04,2.13,,,504.0,18.94,Tarlava (Drepane punctata),98.95,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P082,tholam (plectorhinchus schotaf),76.2,20.78,2.13,,432.0,,0.04,0.03,2.74,,,856.0,59.73,Tholam (Plectorhinchus schotaf),103.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P083,tilapia (oreochromis niloticus),79.57,18.48,1.08,,349.0,,0.02,0.18,1.4,,,413.0,26.36,Tilapia (Oreochromis niloticus),83.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P084,tuna (euthynnus affinis),72.12,24.5,1.44,,470.0,,0.06,0.07,4.73,,,660.0,46.1,Tuna (Euthynnus affinis),112.33,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P085,tuna striped (katsuwonus pelamis),77.76,21.28,1.12,,403.0,,0.07,0.15,5.04,,,424.0,64.06,"Tuna, striped (Katsuwonus pelamis)",96.32,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P086,valava (chirocentrus nudus),77.25,21.8,1.06,,410.0,,0.13,0.02,0.86,,,403.0,15.6,Valava (Chirocentrus nudus),97.99,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P087,vanjaram (scomberomorus commerson ),72.3,22.28,5.18,,570.0,,0.03,0.07,3.46,,,2229.0,67.71,Vanjaram (Scomberomorus commerson ),136.23,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P088,vela meen (aprion virescens),71.82,22.16,4.34,,537.0,,0.05,0.04,5.15,,,1857.0,35.85,Vela meen (Aprion virescens),128.35,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P089,vora (siganus javus),76.94,20.14,2.14,,422.0,,0.06,0.07,3.72,,,1207.0,19.34,Vora (Siganus javus),100.86,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P090,whale shark (galeocerdo cuvier),77.59,21.83,0.82,,401.0,,0.06,0.04,2.9,,,266.0,25.33,Whale shark (Galeocerdo cuvier),95.84,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P091,xiphinis (xiphias gladius),79.22,19.82,0.88,,370.0,,0.06,0.05,3.24,,,363.0,27.59,Xiphinis (Xiphias gladius),88.43,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+P092,eggs cat fish (ompok bimaculatus),69.34,24.68,5.28,,600.0,,,0.19,1.09,,,1818.0,269.0,"Eggs, Cat fish (Ompok bimaculatus)",143.4,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q001,crab (menippe mercenaria),79.77,10.23,1.41,,343.0,,0.01,0.1,1.66,,,214.0,53.87,Crab (Menippe mercenaria),81.98,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q002,crab sea (portunus sanguinolentus),79.67,15.36,0.6,,283.0,,0.05,0.06,0.97,,,129.0,23.18,"Crab, sea (Portunus sanguinolentus)",67.64,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q003,lobster brown (thenus orientalis),81.48,15.96,0.56,,292.0,,0.01,0.01,0.63,,,106.0,32.64,"Lobster, brown (Thenus orientalis)",69.79,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q004,lobster king size (thenus orientalis),77.77,18.54,0.78,,375.0,,0.01,0.02,1.87,,,174.0,41.13,"Lobster, king size (Thenus orientalis)",89.63,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q005,mud crab (scylla tranquebarica),83.1,10.0,0.55,,190.0,,0.06,0.14,0.6,,,95.11,7.1,Mud crab (Scylla tranquebarica),45.41,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q006,oyster (crassostrea sp),82.5,9.51,2.44,,252.0,,0.06,0.07,0.71,,,1087.0,32.45,Oyster (Crassostrea sp.),60.23,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q007,tiger prawns brown (solenocera crassicornis),82.41,14.85,0.56,,273.0,,0.01,0.03,1.03,,,121.0,70.8,"Tiger prawns, brown (Solenocera crassicornis)",65.25,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+Q008,tiger prawns orange (penaeus monodon),81.48,14.25,0.74,,270.0,,0.03,0.03,1.18,,,177.0,19.47,"Tiger Prawns, orange (Penaeus monodon)",64.53,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R001,clam green shell (perna viridis),80.07,12.14,0.98,,243.0,,0.06,0.1,0.96,,,285.0,43.74,"Clam, green shell (Perna viridis)",58.08,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R002,clam white shell ribbed (meretrix meretrix),80.27,11.82,1.34,,250.0,,0.06,0.11,0.9,,,441.0,23.98,"Clam, white shell, ribbed (Meretrix meretrix)",59.75,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R003,octopus (octopus vulgaris),80.45,14.71,1.12,,334.0,,0.05,0.05,1.18,,,325.0,118.0,Octopus (Octopus vulgaris),79.83,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R004,squid black (loligo sp),80.59,16.1,1.07,,335.0,,0.02,0.04,1.04,,,287.0,231.0,"Squid, black (Loligo sp.)",80.07,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R005,squid hard shell (sepia pharaonis),80.52,16.82,0.93,,320.0,,0.02,0.02,0.65,,,227.0,60.32,"Squid, hard shell (Sepia pharaonis)",76.48,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R006,squid red (loligo duvauceli),80.85,16.25,1.44,,329.0,,0.03,0.02,0.71,,,448.0,126.0,"Squid, red (Loligo duvauceli)",78.63,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+R007,squid white small (uroteuthis duvauceli ),79.38,17.41,1.15,,353.0,,0.01,0.03,0.71,,,304.0,324.0,"Squid, white, small (Uroteuthis duvauceli )",84.37,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S001,cat fish (tandanus tandanus),77.23,15.86,6.24,,518.0,,0.01,0.07,1.74,,,2182.0,84.01,Cat fish (Tandanus tandanus),123.8,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S002,catla (catla catla),78.43,17.94,2.15,,394.0,,0.01,0.03,2.21,,,1670.0,64.42,Catla (Catla catla),94.17,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S003,freshwater eel (anguilla anguilla),75.57,20.41,2.63,,451.0,,,0.31,2.3,,,981.0,58.64,Freshwater Eel (Anguilla anguilla),107.79,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S004,gold fish (carassius auratus),79.07,16.91,2.94,,396.0,,,0.05,1.86,,,1077.0,,Gold fish (Carassius auratus),94.65,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S005,pangas (pangasianodon hypophthalmus),68.5,17.12,16.77,,852.0,,,0.05,1.28,,,863.0,66.89,Pangas (Pangasianodon hypophthalmus),203.63,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S006,rohu (labeo rohita),76.34,19.71,2.39,,428.0,,,0.04,2.33,,,2047.0,47.72,Rohu (Labeo rohita),102.29,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S007,crab (pachygrapsus sp),80.58,13.23,0.89,,327.0,,0.01,0.11,1.54,,,214.0,52.91,Crab (Pachygrapsus sp.),78.15,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S008,prawns big (macrobrachium rosenbergii),77.43,19.24,0.52,,380.0,,,0.02,1.31,,,86.86,87.28,"Prawns, big (Macrobrachium rosenbergii)",90.82,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S009,prawns small (macrobrachium sp),82.58,13.07,0.78,,297.0,,0.01,0.03,0.54,,,197.0,112.0,"Prawns, small (Macrobrachium sp.)",70.98,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+S010,tiger prawns (macrobrachium sp),83.24,14.24,0.66,,284.0,,0.01,0.04,1.28,,,134.0,78.87,Tiger prawns (Macrobrachium sp.),67.88,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T001,coconut oil,,,,,,,,,,,,,,Coconut oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T002,corn oil,,,,,,,,,,,,,,Corn oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T003,cotton seed oil,,,,,,,,,,,,,,Cotton seed oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T004,gingelly oil,,,,,,,,,,,,,,Gingelly oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T005,groundnut oil,,,,,,,,,,,,,,Groundnut oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T006,mustard oil,,,,,,,,,,,,,,Mustard oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T007,palm oil,,,,,,,,,,,,,,Palm oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T008,rice bran oil,,,,,,,,,,,,,,Rice bran oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T009,safflower oil,,,,,,,,,,,,,,Safflower oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T010,safflower oil (blended),,,,,,,,,,,,,,Safflower oil (blended),,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T011,soyabean oil,,,,,,,,,,,,,,Soyabean oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T012,sunflower oil,,,,,,,,,,,,,,Sunflower oil,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T013,ghee,,,,,,,,,,,,,,Ghee,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g
+T014,vanaspati,,,,,,,,,,,,,,Vanaspati,,IndianFoodCompositionTable_In_CSV_Format.csv,per_100g

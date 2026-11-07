@@ -1,0 +1,37 @@
+subtype_id,display_name,is_default,serving_size_g,serving_unit,calories_kcal,carbs_g,protein_g,fat_g,fibre_g,sodium_mg,source,parent_class,aliases,disambiguation_prompt
+samosa_potato,Vegetable / Potato Samosa (Standard Aloo),True,65.0,1 piece,256.0,28.0,3.5,14.5,2.2,280.0,nutrition_dish_level.csv (potato samosa),samosa,samosa,What kind of samosa filling did you have?
+samosa_keema,Minced Meat Samosa (Keema Samosa),False,70.0,1 piece,318.0,25.5,12.8,18.2,1.4,340.0,nutrition_dish_level.csv (keema samosa),samosa,samosa,What kind of samosa filling did you have?
+biryani_vegetable,Vegetable Biryani,True,200.0,1 plate / bowl,220.0,34.5,4.5,7.2,3.5,410.0,nutrition_dish_level.csv,biryani,"biryani,biriyani",Which type of biryani is on your plate?
+biryani_chicken,Chicken Biryani,False,250.0,1 plate / bowl,330.0,33.5,22.0,12.0,2.2,480.0,nutrition_dish_level.csv,biryani,"biryani,biriyani",Which type of biryani is on your plate?
+biryani_mutton,Mutton Biryani,False,250.0,1 plate / bowl,380.0,35.0,19.0,18.0,2.0,520.0,nutrition_dish_level.csv,biryani,"biryani,biriyani",Which type of biryani is on your plate?
+burger_veg_aloo_tikki,Veg Aloo Tikki Burger,True,140.0,1 burger,285.0,42.0,5.8,10.5,3.2,520.0,nutrition_dish_level.csv,burger,burger,Is this a veggie or chicken burger?
+burger_chicken,Crispy Chicken Burger,False,160.0,1 burger,410.0,38.0,23.5,18.0,2.0,680.0,nutrition_packaged_foods.csv,burger,burger,Is this a veggie or chicken burger?
+naan_plain,Plain Naan (No Butter),False,90.0,1 piece,260.0,49.5,7.2,3.5,2.4,310.0,nutrition_dish_level.csv (naan),butter_naan,"butter_naan,butternaan",Did your naan have butter applied?
+naan_butter,Butter Naan (With Ghee/Butter),True,100.0,1 piece,340.0,49.5,7.2,12.5,2.4,360.0,nutrition_dish_level.csv + butter scaling,butter_naan,"butter_naan,butternaan",Did your naan have butter applied?
+chai_standard_sweet,Masala Chai (Milk + 1.5 tsp Sugar),True,150.0,1 cup (150ml),92.0,12.8,2.6,3.4,0.0,45.0,nutrition_dish_level.csv (hot tea),chai,chai,How was your chai prepared?
+chai_low_sugar,Chai without Added Sugar,False,150.0,1 cup (150ml),52.0,2.8,2.6,3.4,0.0,45.0,nutrition_dish_level.csv,chai,chai,How was your chai prepared?
+chai_black,Black Tea / Green Tea (Unsweetened),False,150.0,1 cup (150ml),4.0,0.8,0.2,0.0,0.0,5.0,IFCT 2017,chai,chai,How was your chai prepared?
+fried_rice_vegetable,Vegetable Fried Rice,True,180.0,1 plate,215.0,34.0,4.2,7.0,2.5,420.0,nutrition_dish_level.csv,fried_rice,fried_rice,What protein was added to your fried rice?
+fried_rice_egg,Egg Fried Rice,False,190.0,1 plate,265.0,34.5,8.5,10.2,2.2,460.0,nutrition_dish_level.csv + egg composite,fried_rice,fried_rice,What protein was added to your fried rice?
+fried_rice_chicken,Chicken Fried Rice,False,200.0,1 plate,295.0,36.0,15.2,9.8,2.2,490.0,nutrition_dish_level.csv + chicken composite,fried_rice,fried_rice,What protein was added to your fried rice?
+gulab_jamun_khoya,Gulab Jamun (Traditional Khoya Mawa),True,50.0,1 piece in syrup,150.0,20.0,2.4,6.8,0.2,28.0,nutrition_dish_level.csv,gulab_jamun,"gulab_jamun,gulab jamun",Was the gulab jamun made from traditional khoya or milk powder?
+gulab_jamun_milk_powder,Gulab Jamun (Instant Milk Powder),False,50.0,1 piece in syrup,132.0,21.0,2.8,4.2,0.2,34.0,nutrition_dish_level.csv,gulab_jamun,"gulab_jamun,gulab jamun",Was the gulab jamun made from traditional khoya or milk powder?
+kebab_shammi_meat,Meat Shammi / Chicken Seekh Kebab,True,80.0,2 pieces,185.0,6.8,16.5,10.2,1.5,380.0,nutrition_dish_level.csv,kebab,kebab,Is this a meat kebab or vegetarian kebab?
+kebab_soya_veg,Soya / Hara Bhara Veg Kebab,False,80.0,2 pieces,145.0,11.8,12.0,5.5,3.8,320.0,nutrition_dish_level.csv,kebab,kebab,Is this a meat kebab or vegetarian kebab?
+kheer_rice,Rice Kheer (Chawal ki Kheer),True,150.0,1 bowl,210.0,33.0,4.8,6.5,0.5,65.0,nutrition_dish_level.csv,kheer,kheer,What base grain was used in your kheer?
+kheer_seviyan,Seviyan Kheer (Vermicelli),False,150.0,1 bowl,230.0,35.0,5.2,7.8,0.8,70.0,nutrition_dish_level.csv,kheer,kheer,What base grain was used in your kheer?
+kheer_suji,Rava / Suji Kheer,False,150.0,1 bowl,195.0,31.0,4.5,6.0,0.7,60.0,nutrition_dish_level.csv,kheer,kheer,What base grain was used in your kheer?
+lassi_sweet,Sweet Lassi (Meethi Lassi with Sugar),True,250.0,1 tall glass (250ml),185.0,30.5,5.2,4.8,0.0,95.0,nutrition_dish_level.csv,lassi,lassi,Did you drink sweet or salted lassi?
+lassi_salted_chaas,Salted Lassi / Spiced Buttermilk (Chaas),False,250.0,1 glass (250ml),65.0,6.5,3.8,2.5,0.0,280.0,nutrition_dish_level.csv,lassi,lassi,Did you drink sweet or salted lassi?
+pakode_onion,Onion Pakoda (Pyaaz ke Pakode),True,100.0,1 plate (~4-5 pcs),190.0,17.5,4.2,11.5,2.8,310.0,nutrition_dish_level.csv,pakode,pakode,What was the main ingredient inside your pakoda?
+pakode_paneer,Paneer Pakoda,False,100.0,1 plate (~3-4 pcs),265.0,14.8,10.5,18.2,1.4,340.0,nutrition_dish_level.csv,pakode,pakode,What was the main ingredient inside your pakoda?
+pakode_spinach,Palak / Spinach Pakoda,False,100.0,1 plate,165.0,14.5,4.8,9.8,3.4,290.0,nutrition_dish_level.csv,pakode,pakode,What was the main ingredient inside your pakoda?
+kaathi_roll_paneer,Paneer Kathi Roll (Veg),True,160.0,1 roll,320.0,36.5,11.5,14.2,2.8,440.0,nutrition_dish_level.csv,kaathi_rolls,"kaathi_rolls,kathi roll",What filling was inside your kathi roll?
+kaathi_roll_chicken,Chicken Tikka Kathi Roll,False,160.0,1 roll,345.0,36.5,21.0,12.8,2.2,480.0,nutrition_dish_level.csv + chicken composite,kaathi_rolls,"kaathi_rolls,kathi roll",What filling was inside your kathi roll?
+kaathi_roll_egg,Single Egg Kathi Roll,False,150.0,1 roll,290.0,34.0,13.0,11.5,2.2,410.0,nutrition_dish_level.csv + egg composite,kaathi_rolls,"kaathi_rolls,kathi roll",What filling was inside your kathi roll?
+chaat_bhel_puri,"Bhel Puri (Puffed rice, sev, chutneys)",True,120.0,1 plate,185.0,30.0,4.2,5.5,3.0,380.0,nutrition_dish_level.csv,chaat,chaat,Which specific chaat dish was this?
+chaat_sev_puri,Sev Puri (Crispy flat puris with potato & sev),False,120.0,1 plate (6 pcs),235.0,28.0,4.5,11.8,2.5,420.0,nutrition_dish_level.csv,chaat,chaat,Which specific chaat dish was this?
+chaat_papdi,Dahi Papdi Chaat (Puris with yogurt & chutneys),False,140.0,1 plate,250.0,29.5,5.0,12.5,2.4,390.0,nutrition_dish_level.csv,chaat,chaat,Which specific chaat dish was this?
+halwa_sooji,Sooji / Rava Halwa (Semolina),True,100.0,1 small katori,285.0,39.5,3.8,12.5,1.1,35.0,nutrition_dish_level.csv,halwa,halwa,What type of halwa did you have?
+halwa_gajar,Gajar ka Halwa (Carrot Halwa),False,100.0,1 small katori,230.0,32.0,4.2,9.5,2.4,55.0,nutrition_dish_level.csv,halwa,halwa,What type of halwa did you have?
+halwa_moong_dal,Moong Dal Halwa,False,100.0,1 small katori,340.0,39.5,8.5,16.5,3.2,60.0,nutrition_dish_level.csv,halwa,halwa,What type of halwa did you have?

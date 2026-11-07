@@ -1,0 +1,620 @@
+{
+  "summary": {
+    "total_unique_image_classes": 61,
+    "valid_direct_matches": 28,
+    "ambiguous_subtypes": 18,
+    "unmatched_gaps": 15
+  },
+  "mappings": [
+    {
+      "image_class": "aloo_gobi",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Classic dry cauliflower-potato sabzi absent from dish_level ('gobi 65' is deep-fried appetizer, not aloo gobi).",
+      "gap_resolution_strategy": "Synthesize composite recipe from IFCT ingredients (potato+cauliflower+onion+spices) in Phase 4."
+    },
+    {
+      "image_class": "aloo_masala",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Spiced potato mash filling absent from dish_level.",
+      "gap_resolution_strategy": "Synthesize composite recipe from IFCT ingredients (boiled_potato+mustard_seeds+turmeric) in Phase 4."
+    },
+    {
+      "image_class": "bhindi_masala",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Spiced okra sabzi absent from dish_level.",
+      "gap_resolution_strategy": "Synthesize composite recipe from IFCT ingredients (lady_finger_okra+onion+tomato+oil) in Phase 4."
+    },
+    {
+      "image_class": "biriyani",
+      "image_dataset": "FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "vegetable biryani/biriyani | mutton biryani/biriyani",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Image recognition cannot distinguish vegetable biryani (~220 kcal/serving) from chicken/mutton biryani (~380 kcal/serving, high protein).",
+      "gap_resolution_strategy": "User disambiguation prompt (Veg vs Chicken vs Mutton)."
+    },
+    {
+      "image_class": "biryani",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "vegetable biryani/biriyani | mutton biryani/biriyani",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Image recognition cannot distinguish vegetable biryani (~220 kcal/serving) from chicken/mutton biryani (~380 kcal/serving, high protein).",
+      "gap_resolution_strategy": "User disambiguation prompt (Veg vs Chicken vs Mutton)."
+    },
+    {
+      "image_class": "bisibelebath",
+      "image_dataset": "FoodLens",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Karnataka spicy rice-lentil dish absent from dish_level.",
+      "gap_resolution_strategy": "Composite: cooked rice + toor dal + tamarind + mixed vegetables."
+    },
+    {
+      "image_class": "burger",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "vegetable burger",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Fast food dish; patty variation (veg aloo tikki ~285 kcal vs chicken/crispy patty ~420 kcal).",
+      "gap_resolution_strategy": "Default to vegetable burger for Indian context; allow user override."
+    },
+    {
+      "image_class": "butter_naan",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "naan",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Base naan exists in dish_level (~260 kcal), but butter naan includes 10-15g brushed butter (+70-100 kcal fat).",
+      "gap_resolution_strategy": "Scale plain naan base with ICMR butter portion (+1 katori/tsp butter)."
+    },
+    {
+      "image_class": "butternaan",
+      "image_dataset": "FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "naan",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Base naan exists in dish_level (~260 kcal), but butter naan includes 10-15g brushed butter (+70-100 kcal fat).",
+      "gap_resolution_strategy": "Scale plain naan base with ICMR butter portion (+1 katori/tsp butter)."
+    },
+    {
+      "image_class": "chaat",
+      "image_dataset": "FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "bhel puri | sev puri",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Chaat is broad umbrella category (bhel puri vs papdi chaat vs sev puri).",
+      "gap_resolution_strategy": "User selection of specific chaat sub-type."
+    },
+    {
+      "image_class": "chai",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "hot tea (garam chai)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Caloric value ranges from 30 kcal (low milk/no sugar) to 140 kcal (buffalo whole milk + 2-3 tsp sugar).",
+      "gap_resolution_strategy": "Provide standard masala chai estimate with milk/sugar slider."
+    },
+    {
+      "image_class": "chapati",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "chapati/roti",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary identity. 100% nutritional match.",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (35g per piece)."
+    },
+    {
+      "image_class": "chappati",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "chapati/roti",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary identity. 100% nutritional match.",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (35g per piece)."
+    },
+    {
+      "image_class": "chicken_curry",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "chicken curry",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary identity in dish_level (243.2 kcal, 18.2g protein).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "chole",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Standalone chole curry absent from dish_level (raw chickpea exists in IFCT).",
+      "gap_resolution_strategy": "Synthesize composite recipe (chickpea + onion-tomato gravy) or use packaged reference in Phase 4."
+    },
+    {
+      "image_class": "chole_bhature",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Combo dish (chole + deep-fried maida bhature) absent from dish_level.",
+      "gap_resolution_strategy": "Compose in Phase 4: Bhatura (deep fried bread ~290 kcal) + Chole (~240 kcal)."
+    },
+    {
+      "image_class": "coconut_chutney",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "coconut chutney (nariyal ki chutney)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "dal_makhani",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "dal makhani",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (381.1 kcal, 13.5g protein, 20.4g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "dhokla",
+      "image_dataset": "Enhanced + FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "dhokla",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (160.0 kcal, 4.4g protein, 5.8g fat).",
+      "gap_resolution_strategy": "Use standard serving weight (80g for 2 pieces)."
+    },
+    {
+      "image_class": "dosa",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "plain dosa",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Plain fermented rice-urad crepe in dish_level.",
+      "gap_resolution_strategy": "Standard serving weight (80g per piece)."
+    },
+    {
+      "image_class": "dum_aloo",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "dum aloo",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (215.3 kcal, 3.8g protein, 11.5g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "fish_curry",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "fish curry (machli curry)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "fried_rice",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "chinese fried rice",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Fried rice can be veg, egg, or chicken with distinct protein content.",
+      "gap_resolution_strategy": "Default to veg fried rice; provide user selection for egg/chicken."
+    },
+    {
+      "image_class": "ghevar",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Traditional Rajasthani honeycomb disc dessert absent from dish_level.",
+      "gap_resolution_strategy": "Synthesize composite recipe from IFCT (refined flour+ghee+sugar syrup) in Phase 4."
+    },
+    {
+      "image_class": "green_chutney",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "green chutney",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "gulab jamun",
+      "image_dataset": "FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "gulab jamun with khoya | gulab jamun with milk powder",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Khoya version has higher saturated fat than milk powder version.",
+      "gap_resolution_strategy": "Use khoya preparation as standard conservative estimate."
+    },
+    {
+      "image_class": "gulab_jamun",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "gulab jamun with khoya | gulab jamun with milk powder",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Khoya version has higher saturated fat than milk powder version.",
+      "gap_resolution_strategy": "Use khoya preparation as standard conservative estimate."
+    },
+    {
+      "image_class": "halwa",
+      "image_dataset": "FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "sooji halwa | gajar halwa | moong dal halwa",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Soji halwa vs carrot halwa vs moong dal halwa vary widely in sugar and calorie density.",
+      "gap_resolution_strategy": "User selection of halwa type."
+    },
+    {
+      "image_class": "idli",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "idli",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (138.4 kcal, 4.1g protein).",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (80g for 2 pieces)."
+    },
+    {
+      "image_class": "idly",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "idli",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (138.4 kcal, 4.1g protein).",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (80g for 2 pieces)."
+    },
+    {
+      "image_class": "jalebi",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Deep-fried syrup sweet absent from dish_level.",
+      "gap_resolution_strategy": "Synthesize composite recipe from IFCT (maida+ghee+sugar syrup) in Phase 4."
+    },
+    {
+      "image_class": "kaathi_rolls",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "paneer kaathi roll",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Dish_level only has paneer kaathi roll; chicken/egg/aloo rolls exist.",
+      "gap_resolution_strategy": "Map to paneer kaathi roll with protein filling prompt."
+    },
+    {
+      "image_class": "kadai_paneer",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Specific bell pepper-paneer curry absent from dish_level.",
+      "gap_resolution_strategy": "Map to paneer dish base or composite in Phase 4."
+    },
+    {
+      "image_class": "kathi roll",
+      "image_dataset": "FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "paneer kaathi roll",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Dish_level only has paneer kaathi roll; chicken/egg/aloo rolls exist.",
+      "gap_resolution_strategy": "Map to paneer kaathi roll with protein filling prompt."
+    },
+    {
+      "image_class": "kebab",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "chicken kebab | soya seekh kebab | shammi kebab",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Visual image cannot separate vegetarian soya kebab from chicken/mutton seekh.",
+      "gap_resolution_strategy": "User confirmation prompt (Veg vs Non-Veg)."
+    },
+    {
+      "image_class": "kheer",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "semolina kheer (suji/rava kheer) | paneer kheer",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Rice kheer vs suji kheer vs vermicelli kheer.",
+      "gap_resolution_strategy": "Default to standard suji/rice kheer profile."
+    },
+    {
+      "image_class": "kulfi",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "kulfi",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (152.0 kcal, 3.8g protein, 7.4g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "lassi",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "sweet lassi (meethi lassi) | lassi (salted)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Sweet lassi contains heavy sugar (~180 kcal) vs salted lassi (~65 kcal).",
+      "gap_resolution_strategy": "User disambiguation prompt (Sweet vs Salted)."
+    },
+    {
+      "image_class": "masala_dosa",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "masala dosa",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (338.4 kcal, 6.8g protein, 10.8g fat).",
+      "gap_resolution_strategy": "Use standard serving weight (80g dosa + 50g potato masala)."
+    },
+    {
+      "image_class": "meduvadai",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "vada (medu vada)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match (meduvadai == medu vada).",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (50g per piece)."
+    },
+    {
+      "image_class": "modak",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": "chitale bandhu mawa modak",
+      "target_source_file": "nutrition_packaged_foods.csv",
+      "culinary_ambiguity_reason": "Steamed/fried coconut sweet absent from dish_level.",
+      "gap_resolution_strategy": "Use packaged mawa modak reference or IFCT composite."
+    },
+    {
+      "image_class": "momos",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": "prasuma desi chicken momos | cheesy spicy veg momos",
+      "target_source_file": "nutrition_packaged_foods.csv",
+      "culinary_ambiguity_reason": "Dumplings absent from prepared dish_level dataset.",
+      "gap_resolution_strategy": "Use verified packaged food reference in Phase 4."
+    },
+    {
+      "image_class": "mutton_curry",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Mutton curry absent from dish_level (meat consomme exists, not curry).",
+      "gap_resolution_strategy": "Synthesize composite recipe (mutton + onion-tomato gravy) in Phase 4."
+    },
+    {
+      "image_class": "noodles",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "noodles (hakka noodles)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct match in dish_level.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "paani_puri",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "pani puri (6 pcs)",
+      "target_source_file": "nutrition_daily_general.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in daily_food_nutrition.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "pakode",
+      "image_dataset": "Enhanced",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "MEDIUM",
+      "target_food_record": "masala onion pakora/pakoda (pyaaz ke pakode)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Onion vs potato vs paneer pakoda vary in fat and protein.",
+      "gap_resolution_strategy": "Default to onion pakora; allow ingredient selection."
+    },
+    {
+      "image_class": "palak_paneer",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "spinach paneer (palak paneer)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "paniyaram",
+      "image_dataset": "FoodLens",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "South Indian steamed/pan-fried rice-lentil balls absent from dish_level.",
+      "gap_resolution_strategy": "Composite: idli/dosa batter pan-fried in minimal oil."
+    },
+    {
+      "image_class": "pav_bhaji",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "pav bhaji",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (394.2 kcal, 8.5g protein, 14.2g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "pizza",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "pizza",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level.",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "poha",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "poha",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (268.9 kcal, 5.4g protein, 6.1g fat).",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (120g)."
+    },
+    {
+      "image_class": "poori",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "poori/puri",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct match in dish_level.",
+      "gap_resolution_strategy": "Standard serving weight (30g per piece)."
+    },
+    {
+      "image_class": "rajma_curry",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "kidney bean curry (rajmah curry)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary equivalence (kidney bean curry == rajma curry).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "ras_malai",
+      "image_dataset": "Enhanced",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "Milk-soaked paneer disc dessert absent from dish_level.",
+      "gap_resolution_strategy": "Synthesize composite recipe from IFCT (paneer + condensed milk + saffron)."
+    },
+    {
+      "image_class": "samosa",
+      "image_dataset": "Enhanced + FoodLens",
+      "match_status": "AMBIGUOUS_SUBTYPE",
+      "match_confidence": "HIGH",
+      "target_food_record": "potato samosa (aloo ka samosa) | minced meat samosa (keema ka samosa)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Potato samosa (~256 kcal, 3.5g protein) vs Keema samosa (~318 kcal, 12.8g protein).",
+      "gap_resolution_strategy": "Default to potato samosa for Indian dietary standard; user override supported."
+    },
+    {
+      "image_class": "shahi_paneer",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "shahi paneer",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary match in dish_level (310.2 kcal, 11.2g protein, 24.0g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "tandoori chicken indian food",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "tandoori chicken",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct match in dish_level (260.0 kcal, 28.0g protein, 12.0g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "upma",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "upma",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct match in dish_level (212.0 kcal, 4.2g protein, 6.8g fat).",
+      "gap_resolution_strategy": "Standard serving weight (150g per plate)."
+    },
+    {
+      "image_class": "vada pav",
+      "image_dataset": "FoodLens",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "vada pav",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct match in dish_level (288.0 kcal, 5.2g protein, 11.4g fat).",
+      "gap_resolution_strategy": "Direct lookup."
+    },
+    {
+      "image_class": "ven pongal",
+      "image_dataset": "FoodLens",
+      "match_status": "UNMATCHED_GAP",
+      "match_confidence": "NONE",
+      "target_food_record": null,
+      "target_source_file": null,
+      "culinary_ambiguity_reason": "South Indian rice-moong dal-ghee dish absent from dish_level.",
+      "gap_resolution_strategy": "Composite from IFCT (cooked rice + moong dal + black pepper + cumin + ghee)."
+    },
+    {
+      "image_class": "white_rice",
+      "image_dataset": "Enhanced",
+      "match_status": "VALID_DIRECT",
+      "match_confidence": "HIGH",
+      "target_food_record": "boiled rice (uble chawal)",
+      "target_source_file": "nutrition_dish_level.csv",
+      "culinary_ambiguity_reason": "Direct culinary equivalence (boiled rice == white rice).",
+      "gap_resolution_strategy": "Use standard ICMR serving weight (150g per katori)."
+    }
+  ]
+}

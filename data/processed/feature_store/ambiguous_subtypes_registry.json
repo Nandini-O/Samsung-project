@@ -1,0 +1,636 @@
+[
+  {
+    "parent_class": "samosa",
+    "aliases": [
+      "samosa"
+    ],
+    "disambiguation_prompt": "What kind of samosa filling did you have?",
+    "subtypes": [
+      {
+        "subtype_id": "samosa_potato",
+        "display_name": "Vegetable / Potato Samosa (Standard Aloo)",
+        "is_default": true,
+        "serving_size_g": 65.0,
+        "serving_unit": "1 piece",
+        "calories_kcal": 256.0,
+        "carbs_g": 28.0,
+        "protein_g": 3.5,
+        "fat_g": 14.5,
+        "fibre_g": 2.2,
+        "sodium_mg": 280.0,
+        "source": "nutrition_dish_level.csv (potato samosa)"
+      },
+      {
+        "subtype_id": "samosa_keema",
+        "display_name": "Minced Meat Samosa (Keema Samosa)",
+        "is_default": false,
+        "serving_size_g": 70.0,
+        "serving_unit": "1 piece",
+        "calories_kcal": 318.0,
+        "carbs_g": 25.5,
+        "protein_g": 12.8,
+        "fat_g": 18.2,
+        "fibre_g": 1.4,
+        "sodium_mg": 340.0,
+        "source": "nutrition_dish_level.csv (keema samosa)"
+      }
+    ]
+  },
+  {
+    "parent_class": "biryani",
+    "aliases": [
+      "biryani",
+      "biriyani"
+    ],
+    "disambiguation_prompt": "Which type of biryani is on your plate?",
+    "subtypes": [
+      {
+        "subtype_id": "biryani_vegetable",
+        "display_name": "Vegetable Biryani",
+        "is_default": true,
+        "serving_size_g": 200.0,
+        "serving_unit": "1 plate / bowl",
+        "calories_kcal": 220.0,
+        "carbs_g": 34.5,
+        "protein_g": 4.5,
+        "fat_g": 7.2,
+        "fibre_g": 3.5,
+        "sodium_mg": 410.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "biryani_chicken",
+        "display_name": "Chicken Biryani",
+        "is_default": false,
+        "serving_size_g": 250.0,
+        "serving_unit": "1 plate / bowl",
+        "calories_kcal": 330.0,
+        "carbs_g": 33.5,
+        "protein_g": 22.0,
+        "fat_g": 12.0,
+        "fibre_g": 2.2,
+        "sodium_mg": 480.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "biryani_mutton",
+        "display_name": "Mutton Biryani",
+        "is_default": false,
+        "serving_size_g": 250.0,
+        "serving_unit": "1 plate / bowl",
+        "calories_kcal": 380.0,
+        "carbs_g": 35.0,
+        "protein_g": 19.0,
+        "fat_g": 18.0,
+        "fibre_g": 2.0,
+        "sodium_mg": 520.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "burger",
+    "aliases": [
+      "burger"
+    ],
+    "disambiguation_prompt": "Is this a veggie or chicken burger?",
+    "subtypes": [
+      {
+        "subtype_id": "burger_veg_aloo_tikki",
+        "display_name": "Veg Aloo Tikki Burger",
+        "is_default": true,
+        "serving_size_g": 140.0,
+        "serving_unit": "1 burger",
+        "calories_kcal": 285.0,
+        "carbs_g": 42.0,
+        "protein_g": 5.8,
+        "fat_g": 10.5,
+        "fibre_g": 3.2,
+        "sodium_mg": 520.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "burger_chicken",
+        "display_name": "Crispy Chicken Burger",
+        "is_default": false,
+        "serving_size_g": 160.0,
+        "serving_unit": "1 burger",
+        "calories_kcal": 410.0,
+        "carbs_g": 38.0,
+        "protein_g": 23.5,
+        "fat_g": 18.0,
+        "fibre_g": 2.0,
+        "sodium_mg": 680.0,
+        "source": "nutrition_packaged_foods.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "butter_naan",
+    "aliases": [
+      "butter_naan",
+      "butternaan"
+    ],
+    "disambiguation_prompt": "Did your naan have butter applied?",
+    "subtypes": [
+      {
+        "subtype_id": "naan_plain",
+        "display_name": "Plain Naan (No Butter)",
+        "is_default": false,
+        "serving_size_g": 90.0,
+        "serving_unit": "1 piece",
+        "calories_kcal": 260.0,
+        "carbs_g": 49.5,
+        "protein_g": 7.2,
+        "fat_g": 3.5,
+        "fibre_g": 2.4,
+        "sodium_mg": 310.0,
+        "source": "nutrition_dish_level.csv (naan)"
+      },
+      {
+        "subtype_id": "naan_butter",
+        "display_name": "Butter Naan (With Ghee/Butter)",
+        "is_default": true,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 piece",
+        "calories_kcal": 340.0,
+        "carbs_g": 49.5,
+        "protein_g": 7.2,
+        "fat_g": 12.5,
+        "fibre_g": 2.4,
+        "sodium_mg": 360.0,
+        "source": "nutrition_dish_level.csv + butter scaling"
+      }
+    ]
+  },
+  {
+    "parent_class": "chai",
+    "aliases": [
+      "chai"
+    ],
+    "disambiguation_prompt": "How was your chai prepared?",
+    "subtypes": [
+      {
+        "subtype_id": "chai_standard_sweet",
+        "display_name": "Masala Chai (Milk + 1.5 tsp Sugar)",
+        "is_default": true,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 cup (150ml)",
+        "calories_kcal": 92.0,
+        "carbs_g": 12.8,
+        "protein_g": 2.6,
+        "fat_g": 3.4,
+        "fibre_g": 0.0,
+        "sodium_mg": 45.0,
+        "source": "nutrition_dish_level.csv (hot tea)"
+      },
+      {
+        "subtype_id": "chai_low_sugar",
+        "display_name": "Chai without Added Sugar",
+        "is_default": false,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 cup (150ml)",
+        "calories_kcal": 52.0,
+        "carbs_g": 2.8,
+        "protein_g": 2.6,
+        "fat_g": 3.4,
+        "fibre_g": 0.0,
+        "sodium_mg": 45.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "chai_black",
+        "display_name": "Black Tea / Green Tea (Unsweetened)",
+        "is_default": false,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 cup (150ml)",
+        "calories_kcal": 4.0,
+        "carbs_g": 0.8,
+        "protein_g": 0.2,
+        "fat_g": 0.0,
+        "fibre_g": 0.0,
+        "sodium_mg": 5.0,
+        "source": "IFCT 2017"
+      }
+    ]
+  },
+  {
+    "parent_class": "fried_rice",
+    "aliases": [
+      "fried_rice"
+    ],
+    "disambiguation_prompt": "What protein was added to your fried rice?",
+    "subtypes": [
+      {
+        "subtype_id": "fried_rice_vegetable",
+        "display_name": "Vegetable Fried Rice",
+        "is_default": true,
+        "serving_size_g": 180.0,
+        "serving_unit": "1 plate",
+        "calories_kcal": 215.0,
+        "carbs_g": 34.0,
+        "protein_g": 4.2,
+        "fat_g": 7.0,
+        "fibre_g": 2.5,
+        "sodium_mg": 420.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "fried_rice_egg",
+        "display_name": "Egg Fried Rice",
+        "is_default": false,
+        "serving_size_g": 190.0,
+        "serving_unit": "1 plate",
+        "calories_kcal": 265.0,
+        "carbs_g": 34.5,
+        "protein_g": 8.5,
+        "fat_g": 10.2,
+        "fibre_g": 2.2,
+        "sodium_mg": 460.0,
+        "source": "nutrition_dish_level.csv + egg composite"
+      },
+      {
+        "subtype_id": "fried_rice_chicken",
+        "display_name": "Chicken Fried Rice",
+        "is_default": false,
+        "serving_size_g": 200.0,
+        "serving_unit": "1 plate",
+        "calories_kcal": 295.0,
+        "carbs_g": 36.0,
+        "protein_g": 15.2,
+        "fat_g": 9.8,
+        "fibre_g": 2.2,
+        "sodium_mg": 490.0,
+        "source": "nutrition_dish_level.csv + chicken composite"
+      }
+    ]
+  },
+  {
+    "parent_class": "gulab_jamun",
+    "aliases": [
+      "gulab_jamun",
+      "gulab jamun"
+    ],
+    "disambiguation_prompt": "Was the gulab jamun made from traditional khoya or milk powder?",
+    "subtypes": [
+      {
+        "subtype_id": "gulab_jamun_khoya",
+        "display_name": "Gulab Jamun (Traditional Khoya Mawa)",
+        "is_default": true,
+        "serving_size_g": 50.0,
+        "serving_unit": "1 piece in syrup",
+        "calories_kcal": 150.0,
+        "carbs_g": 20.0,
+        "protein_g": 2.4,
+        "fat_g": 6.8,
+        "fibre_g": 0.2,
+        "sodium_mg": 28.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "gulab_jamun_milk_powder",
+        "display_name": "Gulab Jamun (Instant Milk Powder)",
+        "is_default": false,
+        "serving_size_g": 50.0,
+        "serving_unit": "1 piece in syrup",
+        "calories_kcal": 132.0,
+        "carbs_g": 21.0,
+        "protein_g": 2.8,
+        "fat_g": 4.2,
+        "fibre_g": 0.2,
+        "sodium_mg": 34.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "kebab",
+    "aliases": [
+      "kebab"
+    ],
+    "disambiguation_prompt": "Is this a meat kebab or vegetarian kebab?",
+    "subtypes": [
+      {
+        "subtype_id": "kebab_shammi_meat",
+        "display_name": "Meat Shammi / Chicken Seekh Kebab",
+        "is_default": true,
+        "serving_size_g": 80.0,
+        "serving_unit": "2 pieces",
+        "calories_kcal": 185.0,
+        "carbs_g": 6.8,
+        "protein_g": 16.5,
+        "fat_g": 10.2,
+        "fibre_g": 1.5,
+        "sodium_mg": 380.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "kebab_soya_veg",
+        "display_name": "Soya / Hara Bhara Veg Kebab",
+        "is_default": false,
+        "serving_size_g": 80.0,
+        "serving_unit": "2 pieces",
+        "calories_kcal": 145.0,
+        "carbs_g": 11.8,
+        "protein_g": 12.0,
+        "fat_g": 5.5,
+        "fibre_g": 3.8,
+        "sodium_mg": 320.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "kheer",
+    "aliases": [
+      "kheer"
+    ],
+    "disambiguation_prompt": "What base grain was used in your kheer?",
+    "subtypes": [
+      {
+        "subtype_id": "kheer_rice",
+        "display_name": "Rice Kheer (Chawal ki Kheer)",
+        "is_default": true,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 bowl",
+        "calories_kcal": 210.0,
+        "carbs_g": 33.0,
+        "protein_g": 4.8,
+        "fat_g": 6.5,
+        "fibre_g": 0.5,
+        "sodium_mg": 65.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "kheer_seviyan",
+        "display_name": "Seviyan Kheer (Vermicelli)",
+        "is_default": false,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 bowl",
+        "calories_kcal": 230.0,
+        "carbs_g": 35.0,
+        "protein_g": 5.2,
+        "fat_g": 7.8,
+        "fibre_g": 0.8,
+        "sodium_mg": 70.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "kheer_suji",
+        "display_name": "Rava / Suji Kheer",
+        "is_default": false,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 bowl",
+        "calories_kcal": 195.0,
+        "carbs_g": 31.0,
+        "protein_g": 4.5,
+        "fat_g": 6.0,
+        "fibre_g": 0.7,
+        "sodium_mg": 60.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "lassi",
+    "aliases": [
+      "lassi"
+    ],
+    "disambiguation_prompt": "Did you drink sweet or salted lassi?",
+    "subtypes": [
+      {
+        "subtype_id": "lassi_sweet",
+        "display_name": "Sweet Lassi (Meethi Lassi with Sugar)",
+        "is_default": true,
+        "serving_size_g": 250.0,
+        "serving_unit": "1 tall glass (250ml)",
+        "calories_kcal": 185.0,
+        "carbs_g": 30.5,
+        "protein_g": 5.2,
+        "fat_g": 4.8,
+        "fibre_g": 0.0,
+        "sodium_mg": 95.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "lassi_salted_chaas",
+        "display_name": "Salted Lassi / Spiced Buttermilk (Chaas)",
+        "is_default": false,
+        "serving_size_g": 250.0,
+        "serving_unit": "1 glass (250ml)",
+        "calories_kcal": 65.0,
+        "carbs_g": 6.5,
+        "protein_g": 3.8,
+        "fat_g": 2.5,
+        "fibre_g": 0.0,
+        "sodium_mg": 280.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "pakode",
+    "aliases": [
+      "pakode"
+    ],
+    "disambiguation_prompt": "What was the main ingredient inside your pakoda?",
+    "subtypes": [
+      {
+        "subtype_id": "pakode_onion",
+        "display_name": "Onion Pakoda (Pyaaz ke Pakode)",
+        "is_default": true,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 plate (~4-5 pcs)",
+        "calories_kcal": 190.0,
+        "carbs_g": 17.5,
+        "protein_g": 4.2,
+        "fat_g": 11.5,
+        "fibre_g": 2.8,
+        "sodium_mg": 310.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "pakode_paneer",
+        "display_name": "Paneer Pakoda",
+        "is_default": false,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 plate (~3-4 pcs)",
+        "calories_kcal": 265.0,
+        "carbs_g": 14.8,
+        "protein_g": 10.5,
+        "fat_g": 18.2,
+        "fibre_g": 1.4,
+        "sodium_mg": 340.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "pakode_spinach",
+        "display_name": "Palak / Spinach Pakoda",
+        "is_default": false,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 plate",
+        "calories_kcal": 165.0,
+        "carbs_g": 14.5,
+        "protein_g": 4.8,
+        "fat_g": 9.8,
+        "fibre_g": 3.4,
+        "sodium_mg": 290.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "kaathi_rolls",
+    "aliases": [
+      "kaathi_rolls",
+      "kathi roll"
+    ],
+    "disambiguation_prompt": "What filling was inside your kathi roll?",
+    "subtypes": [
+      {
+        "subtype_id": "kaathi_roll_paneer",
+        "display_name": "Paneer Kathi Roll (Veg)",
+        "is_default": true,
+        "serving_size_g": 160.0,
+        "serving_unit": "1 roll",
+        "calories_kcal": 320.0,
+        "carbs_g": 36.5,
+        "protein_g": 11.5,
+        "fat_g": 14.2,
+        "fibre_g": 2.8,
+        "sodium_mg": 440.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "kaathi_roll_chicken",
+        "display_name": "Chicken Tikka Kathi Roll",
+        "is_default": false,
+        "serving_size_g": 160.0,
+        "serving_unit": "1 roll",
+        "calories_kcal": 345.0,
+        "carbs_g": 36.5,
+        "protein_g": 21.0,
+        "fat_g": 12.8,
+        "fibre_g": 2.2,
+        "sodium_mg": 480.0,
+        "source": "nutrition_dish_level.csv + chicken composite"
+      },
+      {
+        "subtype_id": "kaathi_roll_egg",
+        "display_name": "Single Egg Kathi Roll",
+        "is_default": false,
+        "serving_size_g": 150.0,
+        "serving_unit": "1 roll",
+        "calories_kcal": 290.0,
+        "carbs_g": 34.0,
+        "protein_g": 13.0,
+        "fat_g": 11.5,
+        "fibre_g": 2.2,
+        "sodium_mg": 410.0,
+        "source": "nutrition_dish_level.csv + egg composite"
+      }
+    ]
+  },
+  {
+    "parent_class": "chaat",
+    "aliases": [
+      "chaat"
+    ],
+    "disambiguation_prompt": "Which specific chaat dish was this?",
+    "subtypes": [
+      {
+        "subtype_id": "chaat_bhel_puri",
+        "display_name": "Bhel Puri (Puffed rice, sev, chutneys)",
+        "is_default": true,
+        "serving_size_g": 120.0,
+        "serving_unit": "1 plate",
+        "calories_kcal": 185.0,
+        "carbs_g": 30.0,
+        "protein_g": 4.2,
+        "fat_g": 5.5,
+        "fibre_g": 3.0,
+        "sodium_mg": 380.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "chaat_sev_puri",
+        "display_name": "Sev Puri (Crispy flat puris with potato & sev)",
+        "is_default": false,
+        "serving_size_g": 120.0,
+        "serving_unit": "1 plate (6 pcs)",
+        "calories_kcal": 235.0,
+        "carbs_g": 28.0,
+        "protein_g": 4.5,
+        "fat_g": 11.8,
+        "fibre_g": 2.5,
+        "sodium_mg": 420.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "chaat_papdi",
+        "display_name": "Dahi Papdi Chaat (Puris with yogurt & chutneys)",
+        "is_default": false,
+        "serving_size_g": 140.0,
+        "serving_unit": "1 plate",
+        "calories_kcal": 250.0,
+        "carbs_g": 29.5,
+        "protein_g": 5.0,
+        "fat_g": 12.5,
+        "fibre_g": 2.4,
+        "sodium_mg": 390.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  },
+  {
+    "parent_class": "halwa",
+    "aliases": [
+      "halwa"
+    ],
+    "disambiguation_prompt": "What type of halwa did you have?",
+    "subtypes": [
+      {
+        "subtype_id": "halwa_sooji",
+        "display_name": "Sooji / Rava Halwa (Semolina)",
+        "is_default": true,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 small katori",
+        "calories_kcal": 285.0,
+        "carbs_g": 39.5,
+        "protein_g": 3.8,
+        "fat_g": 12.5,
+        "fibre_g": 1.1,
+        "sodium_mg": 35.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "halwa_gajar",
+        "display_name": "Gajar ka Halwa (Carrot Halwa)",
+        "is_default": false,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 small katori",
+        "calories_kcal": 230.0,
+        "carbs_g": 32.0,
+        "protein_g": 4.2,
+        "fat_g": 9.5,
+        "fibre_g": 2.4,
+        "sodium_mg": 55.0,
+        "source": "nutrition_dish_level.csv"
+      },
+      {
+        "subtype_id": "halwa_moong_dal",
+        "display_name": "Moong Dal Halwa",
+        "is_default": false,
+        "serving_size_g": 100.0,
+        "serving_unit": "1 small katori",
+        "calories_kcal": 340.0,
+        "carbs_g": 39.5,
+        "protein_g": 8.5,
+        "fat_g": 16.5,
+        "fibre_g": 3.2,
+        "sodium_mg": 60.0,
+        "source": "nutrition_dish_level.csv"
+      }
+    ]
+  }
+]
